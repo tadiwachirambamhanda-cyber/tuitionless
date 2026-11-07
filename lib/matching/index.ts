@@ -50,8 +50,23 @@ export function passesField(profile: StudentProfile, s: Scholarship): boolean {
   if (!want) return false;
   return s.fields.some((f) => {
     const have = norm(f);
-    return have === want || have.includes(want) || want.includes(have);
+    return have === want || hasWholeWords(have, want) || hasWholeWords(want, have);
   });
+}
+
+// True when `needle` appears in `haystack` as whole words ("art" does not match "cartography").
+function hasWholeWords(haystack: string, needle: string): boolean {
+  if (!needle) return false;
+  const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`(^|[^a-z0-9])${escaped}($|[^a-z0-9])`).test(haystack);
+}
+
+// A scholarship tied to specific cities only matches a student studying in one of them.
+// If the student gave no city we cannot rule it out, so it stays.
+export function passesCity(profile: StudentProfile, s: Scholarship): boolean {
+  if (s.studyCities.length === 0 || !profile.studyCity?.trim()) return true;
+  const city = norm(profile.studyCity);
+  return s.studyCities.some((c) => norm(c) === city);
 }
 
 export function passesDeadline(s: Scholarship, today: string): boolean {
@@ -144,6 +159,7 @@ export function matchScholarships(
       !passesStudyCountry(profile, s) ||
       !passesLevel(profile, s) ||
       !passesField(profile, s) ||
+      !passesCity(profile, s) ||
       !passesDeadline(s, today)
     ) {
       continue;

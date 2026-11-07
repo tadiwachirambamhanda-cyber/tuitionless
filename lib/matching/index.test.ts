@@ -51,6 +51,15 @@ describe("hard filters", () => {
     expect(run({ fields: ["Computer Science"] }).total).toBe(1);
     expect(run({ fields: ["engineering", "computer science and AI"] }).total).toBe(1);
   });
+  it("does not match field names by partial words", () => {
+    expect(run({ fields: ["cartography"] }, { ...profile, field: "art" }).total).toBe(0);
+  });
+  it("filters by city only when the scholarship lists cities and the student gave one", () => {
+    expect(run({ studyCities: ["Berlin"] }, { ...profile, studyCity: "Munich" }).total).toBe(0);
+    expect(run({ studyCities: ["Munich"] }, { ...profile, studyCity: "munich" }).total).toBe(1);
+    expect(run({ studyCities: ["Berlin"] }, { ...profile, studyCity: undefined }).total).toBe(1);
+    expect(run({ studyCities: [] }, { ...profile, studyCity: "Munich" }).total).toBe(1);
+  });
   it("drops past deadlines but keeps null and today", () => {
     expect(run({ deadline: "2026-11-06" }).total).toBe(0);
     expect(run({ deadline: null }).total).toBe(1);
