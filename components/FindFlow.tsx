@@ -32,7 +32,7 @@ function OptionRow({ name, value, checked, onChange, label, icon, sub, invalid, 
 }) {
   return (
     <label className={`flex min-h-14 cursor-pointer items-center gap-3 rounded-xl border-[1.5px] px-4 py-2 ${checked ? "border-coral-700 bg-[#FFF3EE]" : invalid ? "border-error bg-surface" : "border-border bg-surface"} has-[:focus-visible]:shadow-(--focus-ring)`}>
-      <input type="radio" name={name} value={value} checked={checked} onChange={onChange} aria-describedby={describedBy} aria-invalid={invalid || undefined} className="sr-only" />
+      <input type="radio" name={name} value={value} checked={checked} onChange={onChange} aria-describedby={describedBy} className="sr-only" />
       {icon && <span className="text-2xl" aria-hidden="true">{icon}</span>}
       <span className="flex-1">
         <span className="block font-semibold">{label}</span>
