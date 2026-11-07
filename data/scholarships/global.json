@@ -1,0 +1,373 @@
+[
+  {
+    "studyCities": [],
+    "excludedNationalities": [],
+    "checkedOn": "2026-11-07",
+    "id": "aga-khan-foundation-international-scholarship-global",
+    "name": "Aga Khan Foundation International Scholarship Programme",
+    "provider": "Aga Khan Foundation",
+    "summary": "Pays tuition and living costs for postgraduate study, as a half grant and half loan that you repay after graduating. Master's study is the priority and PhDs are also considered.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": false,
+    "covers": [
+      "tuition",
+      "living expenses"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "ANY"
+    ],
+    "eligibleNationalities": [
+      "AF",
+      "AU",
+      "BD",
+      "EG",
+      "IN",
+      "KE",
+      "KG",
+      "MG",
+      "MZ",
+      "NZ",
+      "PK",
+      "SY",
+      "TJ",
+      "TZ",
+      "UG"
+    ],
+    "eligibilityNotes": "The page names these countries as examples and says the list is not complete, so other nationalities may qualify via the programme's eligibility tool. Not available for study in the UK or Russia. 50% of the award must be repaid. Master's awards cover the full degree; PhD awards cover two years.",
+    "deadline": null,
+    "deadlineNote": "The 2026-27 round is closed and the next one opens in early 2027; no closing date is published yet.",
+    "officialUrl": "https://the.akdn/our-agencies/aga-khan-foundation/international-scholarship-programme",
+    "sourceUrl": "https://the.akdn/our-agencies/aga-khan-foundation/international-scholarship-programme"
+  },
+  {
+    "studyCities": [],
+    "excludedNationalities": [],
+    "checkedOn": "2026-11-07",
+    "id": "erasmus-mundus-joint-masters-global",
+    "name": "Erasmus Mundus Joint Masters Scholarships",
+    "provider": "European Commission (Erasmus+)",
+    "summary": "Joint master's degrees run by universities in at least three countries, with scholarships for top-ranked applicants from anywhere in the world. You apply to the individual programme, not to a central office.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "participation costs",
+      "travel",
+      "visa",
+      "living allowance"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "ANY"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Open to students worldwide with a bachelor's degree or in their final year. Only some programmes offer full scholarships. Each programme involves institutions in Europe and beyond; the page gives no country list, so check the course catalogue for the actual study countries.",
+    "deadline": null,
+    "deadlineNote": "Usually between October and January for the following academic year; each programme sets its own date.",
+    "officialUrl": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters-scholarships",
+    "sourceUrl": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters-scholarships"
+  },
+  {
+    "studyCities": [],
+    "excludedNationalities": [],
+    "checkedOn": "2026-11-07",
+    "id": "yenching-academy-peking-university-global",
+    "name": "Yenching Academy of Peking University Fellowship",
+    "provider": "Yenching Academy, Peking University",
+    "summary": "A master's programme in China Studies at Peking University with a fellowship that covers tuition, housing, a stipend and one return flight.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "CNY",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "accommodation",
+      "monthly stipend",
+      "one round-trip airfare",
+      "field study costs"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "China studies"
+    ],
+    "studyCountries": [
+      "CN"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Separate tracks exist for international applicants (valid non-Chinese passport), mainland China, and Hong Kong, Macao and Taiwan. Needs a bachelor's degree or expected graduation in August, plus English proficiency. Students of partner universities must first pass their home university's selection.",
+    "deadline": "2026-11-30",
+    "deadlineNote": "For the 2027 intake, international applications close 30 November 2026 at 9:00 am Beijing time.",
+    "officialUrl": "https://apply.yca.pku.edu.cn/",
+    "sourceUrl": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm"
+  },
+  {
+    "studyCities": [],
+    "excludedNationalities": [
+      "TR"
+    ],
+    "checkedOn": "2026-11-07",
+    "id": "turkiye-burslari-scholarships-global",
+    "name": "Turkiye Scholarships (Turkiye Burslari)",
+    "provider": "Government of Turkiye",
+    "summary": "A government scholarship for international students to study in Turkiye, covering tuition, housing, health insurance, a monthly stipend, a Turkish language year and flights.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "TRY",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "accommodation",
+      "health insurance",
+      "monthly stipend",
+      "one-year Turkish course",
+      "flight tickets"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "engineering",
+      "social sciences",
+      "health sciences",
+      "basic sciences",
+      "humanities",
+      "natural sciences",
+      "arts"
+    ],
+    "studyCountries": [
+      "TR"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "The page does not list nationalities; non-Turkish citizens apply, and Turkish citizens or former citizens are excluded (from search summary of the official site). Monthly stipend is 6,500 TL undergraduate, 9,500 TL master's and 13,000 TL PhD. Health sciences are not funded at master's or PhD level.",
+    "deadline": null,
+    "deadlineNote": "The programme page says applications run each year from 10 January to 20 February; the 2027 dates are not yet published.",
+    "officialUrl": "https://tbbs.turkiyeburslari.gov.tr",
+    "sourceUrl": "https://www.turkiyeburslari.gov.tr/fulltimeprograms"
+  },
+  {
+    "studyCities": [],
+    "excludedNationalities": [],
+    "checkedOn": "2026-11-07",
+    "id": "adb-japan-scholarship-program-global",
+    "name": "ADB-Japan Scholarship Program",
+    "provider": "Asian Development Bank",
+    "summary": "Funds a master's degree at one of 27 partner institutions across Asia and the Pacific, for citizens of 40 listed ADB member countries. Covers tuition, a living allowance, books, insurance and travel.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "monthly living allowance including housing",
+      "books and materials",
+      "medical insurance",
+      "travel"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "science and technology",
+      "economics, business and management",
+      "development studies",
+      "law and public policy"
+    ],
+    "studyCountries": [
+      "ANY"
+    ],
+    "eligibleNationalities": [
+      "AF",
+      "AM",
+      "AZ",
+      "BD",
+      "BT",
+      "KH",
+      "CK",
+      "FM",
+      "FJ",
+      "GE",
+      "IN",
+      "ID",
+      "KZ",
+      "KI",
+      "KG",
+      "LA",
+      "MY",
+      "MV",
+      "MH",
+      "MN",
+      "MM",
+      "NR",
+      "NP",
+      "NU",
+      "PK",
+      "PW",
+      "PG",
+      "PH",
+      "WS",
+      "SB",
+      "LK",
+      "TJ",
+      "TH",
+      "TL",
+      "TO",
+      "TM",
+      "TV",
+      "UZ",
+      "VU",
+      "VN"
+    ],
+    "eligibilityNotes": "Eligible countries expanded to codes from the page's list of 40. Applicants must be 35 or younger (waivable) with two years of full-time work experience, and dual citizens of a developed country are ineligible. Study is at 27 partner institutions in Asia and the Pacific (17 in Japan); the page does not give the country list, so studyCountries is set to ANY as a placeholder.",
+    "deadline": null,
+    "deadlineNote": "Not stated on the page; the deadline is set by each partner institution.",
+    "officialUrl": "https://www.adb.org/work-with-us/careers/japan-scholarship-program",
+    "sourceUrl": "https://www.adb.org/work-with-us/careers/japan-scholarship-program"
+  },
+  {
+    "studyCities": [],
+    "excludedNationalities": [],
+    "checkedOn": "2026-11-07",
+    "id": "joint-japan-world-bank-graduate-scholarship-global",
+    "name": "Joint Japan/World Bank Graduate Scholarship Program",
+    "provider": "World Bank Group / Government of Japan",
+    "summary": "Pays for a development-related master's at a participating university abroad for mid-career professionals from developing countries. Covers tuition, insurance, flights and a monthly living allowance.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "basic medical insurance",
+      "economy round-trip airfare plus US$600 travel allowance",
+      "monthly living allowance"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "development-related fields"
+    ],
+    "studyCountries": [
+      "ANY"
+    ],
+    "eligibleNationalities": [
+      "AF",
+      "AO",
+      "BD",
+      "BZ",
+      "BJ",
+      "BT",
+      "BO",
+      "BF",
+      "BI",
+      "CV",
+      "KH",
+      "CM",
+      "CF",
+      "TD",
+      "KM",
+      "CD",
+      "CG",
+      "CI",
+      "DJ",
+      "DM",
+      "EG",
+      "ER",
+      "SZ",
+      "ET",
+      "FJ",
+      "GM",
+      "GH",
+      "GD",
+      "GN",
+      "GW",
+      "HT",
+      "HN",
+      "IN",
+      "IQ",
+      "KE",
+      "KI",
+      "XK",
+      "KG",
+      "LA",
+      "LB",
+      "LS",
+      "LR",
+      "LY",
+      "MG",
+      "MW",
+      "MV",
+      "ML",
+      "MH",
+      "MR",
+      "MA",
+      "MZ",
+      "MM",
+      "NA",
+      "NP",
+      "NI",
+      "NE",
+      "NG",
+      "PK",
+      "PG",
+      "RW",
+      "ST",
+      "SN",
+      "SL",
+      "SB",
+      "SO",
+      "SS",
+      "LC",
+      "VC",
+      "SD",
+      "SR",
+      "SY",
+      "TJ",
+      "TZ",
+      "TL",
+      "TG",
+      "TO",
+      "TN",
+      "TV",
+      "UG",
+      "UA",
+      "UZ",
+      "VU",
+      "VE",
+      "PS",
+      "YE",
+      "ZM",
+      "ZW"
+    ],
+    "eligibilityNotes": "Eligible countries expanded to codes from the World Bank list of 87 countries for the 2027 cycle (Kosovo as XK, West Bank and Gaza as PS). Needs 3 years of paid development work, a bachelor's earned 3 or more years before the deadline, and unconditional admission to a participating programme outside the home country. Programmes are at 24 universities in the US, Europe, Africa, Oceania and Japan; no country list is published on the page, so studyCountries is ANY as a placeholder.",
+    "deadline": "2027-02-26",
+    "deadlineNote": "Window 1 closes 26 February 2027; window 2 runs 29 March to 21 May 2027. The application form is only sent to candidates admitted and shortlisted by a participating university.",
+    "officialUrl": "https://www.worldbank.org/en/programs/scholarships/jj-wbgsp",
+    "sourceUrl": "https://www.worldbank.org/en/programs/scholarships/jj-wbgsp"
+  }
+]

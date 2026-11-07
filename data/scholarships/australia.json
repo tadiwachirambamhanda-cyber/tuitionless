@@ -1,0 +1,890 @@
+[
+  {
+    "id": "sydney-international-undergraduate-academic-excellence-scholarship-au",
+    "name": "Sydney International Undergraduate Academic Excellence Scholarship",
+    "provider": "University of Sydney",
+    "summary": "Pays the full tuition and student services fee for one undergraduate degree at Sydney, for up to four years. Chosen on academic merit and the mix of countries represented.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition",
+      "student services amenities fee"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Sydney"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "AU"
+    ],
+    "eligibilityNotes": "Open to international students (as defined in Australian law); Australian citizens, permanent residents and dual Australian citizens are excluded. Full-time, first undergraduate degree, no earlier tertiary study. Living costs, health cover and housing are not covered.",
+    "deadline": null,
+    "deadlineNote": "Semester 1 2027 round is closed; Semester 2 2027 round is open but the page lists no closing date.",
+    "officialUrl": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html",
+    "sourceUrl": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "sydney-vice-chancellors-international-scholarships-scheme-au",
+    "name": "Vice-Chancellor's International Scholarships Scheme",
+    "provider": "University of Sydney",
+    "summary": "A merit award that reduces the tuition bill for new international students starting a bachelor's or coursework master's at Sydney. Awards are ranked in five tiers from AUD 5,000 up to AUD 60,000.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Sydney"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "AU"
+    ],
+    "eligibilityNotes": "Any international student (as defined in Australian law) with an unconditional offer by the round deadline who does not hold an Australian Government scholarship. No separate application: eligible offer holders are considered automatically. Page names no nationality limits.",
+    "deadline": "2026-11-16",
+    "deadlineNote": "Round 3 for Semester 1 2027 closes 16 Nov 2026. Semester 2 2027 rounds close 15 Feb, 22 Mar and 3 May 2027.",
+    "officialUrl": "https://www.sydney.edu.au/scholarships/e/vice-chancellor-international-scholarships-scheme.html",
+    "sourceUrl": "https://www.sydney.edu.au/scholarships/e/vice-chancellor-international-scholarships-scheme.html",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "sydney-scholars-india-scholarship-program-au",
+    "name": "Sydney Scholars India Scholarship Program",
+    "provider": "University of Sydney",
+    "summary": "Awards for students living in India who start a bachelor's or coursework master's at Sydney. Two awards pay full undergraduate tuition and the rest are first-year awards of AUD 20,000 or AUD 10,000.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Sydney"
+    ],
+    "eligibleNationalities": [
+      "IN"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Must be an Indian citizen currently living in India (proof of residence required) and an international student with an unconditional offer. 28 awards a year, up to AUD 40,000 each.",
+    "deadline": null,
+    "deadlineNote": "The 2026 round closed 24 May 2026; next round dates not yet published.",
+    "officialUrl": "https://www.sydney.edu.au/scholarships/e/sydney-scholars-india-scholarship-program.html",
+    "sourceUrl": "https://www.sydney.edu.au/scholarships/e/sydney-scholars-india-scholarship-program.html",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "sydney-rtp-international-fee-offset-and-stipend-au",
+    "name": "Research Training Program (RTP) Scholarships for International Students",
+    "provider": "University of Sydney",
+    "summary": "Government-funded stipend plus full tuition offset for international research degree students at Sydney, with overseas student health cover. Competitive, with a preference for PhD applicants.",
+    "amount": 44293,
+    "amountPeriod": "year",
+    "currency": "AUD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "living allowance (stipend)",
+      "overseas student health cover",
+      "relocation and thesis allowance"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Sydney"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Stipend figure is the 2027 yearly rate. Tuition offset covers up to 14 research periods and is awarded automatically with the stipend. Open to international students starting or enrolled in a higher degree by research; page names no nationality limits.",
+    "deadline": "2026-12-18",
+    "deadlineNote": "Deadline for research periods 3 and 4 of 2027. Next listed: 10 Sep 2027 for periods 1 and 2 of 2028.",
+    "officialUrl": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+    "sourceUrl": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "unsw-international-scholarships-term-2-2026-au",
+    "name": "UNSW Scholarships for International Students (Term 2 2026 intake)",
+    "provider": "UNSW Sydney",
+    "summary": "Bundle of awards for new international coursework students, including the Scientia award (full tuition or AUD 20,000 a year) and smaller AUD 10,000 and 20% tuition awards. Selected on merit, leadership and activities.",
+    "amount": null,
+    "amountPeriod": "year",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Sydney"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Open to international students starting full-time on-campus undergraduate or postgraduate coursework (not UNSW Online or Canberra) with an unconditional or English-package offer. Page names no nationality limits; research students are directed elsewhere. This record is the Term 2 2026 round, which has closed.",
+    "deadline": null,
+    "deadlineNote": "Term 2 2026 round closed 26 Feb 2026; dates for later intakes not published on this page.",
+    "officialUrl": "https://www.scholarships.unsw.edu.au/scholarships/id/1923",
+    "sourceUrl": "https://www.scholarships.unsw.edu.au/scholarships/id/1923",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "uq-international-excellence-scholarship-au",
+    "name": "UQ International Excellence Scholarship",
+    "provider": "The University of Queensland",
+    "summary": "Cuts tuition by 25 percent for the length of the program for high-scoring international students starting in 2027. No separate application: the university assesses offer holders.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (25 percent reduction)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Brisbane"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "International students applying for full-time study at UQ from 2027 in eligible programs; must not hold another UQ scholarship or a full outside scholarship. Page names no nationality limits.",
+    "deadline": null,
+    "deadlineNote": "No application deadline; students are told how long they have to accept when they receive their offer.",
+    "officialUrl": "https://scholarships.uq.edu.au/scholarship/uq-international-excellence-scholarship",
+    "sourceUrl": "https://scholarships.uq.edu.au/scholarship/uq-international-excellence-scholarship",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "uq-international-student-scholarship-au",
+    "name": "UQ International Student Scholarship (financial hardship)",
+    "provider": "The University of Queensland",
+    "summary": "One-year need-based award for full-time international undergraduates facing sudden financial hardship. Amount depends on income from the fund.",
+    "amount": null,
+    "amountPeriod": "year",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition or living support (amount varies)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Brisbane"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Selection is by demonstrated financial need. Open to international undergraduates; Malaysian students may get preference. Page names no other nationality limits.",
+    "deadline": null,
+    "deadlineNote": "Applications open Dec 2026 and close Feb 2027; the page gives no exact closing day.",
+    "officialUrl": "https://scholarships.uq.edu.au/scholarship/international-student-scholarship",
+    "sourceUrl": "https://scholarships.uq.edu.au/scholarship/international-student-scholarship",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "anu-terrell-international-undergraduate-scholarships-au",
+    "name": "Terrell International Undergraduate Scholarships",
+    "provider": "Australian National University",
+    "summary": "Fee sponsorship (two 50 percent and two 25 percent awards a year) for international bachelor's students going into second year with strong first-year results.",
+    "amount": null,
+    "amountPeriod": "year",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (50 or 25 percent)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Canberra"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Must be an international ANU bachelor's student, entering second year with a GPA of at least 5.0 over the first two semesters. No application: eligible students are considered automatically. Page names no nationality limits.",
+    "deadline": null,
+    "deadlineNote": "No deadline listed; page says open for applications.",
+    "officialUrl": "https://study.anu.edu.au/scholarships/find-scholarship/terrell-international-undergraduate-scholarships",
+    "sourceUrl": "https://study.anu.edu.au/scholarships/find-scholarship/terrell-international-undergraduate-scholarships",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "anu-international-achievement-award-au",
+    "name": "ANU International Achievement Award",
+    "provider": "Australian National University",
+    "summary": "Tuition reduction of 20 to 50 percent for up to four years for international students entering ANU coursework programs. Awarded automatically on entry results.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (20, 25 or 50 percent by tier)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Canberra"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Tiers: 20% undergraduate and postgraduate, 25% South East Asia, 50% Pacific. Eligibility is by country of residence, not citizenship: residents of China (incl. Taiwan, Hong Kong, Macau), Japan, Mongolia and Korea are excluded and use a separate ANU award. Needs undergraduate selection rank 85 or postgraduate GPA 5.5. Owner to double-check how residence rule maps to nationality.",
+    "deadline": null,
+    "deadlineNote": "Open all year; no closing date listed.",
+    "officialUrl": "https://study.anu.edu.au/scholarships/find-scholarship/anu-international-achievement-award",
+    "sourceUrl": "https://study.anu.edu.au/scholarships/find-scholarship/anu-international-achievement-award",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "anu-rtp-international-fee-offset-au",
+    "name": "Research Training Program (RTP) International Fee Offset Scholarship",
+    "provider": "Australian National University",
+    "summary": "Covers tuition for the length of an ANU research degree (4 years PhD, 2 years MPhil) plus health cover for the student and family. Awarded competitively on academic merit.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition",
+      "overseas student health cover"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Canberra"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "International research applicants ranked on merit; needs a supervisor and available place. No separate form: tick 'Australia: ANU - Other Scholarship' on the admission application. Page names no nationality limits. Does not itself include a living stipend.",
+    "deadline": "2027-04-15",
+    "deadlineNote": "Round 2 (same-year start) closes 15 Apr; Round 1 for the following year closes 31 Aug.",
+    "officialUrl": "https://study.anu.edu.au/scholarships/find-scholarship/research-training-program-rtp-international-fee-offset-scholarship",
+    "sourceUrl": "https://study.anu.edu.au/scholarships/find-scholarship/research-training-program-rtp-international-fee-offset-scholarship",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "adelaide-academic-excellence-scholarship-50-au",
+    "name": "Adelaide Academic Excellence Scholarship (50%)",
+    "provider": "Adelaide University",
+    "summary": "Halves tuition for the standard length of a bachelor's or master's coursework degree for top-scoring new international students. Places are limited.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (50 percent reduction)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Adelaide"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Needs ATAR 99 (or equivalent) for undergraduate or GPA 6.7/7 for postgraduate coursework; excludes most health programs, Australia Awards holders and fully sponsored students. International students only; page names no nationality limits.",
+    "deadline": null,
+    "deadlineNote": "Applications opened 24 Aug 2026 and are reviewed on a rolling basis until places run out; no closing date.",
+    "officialUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-academic-excellence-scholarship-50/",
+    "sourceUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-academic-excellence-scholarship-50/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "adelaide-merit-scholarship-15-au",
+    "name": "Adelaide Merit Scholarship (15%)",
+    "provider": "Adelaide University",
+    "summary": "Automatic 15 percent tuition reduction for new international bachelor's or master's coursework students with a credit-level record.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (15 percent reduction)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Adelaide"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Needs ATAR 75 or a GPA of 4.5 to 5.0 depending on route; excludes many health programs, Australia Awards holders and fully sponsored students. No separate application. International students only.",
+    "deadline": null,
+    "deadlineNote": "No application deadline; assessed automatically at offer stage.",
+    "officialUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-merit-scholarship-15/",
+    "sourceUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-merit-scholarship-15/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "uwa-global-excellence-scholarship-au",
+    "name": "Global Excellence Scholarship",
+    "provider": "The University of Western Australia",
+    "summary": "Takes 10 or 20 percent off tuition for the whole course, based on ATAR (undergraduate) or weighted average mark (postgraduate). For students starting in 2027.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (10 or 20 percent)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Perth"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Page states students from all countries are eligible. Needs ATAR 85 or 90 equivalent, or WAM 65 or 75. Excludes some medical, dental, law and optometry courses. Assessed automatically from the course application.",
+    "deadline": null,
+    "deadlineNote": "No closing date listed.",
+    "officialUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/uwa-funded-scholarships/global-excellence-scholarship",
+    "sourceUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/uwa-funded-scholarships/global-excellence-scholarship",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "uwa-asean-scholarship-au",
+    "name": "UWA ASEAN Scholarship",
+    "provider": "The University of Western Australia",
+    "summary": "15 percent off tuition for the full course for full-time international students from Southeast Asian countries.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (15 percent)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Perth"
+    ],
+    "eligibleNationalities": [
+      "BN",
+      "KH",
+      "ID",
+      "LA",
+      "MY",
+      "MM",
+      "PH",
+      "SG",
+      "TH",
+      "VN",
+      "TL"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Citizens of Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Vietnam or Timor-Leste on a student visa, full-time. Countries expanded to ISO codes from the page list. Assessed automatically.",
+    "deadline": null,
+    "deadlineNote": "No closing date listed.",
+    "officialUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/asean-scholarship",
+    "sourceUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/asean-scholarship",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "uwa-international-student-award-au",
+    "name": "UWA International Student Award",
+    "provider": "The University of Western Australia",
+    "summary": "10 percent off tuition for the full course for full-time international students from a listed set of countries, starting in 2027.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (10 percent)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Perth"
+    ],
+    "eligibleNationalities": [
+      "AR",
+      "BD",
+      "BT",
+      "BO",
+      "BR",
+      "CL",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "SV",
+      "GT",
+      "HN",
+      "IN",
+      "KE",
+      "MV",
+      "MX",
+      "NP",
+      "NI",
+      "PA",
+      "PY",
+      "PE",
+      "LK",
+      "UY",
+      "VE"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Citizens of the 27 countries named on the page (expanded to ISO codes): Argentina, Bangladesh, Bhutan, Bolivia, Brazil, Chile, China, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, India, Kenya, Maldives, Mexico, Nepal, Nicaragua, Panama, Paraguay, Peru, Sri Lanka, Uruguay, Venezuela. Student visa and full-time study required. A footnote on the page was not visible, so check conditions.",
+    "deadline": null,
+    "deadlineNote": "No closing date listed.",
+    "officialUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/international-student-award",
+    "sourceUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/international-student-award",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "uwa-vice-chancellors-scholarships-au",
+    "name": "UWA Vice-Chancellor's Scholarships",
+    "provider": "The University of Western Australia",
+    "summary": "Top-tier awards covering 50 or 100 percent of tuition for exceptional students from four named countries who choose a selected degree. Needs a 250 to 500 word statement.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (50 or 100 percent)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Perth"
+    ],
+    "eligibleNationalities": [
+      "CN",
+      "ID",
+      "MY",
+      "VN"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "By citizenship: China, Indonesia, Malaysia, Vietnam (a few awards each). Needs ATAR 98 equivalent. Page does not state the study level; the ATAR rule suggests undergraduate. A separate WACE award for offshore school graduates is not included here.",
+    "deadline": null,
+    "deadlineNote": "Page refers to a deadline but gives no date; check the scholarship listing.",
+    "officialUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/vice-chancellors-scholarships",
+    "sourceUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/vice-chancellors-scholarships",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "uts-academic-excellence-international-scholarship-au",
+    "name": "UTS Academic Excellence International Scholarship",
+    "provider": "University of Technology Sydney",
+    "summary": "Takes 30 percent off tuition for new full-time, on-campus international students at UTS Sydney who meet entry requirements with strong qualifications.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (30 percent)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Sydney"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "AU",
+      "NZ"
+    ],
+    "eligibilityNotes": "International students only (Australian and New Zealand citizens and Australian permanent residents excluded). Covers undergraduate, honours and postgraduate coursework from 2025 to 2028 intakes. No separate application.",
+    "deadline": null,
+    "deadlineNote": "Opened 1 Jan 2026; no closing date listed.",
+    "officialUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-excellence-international-scholarship",
+    "sourceUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-excellence-international-scholarship",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "uts-academic-merit-international-scholarship-au",
+    "name": "UTS Academic Merit International Scholarship",
+    "provider": "University of Technology Sydney",
+    "summary": "Takes 15 percent off tuition for new full-time, on-campus international undergraduate and postgraduate coursework students at UTS Sydney.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (15 percent)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Sydney"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "AU",
+      "NZ"
+    ],
+    "eligibilityNotes": "International students only (Australian and New Zealand citizens and Australian permanent residents excluded). Available for intakes up to Spring 2028. No separate application.",
+    "deadline": null,
+    "deadlineNote": "Opened 1 Jan 2026; no closing date listed.",
+    "officialUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-merit-international-scholarship",
+    "sourceUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-merit-international-scholarship",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "curtin-john-curtin-global-excellence-scholarship-au",
+    "name": "John Curtin Global Excellence Scholarship",
+    "provider": "Curtin University",
+    "summary": "40 percent off tuition for the length of the course for international students with a very high average who start at a Curtin Western Australia campus in 2027 or 2028.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (40 percent)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Perth"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "AU"
+    ],
+    "eligibilityNotes": "Open to international, fee-paying, non-sponsored students of any nationality except Australian; needs about 95 percent course-weighted average, then 70 percent to keep it. Excludes some medical and nursing courses. No separate application.",
+    "deadline": "2027-10-01",
+    "deadlineNote": "Applications open 27 Jul 2026 and close 1 Oct 2027 (covers 2027 and 2028 starts).",
+    "officialUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7985",
+    "sourceUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7985",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "curtin-global-merit-scholarship-au",
+    "name": "Curtin Global Merit Scholarship",
+    "provider": "Curtin University",
+    "summary": "20 percent off tuition for the course for international students with a Distinction-level record who start at a Curtin Western Australia campus in 2027 or 2028.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (20 percent)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Perth"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "AU"
+    ],
+    "eligibilityNotes": "Open to international, fee-paying, non-sponsored students of any nationality except Australian; cannot hold another Curtin or Australian government scholarship. No separate application.",
+    "deadline": "2027-10-01",
+    "deadlineNote": "Applications open 27 Jul 2026 and close 1 Oct 2027.",
+    "officialUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7986",
+    "sourceUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7986",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "curtin-global-future-leaders-scholarship-au",
+    "name": "Curtin Global Future Leaders Scholarship",
+    "provider": "Curtin University",
+    "summary": "A one-off AUD 10,000 tuition credit, paid in two instalments, for credit-level international students starting at a Curtin Western Australia campus in 2027.",
+    "amount": 10000,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition credit"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Perth"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "AU"
+    ],
+    "eligibilityNotes": "Open to international, fee-paying, non-sponsored students of any nationality except Australian; needs at least 1.5 years of study at the campus. Credit only, not cash. No separate application.",
+    "deadline": "2027-10-01",
+    "deadlineNote": "Applications open 27 Jul 2026 and close 1 Oct 2027.",
+    "officialUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7987",
+    "sourceUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7987",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "rmit-future-leaders-scholarship-au",
+    "name": "RMIT Future Leaders Scholarship",
+    "provider": "RMIT University",
+    "summary": "20 percent off tuition for the length of a bachelor's or coursework master's for students from six South Asian countries.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (20 percent)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Melbourne"
+    ],
+    "eligibleNationalities": [
+      "IN",
+      "LK",
+      "BD",
+      "BT",
+      "NP",
+      "PK"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Citizens (including dual) of India, Sri Lanka, Bangladesh, Bhutan, Nepal or Pakistan on, or applying for, a student visa; offer from 2026 intakes onward. No separate form: apply to RMIT and the offer letter shows the award.",
+    "deadline": null,
+    "deadlineNote": "No dates on the page; see RMIT's key dates page for intakes.",
+    "officialUrl": "http://www.rmit.edu.au/scholarships/international-scholarships/future-leaders-scholarship",
+    "sourceUrl": "http://www.rmit.edu.au/scholarships/international-scholarships/future-leaders-scholarship",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "uow-university-excellence-scholarship-international-au",
+    "name": "University of Wollongong University Excellence Scholarship (international)",
+    "provider": "University of Wollongong",
+    "summary": "30 percent tuition reduction for the minimum length of an undergraduate course for international students with outstanding entry results. Unlimited awards.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "AUD",
+    "fullFunding": false,
+    "covers": [
+      "tuition (30 percent)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "AU"
+    ],
+    "studyCities": [
+      "Wollongong"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Needs outstanding results via ATAR, equivalent, foundation or approved pathway; excludes some education, social work and exercise science courses. No application needed. Page lists a 2026/2027 year inconsistency, so confirm the intake with UOW.",
+    "deadline": null,
+    "deadlineNote": "No deadline; offers issued from 12 Jun 2026 for 2027 starts.",
+    "officialUrl": "https://www.uow.edu.au/study/scholarships/international/university-excellence-scholarships/",
+    "sourceUrl": "https://www.uow.edu.au/study/scholarships/international/university-excellence-scholarships/",
+    "checkedOn": "2026-11-07"
+  }
+]

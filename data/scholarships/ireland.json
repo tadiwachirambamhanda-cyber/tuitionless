@@ -1,0 +1,353 @@
+[
+  {
+    "id": "government-of-ireland-international-education-scholarship-ie",
+    "name": "Government of Ireland International Education Scholarship",
+    "provider": "Higher Education Authority (HEA), Government of Ireland",
+    "summary": "A 10,000 EUR stipend plus a full tuition fee waiver for one year of master's or PhD study at an eligible Irish institution. About 60 awards a year.",
+    "amount": 10000,
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "tuition fee waiver",
+      "stipend"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "RU",
+      "BY"
+    ],
+    "eligibilityNotes": "Eligibility is by domicile: you must be domiciled outside the EU, EEA, Switzerland and the UK. Russian and Belarusian nationals are excluded. Needs an offer from an eligible Irish institution before applying. Previous winners cannot apply again.",
+    "deadline": null,
+    "deadlineNote": "The 2026 call closed on 12 March 2026. The page lists no dates for the 2027 call yet.",
+    "officialUrl": "https://hea.ie/policy/internationalisation/goi-ies/",
+    "sourceUrl": "https://hea.ie/policy/internationalisation/goi-ies",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "tcd-global-excellence-undergraduate-ie",
+    "name": "Global Excellence Undergraduate Scholarship",
+    "provider": "Trinity College Dublin",
+    "summary": "A one-off cut to year-one tuition (2,000 to 5,000 EUR depending on region) for non-EU students starting a full-time undergraduate degree at Trinity.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "tuition reduction (year one)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "studyCities": [
+      "Dublin"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "CN"
+    ],
+    "eligibilityNotes": "Needs non-EU fee status and a course offer. Students from China should apply for the Claddagh scholarship instead. Medicine, dentistry, acting, engineering, natural sciences and computer science and statistics are excluded. The page does not say which amount applies to which region.",
+    "deadline": null,
+    "deadlineNote": "The page shows 2026/27 dates (Americas 1 April, Africa 1 May, rest of world 15 June, SE Asia and Oceania 15 July 2026), all passed. 2027/28 dates are not published.",
+    "officialUrl": "https://www.tcd.ie/study/international/scholarships/undergraduate/geug.php",
+    "sourceUrl": "https://www.tcd.ie/study/international/scholarships/undergraduate/geug.php",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "tcd-global-excellence-postgraduate-ie",
+    "name": "Global Excellence Postgraduate Scholarship",
+    "provider": "Trinity College Dublin",
+    "summary": "A one-off tuition reduction of 2,000 to 5,000 EUR depending on region for non-EU students on full-time postgraduate taught courses at Trinity.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "tuition reduction"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "studyCities": [
+      "Dublin"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "CN"
+    ],
+    "eligibilityNotes": "Needs non-EU fee status and a course offer. Students from China should apply for the Claddagh scholarship instead. Business, engineering, natural sciences and computer science and statistics courses are excluded.",
+    "deadline": null,
+    "deadlineNote": "The page shows 2026/27 dates (Americas 1 April, Africa 1 May, rest of world 15 June, SE Asia and Oceania 15 July 2026), all passed. 2027/28 dates are not published.",
+    "officialUrl": "https://www.tcd.ie/study/international/scholarships/postgraduate/gexpg.php",
+    "sourceUrl": "https://www.tcd.ie/study/international/scholarships/postgraduate/gexpg.php",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "tcd-roger-casement-fellowship-ie",
+    "name": "Roger Casement Fellowship in Human Rights (Ireland Fellows Programme, Nigeria)",
+    "provider": "Irish Government (Department of Foreign Affairs) via Trinity College Dublin",
+    "summary": "A fully funded one-year master's in Ireland for early to mid career professionals from Nigeria, with a human rights focus.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fullFunding": true,
+    "covers": [
+      "programme fees",
+      "flights",
+      "accommodation",
+      "living costs"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "NG"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Needs an honours bachelor's degree (minimum GPA 3.0 on a 4.0 scale) awarded within 12 years, no existing master's, and verified English. Exact programmes are limited to those approved by the fellowship, so the field is not stated.",
+    "deadline": null,
+    "deadlineNote": "The page gives the deadline as 30 July without a year, so no date is stored.",
+    "officialUrl": "https://www.tcd.ie/study/international/scholarships/postgraduate/ScholarshipsforNigerianStudents.php",
+    "sourceUrl": "https://www.tcd.ie/study/international/scholarships/postgraduate/ScholarshipsforNigerianStudents.php",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "ireland-fellows-programme-africa-ie",
+    "name": "Ireland Fellows Programme - Africa",
+    "provider": "Government of Ireland (Department of Foreign Affairs, Irish Aid)",
+    "summary": "A fully funded one-year master's at an Irish university for early to mid career professionals from 24 African countries, starting 2027/28.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fullFunding": true,
+    "covers": [
+      "programme fees",
+      "flights",
+      "accommodation",
+      "living costs"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "AO",
+      "BI",
+      "CD",
+      "DJ",
+      "ER",
+      "SZ",
+      "ET",
+      "GH",
+      "KE",
+      "LS",
+      "LR",
+      "MW",
+      "MZ",
+      "NG",
+      "RW",
+      "SN",
+      "SL",
+      "SO",
+      "SS",
+      "SD",
+      "TZ",
+      "UG",
+      "ZM",
+      "ZW"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Open to resident nationals of the 24 listed countries (expanded to codes). Some countries are invitation only, for staff of organisations partnered with Irish Aid. Needs 2 to 3 years of relevant work experience, a bachelor's with a minimum GPA of 3.0, no existing master's, and a choice of three programmes from the approved directory. The funding detail comes from the programme's official summary, not the eligibility page.",
+    "deadline": null,
+    "deadlineNote": "The page does not state a closing date. Applications were run through the Irish Embassy in each country in mid-2026 and have likely closed.",
+    "officialUrl": "https://www.ireland.ie/en/ireland-fellows-programme/applying-for-the-ireland-fellows-programme/ireland-fellows-africa/",
+    "sourceUrl": "https://api.ireland.ie/en/ireland-fellows-programme/applying-for-the-ireland-fellows-programme/ireland-fellows-africa/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "ucc-sefs-international-merit-masters-ie",
+    "name": "SEFS International Student Merit-Based Scholarship",
+    "provider": "University College Cork",
+    "summary": "20% off tuition for non-EU students with a first class honours degree entering a taught master's in science, engineering or food science at UCC.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "tuition reduction (20%)"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "science",
+      "engineering",
+      "food science"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "studyCities": [
+      "Cork"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Eligibility is non-EU fee status plus a first class honours or equivalent. Applies to the College of Science, Engineering and Food Science for 2027/28. No application needed: it is awarded with the offer.",
+    "deadline": null,
+    "deadlineNote": "No deadline: awarded automatically at offer stage.",
+    "officialUrl": "https://www.ucc.ie/en/scholarships/internationaltable/sefsinterntschismbs/",
+    "sourceUrl": "https://www.ucc.ie/en/scholarships/internationaltable/sefsinterntschismbs/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "ucc-business-law-international-undergraduate-ie",
+    "name": "College of Business and Law International Undergraduate Scholarship",
+    "provider": "University College Cork",
+    "summary": "2,000 EUR a year off tuition for non-EU undergraduates in Cork University Business School or the School of Law, 2027/28 entry.",
+    "amount": 2000,
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "tuition reduction"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "business",
+      "law"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "studyCities": [
+      "Cork"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Needs non-EU fee status and an accepted offer. Cannot be combined with other UCC scholarships. Awarded automatically on previous academic results.",
+    "deadline": null,
+    "deadlineNote": "No deadline: awarded automatically, no application required.",
+    "officialUrl": "https://www.ucc.ie/en/scholarships/internationaltable/internschcblug/",
+    "sourceUrl": "https://www.ucc.ie/en/scholarships/internationaltable/internschcblug/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "dcu-international-merit-scholarship-ie",
+    "name": "DCU International Scholarship for Non-EU Students",
+    "provider": "Dublin City University",
+    "summary": "Merit-based tuition reductions from about 1,850 to 6,100 EUR for non-EU undergraduate and postgraduate students starting in 2027-28, depending on faculty and level.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "tuition reduction"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "studyCities": [
+      "Dublin"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Needs non-EU fee status and a full-time programme. Amounts differ by faculty (for example 2,000 EUR for postgraduate humanities, 5,000 EUR for postgraduate science and health), so no single amount is stored. You are considered automatically when you apply.",
+    "deadline": null,
+    "deadlineNote": "No separate deadline: considered when you apply for your programme.",
+    "officialUrl": "https://www.dcu.ie/global/international-faculty-scholarshipsbursaries",
+    "sourceUrl": "https://www.dcu.ie/global/international-faculty-scholarshipsbursaries",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "ul-jim-kemmy-india-scholarship-ie",
+    "name": "Jim Kemmy India Scholarship",
+    "provider": "Kemmy Business School, University of Limerick",
+    "summary": "4,000 EUR a year, for up to four years, for Indian students starting a BA International Business or Bachelor of Business Studies at Limerick.",
+    "amount": 4000,
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "tuition reduction"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "business"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "studyCities": [
+      "Limerick"
+    ],
+    "eligibleNationalities": [
+      "IN"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Needs an average of at least 75% in Standard X and XII including English and Maths, plus English language requirements. Continues each year subject to progression.",
+    "deadline": null,
+    "deadlineNote": "No date given on the page, which says applications are invited for 2026/7.",
+    "officialUrl": "https://www.ul.ie/study/postgraduate/international-students/scholarships",
+    "sourceUrl": "https://www.ul.ie/study/postgraduate/international-students/scholarships",
+    "checkedOn": "2026-11-07"
+  }
+]

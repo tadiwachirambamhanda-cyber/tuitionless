@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "country": "GB",
+    "currency": "GBP",
+    "yearlyCost": { "undergraduate": 36850, "masters": 31650, "phd": 31650 },
+    "sourceUrl": "https://www.gov.uk/student-visa/money",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "country": "US",
+    "currency": "USD",
+    "yearlyCost": { "undergraduate": 45295, "masters": 34227, "phd": 34227 },
+    "sourceUrl": "https://nces.ed.gov/programs/digest/d23/tables/dt23_330.20.asp",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "country": "CA",
+    "currency": "CAD",
+    "yearlyCost": { "undergraduate": 65194, "masters": 47476, "phd": 47476 },
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "country": "DE",
+    "currency": "EUR",
+    "yearlyCost": { "undergraduate": 12404, "masters": 12404, "phd": 12404 },
+    "sourceUrl": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "country": "NL",
+    "currency": "EUR",
+    "yearlyCost": { "undergraduate": 28069, "masters": 34569, "phd": 13569 },
+    "sourceUrl": "https://www.studyinnl.org/finances/tuition-fees",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "country": "FR",
+    "currency": "EUR",
+    "yearlyCost": { "undergraduate": 11302, "masters": 12350, "phd": 8798 },
+    "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-France",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "country": "AU",
+    "currency": "AUD",
+    "yearlyCost": { "undergraduate": 48314, "masters": 48314, "phd": 29710 },
+    "sourceUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "country": "IE",
+    "currency": "EUR",
+    "yearlyCost": { "undergraduate": 29650, "masters": 35500, "phd": 35500 },
+    "sourceUrl": "https://www.educationinireland.com/en/plan-your-study-abroad/undergraduate-tuition-fees",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "country": "JP",
+    "currency": "JPY",
+    "yearlyCost": { "undergraduate": 2320000, "masters": 2220000, "phd": 2220000 },
+    "sourceUrl": "https://www.studyinjapan.go.jp/en/life/cost-of-living/",
+    "checkedOn": "2026-11-07"
+  }
+]

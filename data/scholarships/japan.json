@@ -1,0 +1,766 @@
+[
+  {
+    "id": "mext-research-students-embassy-recommendation-jp",
+    "name": "MEXT Scholarship - Research Students (Embassy Recommendation)",
+    "provider": "Japanese Government (MEXT)",
+    "summary": "Full government scholarship for graduate study in Japan: tuition waived, monthly allowance, and an airfare ticket. You apply through the Japanese embassy in your country.",
+    "amount": 1728000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "tuition and fees",
+      "monthly allowance",
+      "airfare"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "JP"
+    ],
+    "eligibilityNotes": "Page requires the nationality of a country that has diplomatic relations with Japan (Japanese nationals not eligible), so recorded as ANY with JP excluded. Born on or after 2 Apr 1992; fields may be limited by the embassy. Monthly allowance is 143,000 (non-degree), 144,000 (master's) or 145,000 (doctoral) yen; amount shown is master's rate x12.",
+    "deadline": null,
+    "deadlineNote": "Embassy sets its own date; recruitment for 2027 entry ran Apr-May 2026. 2028 call not yet published.",
+    "officialUrl": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-research.html",
+    "sourceUrl": "https://www.studyinjapan.go.jp/en/_mt/2026/04/01-2027_Research_Guidelines_E.pdf",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "mext-undergraduate-students-embassy-recommendation-jp",
+    "name": "MEXT Scholarship - Undergraduate Students (Embassy Recommendation)",
+    "provider": "Japanese Government (MEXT)",
+    "summary": "Government scholarship for a full bachelor's degree in Japan, usually after a year of Japanese language preparation. Apply through the Japanese embassy in your country.",
+    "amount": 1404000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "tuition and fees",
+      "monthly allowance",
+      "airfare"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "JP"
+    ],
+    "eligibilityNotes": "Page requires the nationality of a country that has diplomatic relations with Japan (Japanese nationals not eligible), so recorded as ANY with JP excluded. Born on or after 2 Apr 2002; 12 years of schooling. Allowance 117,000 yen a month (amount shown x12).",
+    "deadline": null,
+    "deadlineNote": "Embassy sets its own date; recruitment for 2027 entry ran Apr-May 2026 with screening to Aug. 2028 call not yet published.",
+    "officialUrl": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-undergraduate.html",
+    "sourceUrl": "https://www.studyinjapan.go.jp/en/_mt/2026/04/2027_Guidelines_Undergraduate_E.pdf",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "honjo-international-scholarship-foreign-students-jp",
+    "name": "Honjo International Scholarship (Scholarship for Foreign Students)",
+    "provider": "Honjo International Scholarship Foundation",
+    "summary": "Monthly living grant for graduate students in Japan, open to applicants abroad who already have a place at a Japanese graduate school. No university nomination needed.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "JPY",
+    "fullFunding": false,
+    "covers": [
+      "living allowance"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Page says all nationalities and all research fields are welcome. Pays 230,000 yen a month for 1-2 year degrees, 210,000 for 3 years, 180,000 for longer, over the minimum degree period. About ten awards; includes a short video and interviews.",
+    "deadline": null,
+    "deadlineNote": "2026 window (1 Sep-31 Oct 2026) is closed; 2027 guideline dates to be published.",
+    "officialUrl": "https://www.hisf.or.jp/en/scholarship/foreigner/",
+    "sourceUrl": "https://www.hisf.or.jp/en/scholarship/foreigner/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "aichi-scholarship-program-jp",
+    "name": "Aichi Scholarship Program",
+    "provider": "Aichi Prefectural Government",
+    "summary": "Funds six months as a research student then a two-year master's at an Aichi graduate school, with a monthly allowance, travel to Japan and fees covered. For people who plan to work in Aichi.",
+    "amount": 1800000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "tuition and entrance fees",
+      "monthly allowance",
+      "travel to Japan"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Aichi"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "JP",
+      "KP"
+    ],
+    "eligibilityNotes": "Citizens of UN member states living outside Japan (Japan and North Korea excluded); citizens of Vatican City, Kosovo, Cook Islands, Niue and Taiwan also eligible. Recorded as ANY, so non-UN states other than those named may not qualify. Under 35, field relevant to Aichi industry, intent to work for an Aichi employer. 150,000 yen a month (amount shown x12).",
+    "deadline": null,
+    "deadlineNote": "Applications run March to May via an Aichi graduate school; exact date not published.",
+    "officialUrl": "https://www.pref.aichi.jp/soshiki/kokusai/aichi-scholarship-program.html",
+    "sourceUrl": "https://www.pref.aichi.jp/soshiki/kokusai/aichi-scholarship-program.html",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "utokyo-fellowship-jp",
+    "name": "The University of Tokyo Fellowship",
+    "provider": "The University of Tokyo",
+    "summary": "Monthly grant of 200,000 yen for outstanding self-funded international graduate students at Tokyo, paid for the standard length of the program. Apply through your graduate school.",
+    "amount": 2400000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": false,
+    "covers": [
+      "monthly grant"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Tokyo"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Page states no general nationality limit (two donor awards inside it are limited to US/UK citizens). Applicants seeking tuition exemption can apply but must give it up if accepted. 200,000 yen a month (amount shown x12).",
+    "deadline": null,
+    "deadlineNote": "Deadline set by each graduate school; see the AY2026 guidelines.",
+    "officialUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html",
+    "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "todai-fellowship-gsfs-doctoral-jp",
+    "name": "Todai Fellowship (Graduate School of Frontier Sciences, doctoral)",
+    "provider": "The University of Tokyo",
+    "summary": "200,000 yen a month for three years for international doctoral applicants to the Graduate School of Frontier Sciences. Applied for together with the entrance exam.",
+    "amount": 2400000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": false,
+    "covers": [
+      "monthly grant"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Must apply to a GSFS doctoral course, hold a college student visa at enrolment, and not seek private-organisation scholarships. Page states no nationality limit. 200,000 yen a month (amount shown x12).",
+    "deadline": null,
+    "deadlineNote": "Submitted with the GSFS entrance exam application; dates not on the page.",
+    "officialUrl": "https://www.k.u-tokyo.ac.jp/en/exam/master/foreign_research_students/tokyo_fellowship/",
+    "sourceUrl": "https://www.k.u-tokyo.ac.jp/en/exam/master/foreign_research_students/tokyo_fellowship/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "oist-phd-program-funding-jp",
+    "name": "OIST PhD Program (fully funded)",
+    "provider": "Okinawa Institute of Science and Technology",
+    "summary": "Every admitted PhD student at OIST receives a salary-style research assistantship that covers tuition and living costs, plus subsidised campus housing.",
+    "amount": 2600000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "living costs (research assistantship)",
+      "subsidised housing"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Okinawa"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "FAQ says funding is given regardless of nationality. Need a BSc, MSc or equivalent by enrolment. About 2.6 million yen in year one rising to about 3.6 million yen. Does not take MEXT holders directly. Page figures differ slightly from other OIST pages.",
+    "deadline": null,
+    "deadlineNote": "Deadlines not on the FAQ; enrolment in May, September or January; see the Apply to PhD page.",
+    "officialUrl": "https://www.oist.jp/admissions/faq",
+    "sourceUrl": "https://www.oist.jp/education/student-support",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "apu-tuition-reduction-scholarship-undergraduate-jp",
+    "name": "APU Tuition Reduction Scholarship (international undergraduates)",
+    "provider": "Ritsumeikan Asia Pacific University",
+    "summary": "Cuts tuition by 30 to 100 percent for international bachelor's students, decided before enrolment on academics and financial need.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "JPY",
+    "fullFunding": false,
+    "covers": [
+      "tuition (30, 50, 65, 80 or 100 percent)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Needs a student visa; page sets no nationality limit. Cannot be applied for after enrolment. Lasts for the minimum time to graduate, up to 8 semesters, with a review each semester.",
+    "deadline": null,
+    "deadlineNote": "No deadline on the page; see the application handbook.",
+    "officialUrl": "https://en.apu.ac.jp/studentsupport/scholarship_tuition/international/exemption_Undergraduate/",
+    "sourceUrl": "https://en.apu.ac.jp/studentsupport/scholarship_tuition/international/exemption_Undergraduate/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "rotary-yoneyama-overseas-candidate-jp",
+    "name": "Rotary Yoneyama Scholarship (overseas candidates)",
+    "provider": "Rotary Yoneyama Memorial Foundation",
+    "summary": "Monthly scholarship for students outside Japan who have applied to a Japanese university or graduate school, with travel help of up to 250,000 yen.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "JPY",
+    "fullFunding": false,
+    "covers": [
+      "living allowance",
+      "travel to Japan (up to 250,000 yen)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Pays 100,000 yen a month (undergraduate) or 140,000 (master's/doctoral). Needs JLPT N3 or higher and your own admission application; language schools and research students not eligible. Page lists no nationality rule, so ANY is assumed - owner to confirm.",
+    "deadline": null,
+    "deadlineNote": "2026 window (1-31 Oct 2026) is closed; next window not yet published.",
+    "officialUrl": "https://www.rotary-yoneyama.or.jp/english/overseas/",
+    "sourceUrl": "https://www.rotary-yoneyama.or.jp/english/overseas/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "grips-mext-scholarship-jp",
+    "name": "MEXT Scholarship at GRIPS",
+    "provider": "National Graduate Institute for Policy Studies (GRIPS)",
+    "summary": "MEXT-funded master's and PhD places in policy studies at GRIPS in Tokyo with fees waived, a monthly stipend and flights.",
+    "amount": 1764000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "application, admission and tuition fees",
+      "monthly stipend",
+      "airfare"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "public policy"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Tokyo"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "JP"
+    ],
+    "eligibilityNotes": "Page requires the nationality of a country that has diplomatic relations with Japan (Japanese nationals not eligible), so recorded as ANY with JP excluded. Under 35 as of 1 Apr 2026. Stipend 147,000 yen a month for master's (148,000 for PhD); amount shown is master's x12.",
+    "deadline": null,
+    "deadlineNote": "Apply directly to GRIPS; no closing date in the eligibility chart.",
+    "officialUrl": "https://www.grips.ac.jp/en/admissions/apply/",
+    "sourceUrl": "https://www.grips.ac.jp/uploads/admissions/2025/07/GRIPS_Scholarships_2026.pdf",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "grips-ylp-school-of-government-jp",
+    "name": "Young Leaders Program (YLP) - School of Government at GRIPS",
+    "provider": "National Graduate Institute for Policy Studies (GRIPS)",
+    "summary": "MEXT scholarship for talented government officials from listed countries to study at GRIPS, with fees waived, a monthly stipend and flights. Applied for through a sponsoring organisation.",
+    "amount": 2904000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "application, admission and tuition fees",
+      "monthly stipend",
+      "airfare",
+      "field trip costs"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "public policy"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Tokyo"
+    ],
+    "eligibleNationalities": [
+      "AU",
+      "BD",
+      "BN",
+      "BG",
+      "KH",
+      "CN",
+      "CZ",
+      "HU",
+      "IN",
+      "ID",
+      "KZ",
+      "KR",
+      "KG",
+      "LA",
+      "MY",
+      "MN",
+      "PK",
+      "PH",
+      "PL",
+      "TR",
+      "RO",
+      "SG",
+      "SK",
+      "LK",
+      "TH",
+      "TM",
+      "UZ",
+      "VN"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Government officials, generally under 40 as of 1 Oct 2026, with 3 or more years in public administration. Countries named on the GRIPS chart expanded to ISO codes: Australia, Bangladesh, Brunei, Bulgaria, Cambodia, China, Czechia, Hungary, India, Indonesia, Kazakhstan, Korea, Kyrgyzstan, Laos, Malaysia, Mongolia, Pakistan, Philippines, Poland, Turkiye, Romania, Singapore, Slovakia, Sri Lanka, Thailand, Turkmenistan, Uzbekistan, Vietnam. Stipend 242,000 yen a month (amount shown x12).",
+    "deadline": null,
+    "deadlineNote": "Apply through your sponsoring organisation; dates not on the chart.",
+    "officialUrl": "https://www.mext.go.jp/en/policy/education/highered/title02/detail02/sdetail02/sdetail02/1374094.htm",
+    "sourceUrl": "https://www.grips.ac.jp/uploads/admissions/2025/07/GRIPS_Scholarships_2026.pdf",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "science-tokyo-jasso-honors-reservation-gsep-igp-jp",
+    "name": "Monbukagakusho Honors Scholarship reservation (Science Tokyo GSEP and IGP)",
+    "provider": "Institute of Science Tokyo (via JASSO)",
+    "summary": "A 48,000 yen monthly allowance reserved before arrival for privately funded students who apply to Science Tokyo's English programs while living abroad.",
+    "amount": 576000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": false,
+    "covers": [
+      "monthly allowance (48,000 yen)"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "engineering",
+      "science"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Tokyo"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Must live outside Japan when applying, enter on a student visa, receive no more than 90,000 yen a month from family, and meet a language level (JLPT N1/N2, EJU Japanese over 200, or English above CEFR B2). Page lists no nationality limit. Amount shown is 48,000 x12; JASSO pays for a fixed period.",
+    "deadline": null,
+    "deadlineNote": "Windows are approximate (e.g. GSEP mid Aug to early Sep); not exact dates.",
+    "officialUrl": "https://www.titech.ac.jp/english/student-support/prospective-students/scholarships/jasso",
+    "sourceUrl": "https://www.titech.ac.jp/english/student-support/prospective-students/scholarships/jasso",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "keio-design-the-future-award-jp",
+    "name": "Keio 'Design the Future' Award for International Students",
+    "provider": "Keio University",
+    "summary": "Full tuition plus 200,000 yen a month and a 150,000 yen move-in payment for a few international students entering Keio master's, doctoral or professional programs.",
+    "amount": 2400000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "full tuition",
+      "living allowance",
+      "one-off 150,000 yen move-in and airfare payment"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Page does not state nationality limits. Lasts 2 years (master's) or 3 years (doctoral). Several schools only invite chosen candidates. Allowance shown is 200,000 x12.",
+    "deadline": null,
+    "deadlineNote": "2027 entry calls (Aug-Oct 2026) have closed; interviews 12 Dec 2026.",
+    "officialUrl": "https://www.keio.ac.jp/en/admissions/scholarship/grad/",
+    "sourceUrl": "https://www.ic.keio.ac.jp/en/life/scholarship/dfaward.html",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "osaka-tuition-exemption-international-honors-students-jp",
+    "name": "Tuition Fee Exemption for International Honors Students",
+    "provider": "The University of Osaka",
+    "summary": "Full tuition waiver for privately funded international students who score well on a designated graduate entrance exam at Osaka.",
+    "amount": 535800,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": false,
+    "covers": [
+      "full tuition exemption"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Osaka"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Needs student visa status and no tuition aid from MEXT, foreign governments or foundations. No separate application: passing a designated exam qualifies. Page sets no nationality limit. 535,800 yen is annual tuition as of FY2025.",
+    "deadline": null,
+    "deadlineNote": "No application deadline; ties to the graduate entrance exam.",
+    "officialUrl": "https://www.osaka-u.ac.jp/en/international/inbound/Scholarships/tokutai",
+    "sourceUrl": "https://www.osaka-u.ac.jp/en/international/inbound/Scholarships/tokutai",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "icu-torch-relay-graduate-scholarship-jp",
+    "name": "ICU Torch Relay Graduate School Scholarship for New Students",
+    "provider": "International Christian University",
+    "summary": "Cuts first-year tuition and facilities fees by one-third for new master's students who need financial help, with a few larger awards.",
+    "amount": null,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": false,
+    "covers": [
+      "tuition and facilities fee reduction (one-third, sometimes two-thirds or full)"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Applied for with the admission application, before enrolment. Based on need and desire to study at ICU; page does not state nationality limits.",
+    "deadline": null,
+    "deadlineNote": "No dates on the page.",
+    "officialUrl": "https://www.icu.ac.jp/en/admissions/finance/gs/",
+    "sourceUrl": "https://www.icu.ac.jp/en/admissions/finance/gs/",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "inpex-scholarship-jp",
+    "name": "INPEX Scholarship",
+    "provider": "INPEX Scholarship Foundation",
+    "summary": "Foundation scholarship for graduates of strong universities in Indonesia, Australia and the UAE to study in Japan, with full tuition, a monthly allowance and travel.",
+    "amount": 1920000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "full tuition",
+      "monthly allowance",
+      "round-trip ticket and arrival money"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [],
+    "eligibleNationalities": [
+      "ID",
+      "AU",
+      "AE"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Open to nationals of Indonesia, Australia and the UAE (page lists these three). Indonesian track is STEM and healthcare; UAE track covers all fields. 160,000 yen a month (amount shown x12) per the JASSO pamphlet. Under 30.",
+    "deadline": null,
+    "deadlineNote": "Usual window is 1 Aug-31 Oct; the 2026 round has closed.",
+    "officialUrl": "https://www.inpex-s.com/en/",
+    "sourceUrl": "https://www.studyinjapan.go.jp/en/assets/pdf/scholarship_pamphlet_en.pdf",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "hiroshima-igs-mext-university-recommendation-jp",
+    "name": "MEXT Scholarship via Hiroshima University IGS (bachelor's)",
+    "provider": "Hiroshima University",
+    "summary": "MEXT scholarship for four years of bachelor's study in Hiroshima's English-taught IGS program, by university recommendation.",
+    "amount": 1404000,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "tuition and fees",
+      "monthly allowance (117,000 yen)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Higashihiroshima"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "JP"
+    ],
+    "eligibilityNotes": "Page gives no nationality rule; MEXT's own rule (nationality of a country with diplomatic relations with Japan) is assumed. Amount shown is 117,000 x12.",
+    "deadline": null,
+    "deadlineNote": "No dates on the page.",
+    "officialUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
+    "sourceUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "hiroshima-igs-honors-pre-arrival-jp",
+    "name": "Monbukagakusho Honors Scholarship (pre-arrival) at Hiroshima IGS",
+    "provider": "Hiroshima University",
+    "summary": "48,000 yen a month for one year for IGS bachelor's students, set up by university recommendation before arrival.",
+    "amount": 576000,
+    "amountPeriod": "total",
+    "currency": "JPY",
+    "fullFunding": false,
+    "covers": [
+      "monthly allowance (48,000 yen for one year)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Higashihiroshima"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Page lists no nationality rule. Amount shown is 48,000 x12 months.",
+    "deadline": null,
+    "deadlineNote": "No dates on the page.",
+    "officialUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
+    "sourceUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "kyoto-university-mext-scholarship-jp",
+    "name": "MEXT Scholarship at Kyoto University",
+    "provider": "Kyoto University",
+    "summary": "Kyoto takes MEXT research, undergraduate and Japanese studies students by embassy or university recommendation, with fees waived, a monthly stipend and a return flight.",
+    "amount": null,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "examination, admission and tuition fees",
+      "monthly stipend",
+      "one round-trip ticket"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Kyoto"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "JP"
+    ],
+    "eligibilityNotes": "Page requires the nationality of a country that has diplomatic relations with Japan (Japanese nationals not eligible), so recorded as ANY with JP excluded. Stipend 143,000-145,000 yen for graduate/research and 117,000 for undergraduate. General university recommendation for graduate study is not planned for 2027 entry.",
+    "deadline": null,
+    "deadlineNote": "Letters of provisional acceptance had to be requested by 1 Sep 2026; embassy dates vary.",
+    "officialUrl": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
+    "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
+    "checkedOn": "2026-11-07"
+  },
+  {
+    "id": "tohoku-university-mext-scholarship-jp",
+    "name": "MEXT Scholarship at Tohoku University",
+    "provider": "Tohoku University",
+    "summary": "Tohoku takes MEXT students by embassy recommendation or special university nomination, with tuition and fees covered, a monthly stipend and travel.",
+    "amount": null,
+    "amountPeriod": "year",
+    "currency": "JPY",
+    "fullFunding": true,
+    "covers": [
+      "tuition and fees",
+      "monthly stipend",
+      "travel"
+    ],
+    "levels": [
+      "undergraduate",
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "JP"
+    ],
+    "studyCities": [
+      "Sendai"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "JP"
+    ],
+    "eligibilityNotes": "Page says nationals of countries with diplomatic relations with Japan. Stipends (Sendai): 119,000 undergraduate, 145,000 research, 146,000 master's, 147,000 PhD yen a month. General university recommendation is discontinued; special programs only.",
+    "deadline": null,
+    "deadlineNote": "Undergraduate embassy deadlines are typically around April and vary by embassy; no exact date.",
+    "officialUrl": "https://www.insc.tohoku.ac.jp/english/scholarship-for-international-students/",
+    "sourceUrl": "https://www.insc.tohoku.ac.jp/english/scholarship-for-international-students/",
+    "checkedOn": "2026-11-07"
+  }
+]
