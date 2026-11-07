@@ -1,29 +1,20 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Bricolage_Grotesque, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const display = Bricolage_Grotesque({ subsets: ["latin"], weight: ["600", "700", "800"], variable: "--font-bricolage" });
+const body = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-jakarta" });
 
 export const metadata: Metadata = {
   title: "Tuitionless",
-  description: "Find scholarships that fit your nationality, budget and where you want to study.",
+  description: "Find scholarships that fit your nationality, what you can afford a year, and where you want to study.",
 };
 
+// Each screen draws its own top bar (see design/handoff), so the layout stays bare.
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
-        <header className="flex items-center justify-between px-4 py-3">
-          <Link href="/" className="font-semibold">Tuitionless</Link>
-          <nav className="flex gap-4 text-sm">
-            <Link href="/find">Find scholarships</Link>
-            <Link href="/results">Results</Link>
-          </nav>
-        </header>
-        <main className="flex-1">{children}</main>
-      </body>
+    <html lang="en" className={`${display.variable} ${body.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }

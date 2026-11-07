@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tuitionless: scholarship detail (/scholarships/[id])</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===== tokens.css (copied in so this file is self-contained) ===== */
+/* =====================================================================
+   Tuitionless design tokens (Option B: warm, mobile-first)
+   Source of truth for colour, type, spacing, radius, shadow and motion.
+   Every text/background pair listed in README.md passes WCAG 2.2 AA.
+   Fonts (both free on Google Fonts and next/font/google):
+     Display: "Bricolage Grotesque" 600, 700, 800
+     Body/UI: "Plus Jakarta Sans" 400, 500, 600, 700
+   ===================================================================== */
+
+:root {
+  /* ---------- Brand ---------- */
+  --color-coral-300: #FFB39F;
+  --color-coral-400: #FF8A6E;
+  --color-coral-500: #FF7A5C;   /* hero gradient start (decorative, dark text on top) */
+  --color-orange-400: #FFA24C;  /* hero gradient end   (decorative, dark text on top) */
+  --color-coral-700: #CF3B2C;   /* action gradient start, white text 4.87:1 */
+  --color-orange-700: #BF4A0A;  /* action gradient end,   white text 5.00:1 */
+  --color-brand-text: #B8371F;  /* links and brand words on cream 5.50:1, on white 5.9:1 */
+
+  --gradient-hero: linear-gradient(135deg, #FF7A5C 0%, #FF9055 55%, #FFA24C 100%);
+  --gradient-action: linear-gradient(135deg, #CF3B2C 0%, #BF4A0A 100%);
+  --gradient-action-hover: linear-gradient(135deg, #B8331F 0%, #A84006 100%);
+  --gradient-soft: linear-gradient(180deg, #FFE9DF 0%, #FFF7F2 100%); /* tinted section backgrounds */
+
+  /* ---------- Surfaces ---------- */
+  --color-bg: #FFF7F2;          /* page background (warm cream) */
+  --color-surface: #FFFFFF;     /* cards, sheets, inputs */
+  --color-surface-muted: #FFF0E8; /* chips, quiet panels */
+  --color-border: #F1DDD3;      /* hairlines, card borders (decorative) */
+  --color-border-strong: #A3887F; /* input borders: 3.2:1 on white (non-text AA) */
+
+  /* ---------- Text ---------- */
+  --color-ink: #2A1712;         /* headings and body: 16.1:1 on cream, 6.66:1 on hero gradient start */
+  --color-ink-muted: #6B524B;   /* secondary text: 6.76:1 on cream, 7.16:1 on white */
+  --color-on-action: #FFFFFF;   /* text on the action gradient */
+  --color-primary-on-hero: #2A1712; /* primary button fill when it sits on the hero gradient */
+
+  /* ---------- Match groups ---------- */
+  --color-best-fg: #1E6B45;   --color-best-bg: #E6F4EC;    /* Best fit     5.71:1 */
+  --color-worth-fg: #8A4B00;  --color-worth-bg: #FFF1DC;   /* Worth a try  6.11:1 */
+  --color-stretch-fg: #6B3FA0; --color-stretch-bg: #F2EBFB; /* Stretch      6.35:1 */
+
+  /* ---------- Status ---------- */
+  --color-success: #1E6B45;   --color-success-bg: #E6F4EC;
+  --color-warning: #8A4B00;   --color-warning-bg: #FFF1DC;  /* deadline soon */
+  --color-error: #B42318;     --color-error-bg: #FEECEB;    /* 5.76:1 on its bg, 6.57:1 on white */
+  --color-focus: #1D4ED8;     /* focus ring: 6.7:1 on white, visible on coral too */
+
+  /* ---------- Typography ---------- */
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --text-xs: 0.75rem;    /* 12px  line 16px  labels, legal */
+  --text-sm: 0.875rem;   /* 14px  line 20px  meta, helper text */
+  --text-base: 1rem;     /* 16px  line 24px  body, inputs (never smaller: avoids iOS zoom) */
+  --text-lg: 1.125rem;   /* 18px  line 28px  card titles, button text */
+  --text-xl: 1.25rem;    /* 20px  line 28px  section titles (mobile) */
+  --text-2xl: 1.5rem;    /* 24px  line 32px  money figure on cards, question (mobile) */
+  --text-3xl: 1.875rem;  /* 30px  line 36px  page titles (mobile) */
+  --text-4xl: 2.375rem;  /* 38px  line 44px  hero (mobile), question (desktop) */
+  --text-5xl: 3rem;      /* 48px  line 52px  page titles (desktop) */
+  --text-6xl: 3.75rem;   /* 60px  line 64px  hero (desktop) */
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.3;
+  --leading-normal: 1.5;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+  --tracking-tight: -0.02em;  /* display sizes 30px and up */
+  --tracking-wide: 0.06em;    /* small uppercase eyebrows */
+
+  /* ---------- Spacing (4px base) ---------- */
+  --space-1: 0.25rem;  /*  4 */
+  --space-2: 0.5rem;   /*  8 */
+  --space-3: 0.75rem;  /* 12 */
+  --space-4: 1rem;     /* 16  mobile page gutter */
+  --space-5: 1.25rem;  /* 20 */
+  --space-6: 1.5rem;   /* 24  card padding (desktop) */
+  --space-8: 2rem;     /* 32 */
+  --space-10: 2.5rem;  /* 40 */
+  --space-12: 3rem;    /* 48 */
+  --space-16: 4rem;    /* 64 */
+  --space-20: 5rem;    /* 80  section spacing (desktop) */
+
+  --container-max: 72rem;  /* 1152px content width at 1440 */
+  --container-form: 36rem; /* 576px  /find question column */
+  --gutter: var(--space-4);
+  --tap-min: 44px;         /* minimum tap target */
+  --control-h: 52px;       /* buttons and inputs */
+
+  /* ---------- Radius ---------- */
+  --radius-sm: 8px;     /* small chips, badges inner */
+  --radius-md: 12px;    /* inputs */
+  --radius-lg: 20px;    /* cards */
+  --radius-xl: 28px;    /* hero panels, sheets */
+  --radius-pill: 999px; /* buttons, chips, badges */
+
+  /* ---------- Shadow (warm-tinted) ---------- */
+  --shadow-sm: 0 1px 2px rgba(42, 23, 18, 0.06), 0 1px 3px rgba(42, 23, 18, 0.08);
+  --shadow-md: 0 4px 12px rgba(42, 23, 18, 0.08), 0 2px 4px rgba(42, 23, 18, 0.05);
+  --shadow-lg: 0 16px 40px rgba(191, 74, 10, 0.16), 0 4px 12px rgba(42, 23, 18, 0.08);
+  --shadow-action: 0 6px 16px rgba(207, 59, 44, 0.32);
+  --focus-ring: 0 0 0 3px #FFFFFF, 0 0 0 6px var(--color-focus);
+
+  /* ---------- Motion ---------- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --duration-slow: 320ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --duration-fast: 0ms; --duration-base: 0ms; --duration-slow: 0ms; }
+}
+
+/* ===== shared components ===== */
+/* ---------- Base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--color-bg); color: var(--color-ink);
+  font-family: var(--font-body); font-size: var(--text-base); line-height: var(--leading-normal);
+  -webkit-font-smoothing: antialiased; overflow-x: hidden;
+}
+img, svg { display: block; max-width: 100%; }
+h1, h2, h3, h4 { font-family: var(--font-display); margin: 0; line-height: var(--leading-tight); letter-spacing: var(--tracking-tight); color: var(--color-ink); }
+p { margin: 0; }
+a { color: var(--color-brand-text); text-underline-offset: 3px; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--radius-sm); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.container { width: 100%; max-width: var(--container-max); margin: 0 auto; padding: 0 var(--gutter); }
+@media (min-width: 768px) { :root { --gutter: var(--space-8); } }
+.icon { width: 20px; height: 20px; flex: none; }
+.icon-sm { width: 16px; height: 16px; flex: none; }
+
+/* ---------- Site header ---------- */
+.site-header { position: relative; z-index: 5; }
+.site-header .container { display: flex; align-items: center; justify-content: space-between; min-height: 64px; gap: var(--space-4); }
+.logo { display: inline-flex; align-items: center; gap: var(--space-2); min-height: var(--tap-min); text-decoration: none; color: var(--color-ink); font-family: var(--font-display); font-weight: var(--weight-extrabold); font-size: var(--text-xl); letter-spacing: var(--tracking-tight); }
+.logo-mark { width: 32px; height: 32px; border-radius: 10px; background: var(--gradient-action); display: grid; place-items: center; color: #fff; box-shadow: var(--shadow-sm); }
+.logo-mark svg { width: 18px; height: 18px; }
+.on-hero .logo-mark { background: var(--color-ink); }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2);
+  min-height: var(--control-h); padding: 0 var(--space-6); border-radius: var(--radius-pill);
+  border: 0; cursor: pointer; text-decoration: none; white-space: nowrap;
+  font-family: var(--font-body); font-weight: var(--weight-bold); font-size: var(--text-lg); line-height: 1;
+  transition: transform var(--duration-fast) var(--ease-out), box-shadow var(--duration-base) var(--ease-out), background var(--duration-base);
+}
+.btn:active { transform: scale(0.98); }
+.btn:focus-visible { box-shadow: var(--focus-ring); border-radius: var(--radius-pill); }
+.btn-primary { background: var(--gradient-action); color: var(--color-on-action); box-shadow: var(--shadow-action); }
+.btn-primary:hover { background: var(--gradient-action-hover); }
+.btn-primary-hero { background: var(--color-primary-on-hero); color: #fff; box-shadow: 0 8px 20px rgba(42,23,18,.28); }
+.btn-primary-hero:hover { background: #3E241C; }
+.btn-secondary { background: var(--color-surface); color: var(--color-ink); border: 1.5px solid var(--color-border-strong); }
+.btn-secondary:hover { background: var(--color-surface-muted); }
+.btn-ghost { background: transparent; color: var(--color-ink); padding: 0 var(--space-3); min-height: var(--tap-min); font-size: var(--text-base); font-weight: var(--weight-semibold); }
+.btn-ghost:hover { background: rgba(42,23,18,.06); }
+.btn-block { width: 100%; }
+.btn-sm { min-height: var(--tap-min); font-size: var(--text-base); padding: 0 var(--space-5); }
+.text-link { display: inline-flex; align-items: center; gap: var(--space-1); min-height: var(--tap-min); font-weight: var(--weight-semibold); color: var(--color-ink); text-decoration: underline; text-decoration-color: rgba(42,23,18,.35); }
+.text-link:hover { text-decoration-color: currentColor; }
+
+/* ---------- Chips and badges ---------- */
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: var(--radius-pill); background: var(--color-surface-muted); color: var(--color-ink); font-size: var(--text-sm); font-weight: var(--weight-semibold); line-height: 20px; }
+.badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: var(--radius-pill); font-size: var(--text-xs); font-weight: var(--weight-bold); line-height: 16px; letter-spacing: 0.01em; }
+.badge-best { background: var(--color-best-bg); color: var(--color-best-fg); }
+.badge-worth { background: var(--color-worth-bg); color: var(--color-worth-fg); }
+.badge-stretch { background: var(--color-stretch-bg); color: var(--color-stretch-fg); }
+.badge-soon { background: var(--color-warning-bg); color: var(--color-warning); }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+
+/* ---------- Cards ---------- */
+.card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); }
+
+/* ---------- Form controls ---------- */
+.field-label { display: block; font-weight: var(--weight-bold); font-size: var(--text-base); margin-bottom: var(--space-2); }
+.field-hint { color: var(--color-ink-muted); font-size: var(--text-sm); margin-top: var(--space-2); }
+.input, .select {
+  width: 100%; min-height: var(--control-h); padding: 0 var(--space-4); border-radius: var(--radius-md);
+  background: var(--color-surface); border: 1.5px solid var(--color-border-strong); font-size: var(--text-base);
+  transition: border-color var(--duration-fast), box-shadow var(--duration-fast);
+}
+.input::placeholder { color: #8C746C; }
+.input:focus, .select:focus { outline: none; border-color: var(--color-focus); box-shadow: 0 0 0 3px rgba(29,78,216,.25); }
+.select { appearance: none; padding-right: 44px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' stroke='%232A1712' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 8 5 5 5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; }
+.is-invalid { border-color: var(--color-error) !important; }
+.error-text { display: flex; gap: var(--space-2); align-items: flex-start; color: var(--color-error); font-size: var(--text-sm); font-weight: var(--weight-semibold); margin-top: var(--space-2); }
+
+/* ---------- State panels (empty, error) ---------- */
+.state-panel { text-align: center; padding: var(--space-10) var(--space-5); display: flex; flex-direction: column; align-items: center; gap: var(--space-3); }
+.state-icon { width: 72px; height: 72px; border-radius: 24px; display: grid; place-items: center; margin-bottom: var(--space-2); }
+.state-icon svg { width: 34px; height: 34px; }
+.state-icon.warm { background: var(--color-surface-muted); color: var(--color-brand-text); }
+.state-icon.err { background: var(--color-error-bg); color: var(--color-error); }
+.state-panel h2 { font-size: var(--text-2xl); }
+.state-panel p { color: var(--color-ink-muted); max-width: 30rem; }
+.state-panel .btn { margin-top: var(--space-3); }
+.alert { display: flex; gap: var(--space-3); align-items: flex-start; padding: var(--space-4); border-radius: var(--radius-md); background: var(--color-error-bg); color: var(--color-error); font-weight: var(--weight-semibold); font-size: var(--text-sm); }
+.alert p { color: var(--color-ink); font-weight: var(--weight-regular); margin-top: 2px; }
+
+/* ---------- Skeletons ---------- */
+.skel { background: linear-gradient(90deg, #F6E6DE 0%, #FCF1EB 50%, #F6E6DE 100%); background-size: 200% 100%; animation: shimmer 1.4s linear infinite; border-radius: var(--radius-sm); }
+@keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) { .skel { animation: none; } }
+.spinner { width: 56px; height: 56px; border-radius: 50%; border: 5px solid var(--color-surface-muted); border-top-color: var(--color-coral-700); border-right-color: var(--color-orange-700); animation: spin .9s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- Prototype-only state switcher (do NOT build) ---------- */
+.proto-bar { position: sticky; top: 0; z-index: 100; background: #1B1B1F; color: #fff; font: 600 12px/1.2 ui-sans-serif, system-ui, sans-serif; padding: 6px 10px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.proto-bar span { opacity: .7; margin-right: 4px; }
+.proto-bar a { color: #fff; text-decoration: none; padding: 6px 10px; border-radius: 999px; background: rgba(255,255,255,.12); }
+.proto-bar a[aria-current="true"] { background: #fff; color: #1B1B1F; }
+[data-view]:not(.is-active) { display: none !important; }
+
+/* ---------- Match card (reusable: results, landing preview) ---------- */
+.match-card { padding: var(--space-5); display: flex; flex-direction: column; gap: var(--space-4); transition: box-shadow var(--duration-base) var(--ease-out), transform var(--duration-base) var(--ease-out); }
+.match-card:hover { box-shadow: var(--shadow-md); }
+.mc-top { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); flex-wrap: wrap; }
+.mc-place { display: inline-flex; align-items: center; gap: 4px; font-size: var(--text-sm); color: var(--color-ink-muted); font-weight: var(--weight-medium); }
+.mc-title { font-size: var(--text-xl); line-height: var(--leading-snug); letter-spacing: -0.01em; }
+.mc-provider { font-size: var(--text-sm); color: var(--color-ink-muted); margin-top: 2px; }
+.mc-facts { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); padding: var(--space-4); border-radius: var(--radius-md); background: var(--color-bg); }
+.mc-label { display: flex; align-items: center; gap: 6px; font-size: var(--text-xs); font-weight: var(--weight-bold); text-transform: uppercase; letter-spacing: var(--tracking-wide); color: var(--color-ink-muted); }
+.mc-value { display: block; font-family: var(--font-display); font-weight: var(--weight-bold); font-size: var(--text-2xl); line-height: 1.15; letter-spacing: -0.01em; margin-top: 4px; }
+.mc-value.is-text { font-size: var(--text-xl); }
+.mc-sub { display: block; font-size: var(--text-sm); color: var(--color-ink-muted); margin-top: 2px; }
+.mc-sub .badge { margin-top: 4px; }
+.mc-reason { display: flex; gap: var(--space-2); align-items: flex-start; font-size: var(--text-sm); line-height: 1.45; color: var(--color-ink); }
+.mc-reason svg { color: var(--color-best-fg); margin-top: 1px; }
+.mc-reason.worth svg { color: var(--color-worth-fg); }
+.mc-reason.stretch svg { color: var(--color-stretch-fg); }
+.mc-reason b { font-weight: var(--weight-bold); }
+.match-card .btn { margin-top: auto; }
+
+</style>
+<style>
+  .topbar .container { display: flex; align-items: center; justify-content: space-between; min-height: 64px; gap: var(--space-2); }
+  .back { display: inline-flex; align-items: center; gap: var(--space-2); min-height: var(--tap-min); padding: 0 var(--space-3) 0 var(--space-2); margin-left: calc(-1 * var(--space-2)); border-radius: var(--radius-pill); color: var(--color-ink); font-weight: var(--weight-semibold); text-decoration: none; }
+  .back:hover { background: rgba(42,23,18,.06); }
+  .page { padding-bottom: 120px; }
+  .hero-card { background: var(--gradient-hero); border-radius: var(--radius-xl); padding: var(--space-6) var(--space-5); position: relative; overflow: hidden; }
+  .hero-card::after { content: ""; position: absolute; width: 260px; height: 260px; right: -90px; top: -110px; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.4), rgba(255,255,255,0) 70%); }
+  .hero-card .badge { background: #fff; }
+  .hero-card h1 { font-size: var(--text-3xl); margin-top: var(--space-3); position: relative; }
+  .hero-card .provider { margin-top: var(--space-2); font-weight: var(--weight-semibold); }
+  .key { display: grid; grid-template-columns: 1fr; gap: var(--space-3); margin-top: var(--space-5); position: relative; }
+  .key > div { background: rgba(255,255,255,.88); border-radius: var(--radius-lg); padding: var(--space-4); }
+  .key .mc-value { font-size: var(--text-3xl); }
+  .key .mc-sub { color: var(--color-ink-muted); }
+
+  .content { display: grid; gap: var(--space-4); margin-top: var(--space-4); }
+  .panel { padding: var(--space-5); }
+  .panel h2 { font-size: var(--text-xl); letter-spacing: -0.01em; display: flex; align-items: center; gap: var(--space-2); }
+  .panel h2 svg { color: var(--color-brand-text); }
+  .why { border: 2px solid var(--color-best-bg); }
+  .why h2 svg { color: var(--color-best-fg); }
+  .ticks { list-style: none; padding: 0; margin: var(--space-4) 0 0; display: grid; gap: var(--space-3); }
+  .ticks li { display: flex; gap: var(--space-3); align-items: flex-start; }
+  .ticks li svg { color: var(--color-best-fg); margin-top: 2px; }
+  .ticks li.no svg { color: var(--color-ink-muted); }
+  .ticks li.no { color: var(--color-ink-muted); }
+  .cover-chips { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-4); }
+  .chip.yes { background: var(--color-best-bg); color: var(--color-best-fg); }
+  .chip.no { background: transparent; border: 1px dashed var(--color-border-strong); color: var(--color-ink-muted); }
+  .facts { margin: var(--space-4) 0 0; display: grid; gap: 0; }
+  .facts div { display: grid; grid-template-columns: 7.5rem 1fr; gap: var(--space-3); padding: var(--space-3) 0; border-top: 1px solid var(--color-border); }
+  .facts div:first-child { border-top: 0; }
+  .facts dt { color: var(--color-ink-muted); font-size: var(--text-sm); font-weight: var(--weight-semibold); }
+  .facts dd { margin: 0; font-weight: var(--weight-semibold); }
+  .source { font-size: var(--text-sm); color: var(--color-ink-muted); padding: var(--space-2) var(--space-1); }
+  .missing { color: var(--color-ink-muted); font-style: italic; font-weight: var(--weight-medium); }
+
+  .apply-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; background: rgba(255,247,242,.95); backdrop-filter: blur(8px); border-top: 1px solid var(--color-border); padding: var(--space-3) var(--gutter) calc(var(--space-3) + env(safe-area-inset-bottom)); }
+  .apply-bar .hint { font-size: var(--text-xs); color: var(--color-ink-muted); text-align: center; margin-top: 6px; }
+  .side { display: none; }
+
+  @media (min-width: 768px) {
+    .hero-card { padding: var(--space-10); }
+    .hero-card h1 { font-size: var(--text-5xl); max-width: 22ch; }
+    .key { grid-template-columns: 1fr 1fr; max-width: 640px; }
+    .panel { padding: var(--space-8); }
+    .content { grid-template-columns: 1fr 1fr; }
+    .why, .span2 { grid-column: 1 / -1; }
+  }
+  @media (min-width: 1100px) {
+    .page { padding-bottom: var(--space-16); }
+    .wrap { display: grid; grid-template-columns: 1fr 340px; gap: var(--space-8); align-items: start; }
+    .side { display: block; position: sticky; top: var(--space-6); }
+    .side .card { padding: var(--space-6); display: grid; gap: var(--space-4); }
+    .side .mc-value { font-size: var(--text-3xl); }
+    .side .hint { font-size: var(--text-sm); color: var(--color-ink-muted); }
+    .apply-bar { display: none; }
+  }
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-logo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5 12 5l10 4.5-10 4.5L2 9.5Z"/><path d="M6 11.5V16c0 1.2 2.7 3 6 3s6-1.8 6-3v-4.5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-check-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="m8 12.3 2.8 2.8L16.2 9.6"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M7 12h10M10 18h4"/></symbol>
+    <symbol id="i-sort" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v16M3.5 16.5 7 20l3.5-3.5M17 20V4M13.5 7.5 17 4l3.5 3.5"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M12 7.5v5.5M12 16.5h.01"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 13.8 9 19.5 11 13.8 13 12 18.5 10.2 13 4.5 11 10.2 9 12 3.5Z"/><path d="M19 3v3M17.5 4.5h3"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H18v4"/><rect x="4" y="7.5" width="16.5" height="12" rx="2.5"/><path d="M16.5 13.5h.01"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5 12 5l10 4.5-10 4.5L2 9.5Z"/><path d="M6 11.5V16c0 1.2 2.7 3 6 3s6-1.8 6-3v-4.5M22 9.5V15"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5v-13ZM20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5v-13Z"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16v4Z"/><path d="m13.5 6.5 4 4"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 12h12"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 13.5 4 11l1.5-1.5 7 1 4-4c1-1 2.5-1.3 3-.8s.2 2-.8 3l-4 4 1 7L18.2 22l-2.5-6.5-3 3V21L11 22.5l-1.3-3.2L6.5 18l1.5-1.7h2.5l3-3"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5 12 4l8 6.5V19a1.5 1.5 0 0 1-1.5 1.5H5.5A1.5 1.5 0 0 1 4 19v-8.5Z"/><path d="M9.5 20.5V14h5v6.5"/></symbol>
+    <symbol id="i-wifi-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l18 18M8.5 16.5a5 5 0 0 1 7 0M5 13a10 10 0 0 1 5-2.6M14.5 10.4A10 10 0 0 1 19 13M2 9.3a15 15 0 0 1 4.3-2.8M11 5.1A15 15 0 0 1 22 9.3M12 20h.01"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/></symbol>
+  </defs>
+</svg>
+
+<div class="proto-bar" role="navigation" aria-label="Prototype states"></div>
+
+<div class="topbar"><div class="container">
+  <a class="back" href="results.html"><svg class="icon"><use href="#i-arrow-left"/></svg>Back to results</a>
+  <a class="logo" href="landing.html" aria-label="Tuitionless home"><span class="logo-mark"><svg><use href="#i-logo"/></svg></span></a>
+</div></div>
+
+<!-- ================= DEFAULT and PARTIAL (empty fields) ================= -->
+<div data-view="default empty" data-label="Default">
+  <div class="container page">
+    <div class="wrap">
+      <main>
+        <section class="hero-card">
+          <span class="badge badge-best"><span class="dot"></span>Best fit for you</span>
+          <h1>Rhine Future Scholars Award</h1>
+          <p class="provider">Sample Foundation · Germany</p>
+          <div class="key">
+            <div><span class="mc-label">Amount</span>
+              <span data-part="full"><span class="mc-value">$11,880</span><span class="mc-sub">a year · €11,000, for up to 2 years</span></span>
+              <span data-part="partial"><span class="mc-value is-text">Not published</span><span class="mc-sub">Check the official site for the amount</span></span>
+            </div>
+            <div><span class="mc-label">Deadline</span>
+              <span data-part="full"><span class="mc-value">15 Jan 2027</span><span class="mc-sub">69 days left</span></span>
+              <span data-part="partial"><span class="mc-value is-text">Rolling</span><span class="mc-sub">Applications open all year</span></span>
+            </div>
+          </div>
+        </section>
+
+        <div class="content">
+          <section class="card panel why" aria-labelledby="why-t">
+            <h2 id="why-t"><svg class="icon"><use href="#i-check-circle"/></svg>Why it matched you</h2>
+            <ul class="ticks">
+              <li><svg class="icon"><use href="#i-check"/></svg><span>Open to all nationalities, so students from Nigeria can apply.</span></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><span>For masters students at universities in Germany, including Munich.</span></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><span>Any field of study, so computer science counts.</span></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><span>Together with what you can afford a year ($4,000), it covers a typical year in Germany (about $12,960).</span></li>
+            </ul>
+          </section>
+
+          <section class="card panel" aria-labelledby="cov-t">
+            <h2 id="cov-t"><svg class="icon"><use href="#i-wallet"/></svg>What it covers</h2>
+            <div class="cover-chips" data-part="full">
+              <span class="chip yes"><svg class="icon-sm"><use href="#i-check"/></svg>Tuition</span>
+              <span class="chip yes"><svg class="icon-sm"><use href="#i-check"/></svg>Living allowance</span>
+              <span class="chip no"><svg class="icon-sm"><use href="#i-minus"/></svg>Flights</span>
+              <span class="chip no"><svg class="icon-sm"><use href="#i-minus"/></svg>Health insurance</span>
+            </div>
+            <p class="missing" data-part="partial" style="margin-top:16px">The provider hasn't said what this covers. Check the official site.</p>
+          </section>
+
+          <section class="card panel" aria-labelledby="elig-t">
+            <h2 id="elig-t"><svg class="icon"><use href="#i-cap"/></svg>Who can apply</h2>
+            <ul class="ticks">
+              <li><svg class="icon"><use href="#i-check"/></svg><span>Students of any nationality</span></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><span>Admitted to, or in the first year of, a masters in Germany</span></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><span>A first degree with good grades</span></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><span>A short essay on your study plans</span></li>
+            </ul>
+          </section>
+
+          <section class="card panel span2" aria-labelledby="facts-t">
+            <h2 id="facts-t"><svg class="icon"><use href="#i-book"/></svg>Key facts</h2>
+            <dl class="facts">
+              <div><dt>Where</dt><dd>Any university in Germany</dd></div>
+              <div><dt>Level</dt><dd>Masters</dd></div>
+              <div><dt>Field</dt><dd>Any field</dd></div>
+              <div><dt>Provider</dt><dd>Sample Foundation</dd></div>
+              <div><dt>Paid</dt><dd data-part="full">Every year, for up to 2 years</dd><dd data-part="partial" class="missing">Not published</dd></div>
+            </dl>
+          </section>
+        </div>
+        <p class="source">Facts checked on 7 Nov 2026 on the provider's own page. Always confirm the details there before you apply.</p>
+      </main>
+
+      <aside class="side" aria-label="Apply">
+        <div class="card">
+          <div><span class="mc-label">Amount</span><span data-part="full"><span class="mc-value">$11,880</span><span class="mc-sub">a year · €11,000</span></span><span data-part="partial"><span class="mc-value is-text">Not published</span></span></div>
+          <div><span class="mc-label">Deadline</span><span data-part="full"><span class="mc-value" style="font-size:var(--text-2xl)">15 Jan 2027</span><span class="mc-sub">69 days left</span></span><span data-part="partial"><span class="mc-value is-text">Rolling</span></span></div>
+          <a class="btn btn-primary btn-block" href="https://example.com/apply" target="_blank" rel="noopener noreferrer">Apply on official site <svg class="icon"><use href="#i-external"/></svg><span class="sr-only">(opens in a new tab)</span></a>
+          <p class="hint">Opens the provider's page in a new tab.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <div class="apply-bar">
+    <a class="btn btn-primary btn-block" href="https://example.com/apply" target="_blank" rel="noopener noreferrer">Apply on official site <svg class="icon"><use href="#i-external"/></svg><span class="sr-only">(opens in a new tab)</span></a>
+    <p class="hint">Opens the provider's page in a new tab.</p>
+  </div>
+</div>
+
+<!-- ================= LOADING ================= -->
+<div data-view="loading" data-label="Loading" aria-busy="true">
+  <div class="container page" role="status"><span class="sr-only">Loading scholarship</span>
+    <div class="hero-card" style="background:var(--gradient-soft)">
+      <div class="skel" style="height:24px;width:120px;border-radius:999px"></div>
+      <div class="skel" style="height:36px;width:85%;margin-top:16px"></div>
+      <div class="skel" style="height:18px;width:50%;margin-top:12px"></div>
+      <div class="key"><div><div class="skel" style="height:56px"></div></div><div><div class="skel" style="height:56px"></div></div></div>
+    </div>
+    <div class="content">
+      <div class="card panel"><div class="skel" style="height:24px;width:50%"></div><div class="skel" style="height:16px;margin-top:16px"></div><div class="skel" style="height:16px;width:80%;margin-top:10px"></div><div class="skel" style="height:16px;width:90%;margin-top:10px"></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= ERROR (not found) ================= -->
+<div data-view="error" data-label="Error (not found)">
+  <main class="container">
+    <section class="state-panel" role="alert">
+      <div class="state-icon err"><svg><use href="#i-compass"/></svg></div>
+      <h2>We couldn't find this scholarship</h2>
+      <p>It may have closed, or the link is wrong. Your other matches are still waiting for you.</p>
+      <a class="btn btn-primary" href="results.html"><svg class="icon"><use href="#i-arrow-left"/></svg>Back to results</a>
+    </section>
+  </main>
+</div>
+<script>
+/* Prototype-only: switches between the screen's states. Not part of the design. */
+(function () {
+  var q = new URLSearchParams(location.search);
+  var els = Array.prototype.slice.call(document.querySelectorAll('[data-view]'));
+  var seen = [], labels = {};
+  els.forEach(function (e) { e.dataset.view.split(' ').forEach(function (v) { if (seen.indexOf(v) < 0) { seen.push(v); labels[v] = e.dataset.label || v; } }); if (e.dataset.label) labels[e.dataset.view.split(' ')[0]] = e.dataset.label; });
+  var cur = q.get('state') || seen[0];
+  els.forEach(function (e) { e.classList.toggle('is-active', e.dataset.view.split(' ').indexOf(cur) > -1); });
+  document.body.dataset.state = cur;
+  var bar = document.querySelector('.proto-bar');
+  if (!bar) return;
+  if (q.get('shot')) { bar.remove(); return; }
+  bar.innerHTML = '<span>Prototype state (not part of the design):</span>' + seen.map(function (v) {
+    return '<a href="?state=' + v + '" aria-current="' + (v === cur) + '">' + labels[v] + '</a>';
+  }).join('');
+})();
+</script>
+<script>
+/* Prototype-only: "empty" = scholarship with missing details */
+(function () {
+  var partial = document.body.dataset.state === 'empty';
+  document.querySelectorAll('[data-part="' + (partial ? 'full' : 'partial') + '"]').forEach(function (e) { e.remove(); });
+  var a = document.querySelector('.proto-bar a[href="?state=empty"]'); if (a) a.textContent = 'Empty (details not published)';
+})();
+</script>
+</body>
+</html>

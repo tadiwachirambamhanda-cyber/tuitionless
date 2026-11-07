@@ -1,0 +1,117 @@
+/* =====================================================================
+   Tuitionless design tokens (Option B: warm, mobile-first)
+   Source of truth for colour, type, spacing, radius, shadow and motion.
+   Every text/background pair listed in README.md passes WCAG 2.2 AA.
+   Fonts (both free on Google Fonts and next/font/google):
+     Display: "Bricolage Grotesque" 600, 700, 800
+     Body/UI: "Plus Jakarta Sans" 400, 500, 600, 700
+   ===================================================================== */
+
+@theme {
+  /* ---------- Brand ---------- */
+  --color-coral-300: #FFB39F;
+  --color-coral-400: #FF8A6E;
+  --color-coral-500: #FF7A5C;   /* hero gradient start (decorative, dark text on top) */
+  --color-orange-400: #FFA24C;  /* hero gradient end   (decorative, dark text on top) */
+  --color-coral-700: #CF3B2C;   /* action gradient start, white text 4.87:1 */
+  --color-orange-700: #BF4A0A;  /* action gradient end,   white text 5.00:1 */
+  --color-brand-text: #B8371F;  /* links and brand words on cream 5.50:1, on white 5.9:1 */
+
+  --gradient-hero: linear-gradient(135deg, #FF7A5C 0%, #FF9055 55%, #FFA24C 100%);
+  --gradient-action: linear-gradient(135deg, #CF3B2C 0%, #BF4A0A 100%);
+  --gradient-action-hover: linear-gradient(135deg, #B8331F 0%, #A84006 100%);
+  --gradient-soft: linear-gradient(180deg, #FFE9DF 0%, #FFF7F2 100%); /* tinted section backgrounds */
+
+  /* ---------- Surfaces ---------- */
+  --color-bg: #FFF7F2;          /* page background (warm cream) */
+  --color-surface: #FFFFFF;     /* cards, sheets, inputs */
+  --color-surface-muted: #FFF0E8; /* chips, quiet panels */
+  --color-border: #F1DDD3;      /* hairlines, card borders (decorative) */
+  --color-border-strong: #A3887F; /* input borders: 3.2:1 on white (non-text AA) */
+
+  /* ---------- Text ---------- */
+  --color-ink: #2A1712;         /* headings and body: 16.1:1 on cream, 6.66:1 on hero gradient start */
+  --color-ink-muted: #6B524B;   /* secondary text: 6.76:1 on cream, 7.16:1 on white */
+  --color-on-action: #FFFFFF;   /* text on the action gradient */
+  --color-primary-on-hero: #2A1712; /* primary button fill when it sits on the hero gradient */
+
+  /* ---------- Match groups ---------- */
+  --color-best-fg: #1E6B45;   --color-best-bg: #E6F4EC;    /* Best fit     5.71:1 */
+  --color-worth-fg: #8A4B00;  --color-worth-bg: #FFF1DC;   /* Worth a try  6.11:1 */
+  --color-stretch-fg: #6B3FA0; --color-stretch-bg: #F2EBFB; /* Stretch      6.35:1 */
+
+  /* ---------- Status ---------- */
+  --color-success: #1E6B45;   --color-success-bg: #E6F4EC;
+  --color-warning: #8A4B00;   --color-warning-bg: #FFF1DC;  /* deadline soon */
+  --color-error: #B42318;     --color-error-bg: #FEECEB;    /* 5.76:1 on its bg, 6.57:1 on white */
+  --color-focus: #1D4ED8;     /* focus ring: 6.7:1 on white, visible on coral too */
+
+  /* ---------- Typography ---------- */
+  --font-display: var(--font-bricolage), "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-jakarta), "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --text-xs: 0.75rem;    /* 12px  line 16px  labels, legal */
+  --text-sm: 0.875rem;   /* 14px  line 20px  meta, helper text */
+  --text-base: 1rem;     /* 16px  line 24px  body, inputs (never smaller: avoids iOS zoom) */
+  --text-lg: 1.125rem;   /* 18px  line 28px  card titles, button text */
+  --text-xl: 1.25rem;    /* 20px  line 28px  section titles (mobile) */
+  --text-2xl: 1.5rem;    /* 24px  line 32px  money figure on cards, question (mobile) */
+  --text-3xl: 1.875rem;  /* 30px  line 36px  page titles (mobile) */
+  --text-4xl: 2.375rem;  /* 38px  line 44px  hero (mobile), question (desktop) */
+  --text-5xl: 3rem;      /* 48px  line 52px  page titles (desktop) */
+  --text-6xl: 3.75rem;   /* 60px  line 64px  hero (desktop) */
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.3;
+  --leading-normal: 1.5;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+  --tracking-tight: -0.02em;  /* display sizes 30px and up */
+  --tracking-wide: 0.06em;    /* small uppercase eyebrows */
+
+  /* ---------- Spacing (4px base) ---------- */
+  --space-1: 0.25rem;  /*  4 */
+  --space-2: 0.5rem;   /*  8 */
+  --space-3: 0.75rem;  /* 12 */
+  --space-4: 1rem;     /* 16  mobile page gutter */
+  --space-5: 1.25rem;  /* 20 */
+  --space-6: 1.5rem;   /* 24  card padding (desktop) */
+  --space-8: 2rem;     /* 32 */
+  --space-10: 2.5rem;  /* 40 */
+  --space-12: 3rem;    /* 48 */
+  --space-16: 4rem;    /* 64 */
+  --space-20: 5rem;    /* 80  section spacing (desktop) */
+
+  --container-max: 72rem;  /* 1152px content width at 1440 */
+  --container-form: 36rem; /* 576px  /find question column */
+  --gutter: var(--space-4);
+  --tap-min: 44px;         /* minimum tap target */
+  --control-h: 52px;       /* buttons and inputs */
+
+  /* ---------- Radius ---------- */
+  --radius-sm: 8px;     /* small chips, badges inner */
+  --radius-md: 12px;    /* inputs */
+  --radius-lg: 20px;    /* cards */
+  --radius-xl: 28px;    /* hero panels, sheets */
+  --radius-pill: 999px; /* buttons, chips, badges */
+
+  /* ---------- Shadow (warm-tinted) ---------- */
+  --shadow-sm: 0 1px 2px rgba(42, 23, 18, 0.06), 0 1px 3px rgba(42, 23, 18, 0.08);
+  --shadow-md: 0 4px 12px rgba(42, 23, 18, 0.08), 0 2px 4px rgba(42, 23, 18, 0.05);
+  --shadow-lg: 0 16px 40px rgba(191, 74, 10, 0.16), 0 4px 12px rgba(42, 23, 18, 0.08);
+  --shadow-action: 0 6px 16px rgba(207, 59, 44, 0.32);
+  --focus-ring: 0 0 0 3px #FFFFFF, 0 0 0 6px var(--color-focus);
+
+  /* ---------- Motion ---------- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --duration-slow: 320ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --duration-fast: 0ms; --duration-base: 0ms; --duration-slow: 0ms; }
+}
