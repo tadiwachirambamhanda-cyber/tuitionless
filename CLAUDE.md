@@ -1,6 +1,6 @@
 Project type: app
 
-# Scholarship Matcher (working title)
+# Tuitionless
 
 Web app that matches students (from any country, in or heading to university) with scholarships by nationality, yearly budget and where the university is.
 Stack: Next.js 16 (App Router), Vercel, Supabase. Free or cheap integrations only.
