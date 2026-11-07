@@ -7,6 +7,7 @@ Stack: Next.js 16 (App Router), Vercel, Supabase. Free or cheap integrations onl
 Follow the global rules in ~/.claude/CLAUDE.md. Next.js 16 differs from older versions: read the guide in `node_modules/next/dist/docs/` before writing Next code (see AGENTS.md).
 
 Checks: `npm run check` (typecheck, lint, test, build). All must pass before a pull request.
+Supabase project: `tuitionless`, ref `tpbrgfiqeojwypwzhclc` (tables `scholarships` and `country_costs` exist, public read, writes only with the service role key).
 Secrets: names live in `.env.example`; values in `.env.local` (never read or print). Never put NEXT_PUBLIC_ on a secret key.
 
 ## Folder owners
