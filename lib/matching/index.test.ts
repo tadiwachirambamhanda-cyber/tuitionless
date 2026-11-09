@@ -104,6 +104,11 @@ describe("groups", () => {
   it("unpublished amount in an unknown currency is still a stretch", () => {
     expect(run({ amount: null, currency: "XXX" }).groups.stretch).toHaveLength(1);
   });
+  it("an unknown currency used everywhere is still a stretch", () => {
+    const costs = [{ ...sampleCosts[0], currency: "XXX" }];
+    const r = matchScholarships({ ...profile, budgetCurrency: "XXX" }, [{ ...base, amount: null, currency: "XXX" }], costs, { rates, today });
+    expect(r.groups.stretch).toHaveLength(1);
+  });
   it("unpublished amount is best fit when it is full funding", () => {
     expect(run({ amount: null, fullFunding: true }).groups.best_fit).toHaveLength(1);
   });

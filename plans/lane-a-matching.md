@@ -28,3 +28,8 @@ Round 1, VERDICT: FINDINGS(1)
 ## Decision: unpublished amounts are Worth a try
 
 Owner decision (relayed by the Chief Architect): a record with `amount: null` that is not full funding is "worth_a_try" instead of "stretch". "No cost data for the country" and "unknown currency" stay Stretch. The reason line says "Amount not published, check the official page."
+
+## Codex review (unpublished amounts)
+
+Round 1, VERDICT: FINDINGS(1)
+1. MINOR, same unknown currency on cost, budget and scholarship skipped the rate check: Fixed (every currency is checked against the rates first).

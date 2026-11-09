@@ -94,6 +94,9 @@ function classify(
   const cost = costs.find((c) => c.country.toUpperCase() === profile.studyCountry.toUpperCase());
   if (!cost) return "stretch"; // cannot judge the gap without a yearly cost
 
+  // convert() skips the rate lookup when both codes are equal, so check every code explicitly.
+  if (![s.currency, cost.currency, profile.budgetCurrency].every((c) => rates[c])) return "stretch";
+
   try {
     const yearlyCost = convert(cost.yearlyCost[profile.level], cost.currency, s.currency, rates);
     const budget = convert(profile.yearlyBudget, profile.budgetCurrency, s.currency, rates);
