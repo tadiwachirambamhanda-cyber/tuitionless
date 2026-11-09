@@ -24,3 +24,12 @@ Country and level are what thin the list. 54 records have no published amount an
 
 Round 1, VERDICT: FINDINGS(1)
 1. MINOR, id not validated on GET /api/scholarships/[id]: Fixed (bad ids return 404 without a database call).
+
+## Decision: unpublished amounts are Worth a try
+
+Owner decision (relayed by the Chief Architect): a record with `amount: null` that is not full funding is "worth_a_try" instead of "stretch". "No cost data for the country" and "unknown currency" stay Stretch. The reason line says "Amount not published, check the official page."
+
+## Codex review (unpublished amounts)
+
+Round 1, VERDICT: FINDINGS(1)
+1. MINOR, same unknown currency on cost, budget and scholarship skipped the rate check: Fixed (every currency is checked against the rates first).
