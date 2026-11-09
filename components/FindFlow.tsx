@@ -143,9 +143,9 @@ function StepForm({ step, draft, pending, go }: { step: number; draft: Draft; pe
             {step === 1 && (
               <>
                 <label className="relative block">
-                  <span className="sr-only">Search for a country</span>
+                  <span className="sr-only">Search for a country. The list below filters as you type.</span>
                   <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-muted"><Search /></span>
-                  <input role="combobox" aria-expanded="true" aria-controls="nat-list" aria-autocomplete="list" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Start typing a country"
+                  <input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Start typing a country"
                     className="min-h-[52px] w-full rounded-xl border-[1.5px] border-border-strong bg-surface pl-12 pr-4 text-base" />
                 </label>
                 <p className="mt-1 text-xs font-semibold uppercase tracking-[0.06em] text-ink-muted">{query ? "Results" : "Popular"}</p>
