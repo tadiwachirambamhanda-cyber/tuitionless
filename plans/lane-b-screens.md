@@ -26,3 +26,11 @@ Screenshots at 390 and 1440 wide: `plans/lane-b-screenshots/` (results shots use
 | 4 | MINOR | Decimal budget became 100x larger | Fixed: digits after a decimal point are ignored |
 
 Round 3 not run: the fixes are small (Chief Architect agreed one more round is only needed for a large fix).
+
+## Codex review: real-data branch (`feat/lane-b-real-data`)
+
+### Round 1: VERDICT: FINDINGS(1)
+
+| # | Severity | Finding | Decision |
+|---|---|---|---|
+| 1 | MINOR | `POST /api/match` (`lib/data/schemas.ts`) accepts any 2-letter country, 3-letter currency and any field | Dismissed in Lane B: the file is Lane A's (not in this lane's allowed list). The screens already validate every value before calling the API. Reported to the Chief Architect as a suggestion for Lane A (check against the country list, currency list and `FIELD_OPTIONS`). |
