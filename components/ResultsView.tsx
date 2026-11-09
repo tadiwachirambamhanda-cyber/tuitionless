@@ -95,9 +95,14 @@ export function ResultsView() {
   const passes = (m: Match) => {
     const s = m.scholarship;
     if (filters.countries.length && !filters.countries.includes(countryOf(m))) return false;
-    if (filters.minAmount && s.amount !== null) {
-      const v = toDisplay(s.amount, s.currency, cur);
-      if (v !== null && v < filters.minAmount) return false;
+    if (filters.minAmount) {
+      // Unpublished amounts: keep full-funding awards, drop the rest.
+      if (s.amount === null) {
+        if (!s.fullFunding) return false;
+      } else {
+        const v = toDisplay(s.amount, s.currency, cur);
+        if (v !== null && v < filters.minAmount) return false;
+      }
     }
     if (filters.within) {
       if (!s.deadline) return false;
