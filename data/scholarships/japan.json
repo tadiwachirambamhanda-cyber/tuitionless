@@ -36,7 +36,7 @@
     "roundClosed": true,
     "officialUrl": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-research.html",
     "sourceUrl": "https://www.studyinjapan.go.jp/en/_mt/2026/04/01-2027_Research_Guidelines_E.pdf",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "mext-undergraduate-students-embassy-recommendation-jp",
@@ -74,7 +74,7 @@
     "roundClosed": true,
     "officialUrl": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-undergraduate.html",
     "sourceUrl": "https://www.studyinjapan.go.jp/en/_mt/2026/04/2027_Guidelines_Undergraduate_E.pdf",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "honjo-international-scholarship-foreign-students-jp",
@@ -109,7 +109,7 @@
     "roundClosed": true,
     "officialUrl": "https://www.hisf.or.jp/en/scholarship/foreigner/",
     "sourceUrl": "https://www.hisf.or.jp/en/scholarship/foreigner/",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "aichi-scholarship-program-jp",
@@ -150,7 +150,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.pref.aichi.jp/soshiki/kokusai/aichi-scholarship-program.html",
     "sourceUrl": "https://www.pref.aichi.jp/soshiki/kokusai/aichi-scholarship-program.html",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "utokyo-fellowship-jp",
@@ -187,7 +187,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html",
     "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "todai-fellowship-gsfs-doctoral-jp",
@@ -221,7 +221,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.k.u-tokyo.ac.jp/en/exam/master/foreign_research_students/tokyo_fellowship/",
     "sourceUrl": "https://www.k.u-tokyo.ac.jp/en/exam/master/foreign_research_students/tokyo_fellowship/",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "oist-phd-program-funding-jp",
@@ -259,7 +259,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.oist.jp/admissions/faq",
     "sourceUrl": "https://www.oist.jp/education/student-support",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "apu-tuition-reduction-scholarship-undergraduate-jp",
@@ -293,7 +293,7 @@
     "roundClosed": false,
     "officialUrl": "https://en.apu.ac.jp/studentsupport/scholarship_tuition/international/exemption_Undergraduate/",
     "sourceUrl": "https://en.apu.ac.jp/studentsupport/scholarship_tuition/international/exemption_Undergraduate/",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "rotary-yoneyama-overseas-candidate-jp",
@@ -330,48 +330,7 @@
     "roundClosed": true,
     "officialUrl": "https://www.rotary-yoneyama.or.jp/english/overseas/",
     "sourceUrl": "https://www.rotary-yoneyama.or.jp/english/overseas/",
-    "checkedOn": "2026-11-07"
-  },
-  {
-    "id": "grips-mext-scholarship-jp",
-    "name": "MEXT Scholarship at GRIPS",
-    "provider": "National Graduate Institute for Policy Studies (GRIPS)",
-    "summary": "MEXT-funded master's and PhD places in policy studies at GRIPS in Tokyo with fees waived, a monthly stipend and flights.",
-    "amount": 1764000,
-    "amountPeriod": "year",
-    "currency": "JPY",
-    "fullFunding": true,
-    "covers": [
-      "application, admission and tuition fees",
-      "monthly stipend",
-      "airfare"
-    ],
-    "levels": [
-      "masters",
-      "phd"
-    ],
-    "fields": [
-      "Law and public policy"
-    ],
-    "studyCountries": [
-      "JP"
-    ],
-    "studyCities": [
-      "Tokyo"
-    ],
-    "eligibleNationalities": [
-      "ANY"
-    ],
-    "excludedNationalities": [
-      "JP"
-    ],
-    "eligibilityNotes": "Page requires the nationality of a country that has diplomatic relations with Japan (Japanese nationals not eligible), so recorded as ANY with JP excluded. Under 35 as of 1 Apr 2026. Stipend 147,000 yen a month for master's (148,000 for PhD); amount shown is master's x12.",
-    "deadline": null,
-    "deadlineNote": "Apply directly to GRIPS; no closing date in the eligibility chart.",
-    "roundClosed": false,
-    "officialUrl": "https://www.grips.ac.jp/en/admissions/apply/",
-    "sourceUrl": "https://www.grips.ac.jp/uploads/admissions/2025/07/GRIPS_Scholarships_2026.pdf",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "grips-ylp-school-of-government-jp",
@@ -476,7 +435,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.titech.ac.jp/english/student-support/prospective-students/scholarships/jasso",
     "sourceUrl": "https://www.titech.ac.jp/english/student-support/prospective-students/scholarships/jasso",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "keio-design-the-future-award-jp",
@@ -513,7 +472,7 @@
     "roundClosed": true,
     "officialUrl": "https://www.keio.ac.jp/en/admissions/scholarship/grad/",
     "sourceUrl": "https://www.ic.keio.ac.jp/en/life/scholarship/dfaward.html",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "osaka-tuition-exemption-international-honors-students-jp",
@@ -550,7 +509,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.osaka-u.ac.jp/en/international/inbound/Scholarships/tokutai",
     "sourceUrl": "https://www.osaka-u.ac.jp/en/international/inbound/Scholarships/tokutai",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "icu-torch-relay-graduate-scholarship-jp",
@@ -584,7 +543,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.icu.ac.jp/en/admissions/finance/gs/",
     "sourceUrl": "https://www.icu.ac.jp/en/admissions/finance/gs/",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "inpex-scholarship-jp",
@@ -661,7 +620,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
     "sourceUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "hiroshima-igs-honors-pre-arrival-jp",
@@ -690,14 +649,16 @@
     "eligibleNationalities": [
       "ANY"
     ],
-    "excludedNationalities": [],
-    "eligibilityNotes": "Page lists no nationality rule. Amount shown is 48,000 x12 months.",
+    "excludedNationalities": [
+      "JP"
+    ],
+    "eligibilityNotes": "Page requires non-Japanese nationality and a student visa, no country list, so ANY with JP excluded (new exclusion versus the record).",
     "deadline": null,
     "deadlineNote": "No dates on the page.",
     "roundClosed": false,
     "officialUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
     "sourceUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "kyoto-university-mext-scholarship-jp",
@@ -739,7 +700,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
     "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "tohoku-university-mext-scholarship-jp",
@@ -781,6 +742,6 @@
     "roundClosed": false,
     "officialUrl": "https://www.insc.tohoku.ac.jp/english/scholarship-for-international-students/",
     "sourceUrl": "https://www.insc.tohoku.ac.jp/english/scholarship-for-international-students/",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   }
 ]
