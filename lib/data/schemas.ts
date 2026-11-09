@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { FIELD_OPTIONS } from "../fields";
 
 const date = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "must be YYYY-MM-DD");
 const url = z.string().url();
@@ -16,7 +17,13 @@ export const scholarshipSchema = z.object({
   fullFunding: z.boolean(),
   covers: z.array(z.string()),
   levels: z.array(level).min(1),
-  fields: z.array(z.string()).min(1),
+  fields: z
+    .array(
+      z.string().refine((f) => f === "ANY" || (FIELD_OPTIONS as readonly string[]).includes(f), {
+        message: `must be "ANY" or exactly one of the shared fields: ${FIELD_OPTIONS.join(", ")}`,
+      }),
+    )
+    .min(1),
   studyCountries: z.array(z.string()).min(1),
   studyCities: z.array(z.string()),
   eligibleNationalities: z.array(z.string()).min(1),

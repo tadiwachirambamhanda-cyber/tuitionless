@@ -46,13 +46,21 @@ describe("hard filters", () => {
   it("filters by level", () => {
     expect(run({ levels: ["phd"] }).total).toBe(0);
   });
-  it("filters by field, allowing ANY and loose text matches", () => {
-    expect(run({ fields: ["law"] }).total).toBe(0);
-    expect(run({ fields: ["Computer Science"] }).total).toBe(1);
-    expect(run({ fields: ["engineering", "computer science and AI"] }).total).toBe(1);
+  it("filters by field with exact, case-insensitive equality, allowing ANY", () => {
+    const p = { ...profile, field: "computer science" };
+    expect(run({ fields: ["Law and public policy"] }, p).total).toBe(0);
+    expect(run({ fields: ["Computer science"] }, p).total).toBe(1);
+    expect(run({ fields: ["Engineering", "Computer science"] }, p).total).toBe(1);
+    expect(run({ fields: ["ANY"] }, p).total).toBe(1);
   });
-  it("does not match field names by partial words", () => {
-    expect(run({ fields: ["cartography"] }, { ...profile, field: "art" }).total).toBe(0);
+  it("does not match a field by part of another field", () => {
+    expect(run({ fields: ["Computer science and AI"] }, { ...profile, field: "computer science" }).total).toBe(0);
+  });
+  it("'Something else' only matches ANY", () => {
+    const p = { ...profile, field: "Something else" };
+    expect(run({ fields: ["Something else"] }, p).total).toBe(0);
+    expect(run({ fields: ["Engineering"] }, p).total).toBe(0);
+    expect(run({ fields: ["ANY"] }, p).total).toBe(1);
   });
   it("filters by city only when the scholarship lists cities and the student gave one", () => {
     expect(run({ studyCities: ["Berlin"] }, { ...profile, studyCity: "Munich" }).total).toBe(0);
