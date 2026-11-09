@@ -113,7 +113,7 @@ export function ResultsView() {
   };
   const sorter = (a: Match, b: Match) => {
     if (sort === "deadline") {
-      // Upcoming first (soonest to latest), then closed, then rolling.
+      // Upcoming first (soonest to latest), then closed, then no deadline published.
       const rank = (m: Match) => {
         const d = m.scholarship.deadline;
         if (!d) return 2;
