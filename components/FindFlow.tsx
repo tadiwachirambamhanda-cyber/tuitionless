@@ -197,7 +197,7 @@ function StepForm({ step, draft, pending, go }: { step: number; draft: Draft; pe
                 <div className="flex gap-3">
                   <label className="flex-1">
                     <span className="mb-1 block font-semibold">Amount a year</span>
-                    <input inputMode="numeric" pattern="[0-9]*" value={local.b ?? ""} onChange={(e) => set({ b: e.target.value.replace(/[^0-9]/g, "") })} placeholder="4000"
+                    <input inputMode="numeric" pattern="[0-9]*" value={local.b ?? ""} onChange={(e) => set({ b: e.target.value.split(/[.,]/)[0].replace(/[^0-9]/g, "") })} placeholder="4000"
                       aria-invalid={invalid || undefined} aria-describedby={invalid ? errId : undefined}
                       className={`min-h-[52px] w-full rounded-xl border-[1.5px] bg-surface px-4 font-display text-2xl font-bold ${invalid ? "border-error" : "border-border-strong"}`} />
                   </label>
