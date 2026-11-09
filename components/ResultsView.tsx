@@ -155,7 +155,11 @@ export function ResultsView() {
           <>
             <p className="mt-6 inline-block rounded-full bg-white/50 px-3 py-1 text-sm font-semibold">Good news</p>
             <h1 className="mt-2 font-display text-3xl font-bold md:text-5xl"><span className="font-extrabold">{state.result.total} scholarships</span> matched your profile</h1>
-            <p className="mt-2 text-lg">{state.result.groups.best_fit.length} are a Best fit. Start there, deadlines come fast.</p>
+            <p className="mt-2 text-lg">
+              {state.result.groups.best_fit.length > 0
+                ? `${state.result.groups.best_fit.length} ${state.result.groups.best_fit.length === 1 ? "is a Best fit" : "are a Best fit"}. Start there, deadlines come fast.`
+                : "None is a Best fit yet. Start with Worth a try, and check each amount on the official page."}
+            </p>
           </>
         )}
         <ul className="mt-4 flex flex-wrap gap-2">
