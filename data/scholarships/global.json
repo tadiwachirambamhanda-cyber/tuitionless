@@ -107,7 +107,8 @@
       "masters"
     ],
     "fields": [
-      "China studies"
+      "Social sciences",
+      "Arts and humanities"
     ],
     "studyCountries": [
       "CN"
@@ -149,13 +150,11 @@
       "phd"
     ],
     "fields": [
-      "engineering",
-      "social sciences",
-      "health sciences",
-      "basic sciences",
-      "humanities",
-      "natural sciences",
-      "arts"
+      "Engineering",
+      "Social sciences",
+      "Medicine and health",
+      "Natural sciences",
+      "Arts and humanities"
     ],
     "studyCountries": [
       "TR"
@@ -192,10 +191,11 @@
       "masters"
     ],
     "fields": [
-      "science and technology",
-      "economics, business and management",
-      "development studies",
-      "law and public policy"
+      "Natural sciences",
+      "Engineering",
+      "Business and economics",
+      "Social sciences",
+      "Law and public policy"
     ],
     "studyCountries": [
       "ANY"
@@ -270,7 +270,9 @@
       "masters"
     ],
     "fields": [
-      "development-related fields"
+      "Social sciences",
+      "Business and economics",
+      "Law and public policy"
     ],
     "studyCountries": [
       "ANY"

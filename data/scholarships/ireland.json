@@ -222,9 +222,9 @@
       "masters"
     ],
     "fields": [
-      "science",
-      "engineering",
-      "food science"
+      "Natural sciences",
+      "Engineering",
+      "Environment and agriculture"
     ],
     "studyCountries": [
       "IE"
@@ -259,8 +259,8 @@
       "undergraduate"
     ],
     "fields": [
-      "business",
-      "law"
+      "Business and economics",
+      "Law and public policy"
     ],
     "studyCountries": [
       "IE"
@@ -331,7 +331,7 @@
       "undergraduate"
     ],
     "fields": [
-      "business"
+      "Business and economics"
     ],
     "studyCountries": [
       "IE"

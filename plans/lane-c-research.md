@@ -12,3 +12,12 @@ Round 1, VERDICT: FINDINGS(5). Codex also fetched five source pages (Glasgow, Sy
 3. MAJOR, Australia costs rest on a secondary source and a minimum-fee floor: Dismissed for now. No official average exists to replace it; the weakness is stated in `RESEARCH-NOTES.md`. Owner to double check.
 4. MAJOR, UK costs from search snippets and visa funds: Dismissed for now. Same reason, listed in `RESEARCH-NOTES.md` as minimum planning figures.
 5. MINOR, Trudeau page gives no nationality or deadline: Dismissed. Page says students outside Canada are not eligible, which is in the record's notes; nationality is otherwise unrestricted. Deadline is already null.
+
+## Codex review: field re-map (branch claude/lane-c-fields)
+
+Round 1, VERDICT: FINDINGS(5). Codex confirmed only `fields` and the two RMIT URLs changed in the data.
+1. MINOR, notes file additions: Dismissed. The Chief Architect asked for awkward mappings to be noted there.
+2. MAJOR, Fulbright-Nehru broad categories: Dismissed. Each category comes from that record's original source terms (higher education administration, public health, etc.), mapped one to one.
+3. MINOR, Joint Japan/World Bank mapping: Dismissed. The brief says to keep `["ANY"]` records and map the rest; the awkward fit is listed in RESEARCH-NOTES.md.
+4. MINOR, food science to Environment and agriculture: Dismissed. Closest shared option, noted.
+5. MINOR, technology to Computer science: Dismissed. Closest shared option, noted.

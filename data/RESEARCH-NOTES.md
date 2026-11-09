@@ -28,3 +28,17 @@ Each figure is tuition midpoint plus living cost in local currency; the arithmet
 - UK ranges came from search snippets of the British Council page (page blocked).
 - Visa proof-of-funds amounts (DE, IE, AU, CA, NL, UK) are minimums, so real living costs are usually higher.
 - PhD reuses the masters figure for UK, US, CA, IE, JP, which likely overestimates because many PhDs are funded. Germany ignores Baden-Württemberg's extra non-EU fee.
+
+## Field mapping (round 2)
+Every `fields` value is now one of the shared list in `lib/fields.ts`, or `["ANY"]`. Awkward mappings:
+- Yenching Academy ("China studies"): Social sciences plus Arts and humanities, since the programme is interdisciplinary.
+- Joint Japan/World Bank ("development-related fields"): the page names no discipline, so Social sciences, Business and economics, and Law and public policy are a best fit.
+- ADB-Japan: "science and technology" became Natural sciences and Engineering; "development studies" became Social sciences.
+- Türkiye Burslari: "basic sciences" became Natural sciences; "arts" joined Arts and humanities.
+- AAUW: "technology" became Computer science.
+- Fulbright-Nehru: urban and regional planning became Social sciences; sustainable development and environmental science became Environment and agriculture; journalism became Social sciences.
+- UCC SEFS: food science became Environment and agriculture.
+
+## Link and study-country follow-ups
+- The RMIT Future Leaders links now use https (the https page loads and is the right page).
+- Erasmus Mundus `studyCountries` stays `["ANY"]`: the official Erasmus+ page only says each programme involves at least three countries and gives no list, so no verified correction was possible. Use the course catalogue for the real countries.

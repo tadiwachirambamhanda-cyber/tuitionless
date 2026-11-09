@@ -86,10 +86,10 @@
       "living expenses"
     ],
     "fields": [
-      "science",
-      "technology",
-      "engineering",
-      "mathematics"
+      "Natural sciences",
+      "Computer science",
+      "Engineering",
+      "Mathematics and statistics"
     ],
     "studyCities": [],
     "excludedNationalities": [
@@ -237,14 +237,12 @@
       "health coverage"
     ],
     "fields": [
-      "economics",
-      "environmental science",
-      "higher education administration",
-      "international legal studies",
-      "journalism and mass communication",
-      "public health",
-      "sustainable development",
-      "urban and regional planning"
+      "Business and economics",
+      "Environment and agriculture",
+      "Education",
+      "Law and public policy",
+      "Social sciences",
+      "Medicine and health"
     ],
     "studyCities": [],
     "excludedNationalities": [],

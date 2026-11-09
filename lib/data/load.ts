@@ -91,3 +91,9 @@ export async function loadCountryCosts(): Promise<CountryCost[]> {
   if (error) throw new Error(`Could not load country costs: ${error.message}`);
   return (data ?? []).map(rowToCountryCost);
 }
+
+export async function loadScholarship(id: string): Promise<Scholarship | null> {
+  const { data, error } = await createPublicClient().from("scholarships").select("*").eq("id", id).maybeSingle();
+  if (error) throw new Error(`Could not load scholarship: ${error.message}`);
+  return data ? rowToScholarship(data) : null;
+}
