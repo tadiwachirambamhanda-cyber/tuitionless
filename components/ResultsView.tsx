@@ -176,7 +176,7 @@ export function ResultsView() {
             <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-3">
               <nav aria-label="Jump to a group" className="grid grid-cols-4 gap-2">
                 {GROUPS.map((g) => (
-                  <a key={g} href={`#${g}`} aria-label={`${GROUP_INFO[g].label}, ${shown[g].length}`} className="flex min-h-11 flex-col items-center justify-center rounded-xl border border-border bg-surface px-1 text-sm font-semibold">
+                  <a key={g} href={`#${g}`} aria-label={`${GROUP_INFO[g].label}, ${shown[g].length}`} className="flex min-h-11 flex-col items-center justify-center rounded-xl border border-border bg-surface px-1 py-2 text-center text-xs font-semibold leading-tight">
                     <span className="font-display text-lg leading-none">{shown[g].length}</span>{GROUP_INFO[g].label}
                   </a>
                 ))}
