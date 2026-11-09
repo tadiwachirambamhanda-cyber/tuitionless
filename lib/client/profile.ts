@@ -65,6 +65,9 @@ export function draftToProfile(d: Draft): StudentProfile | null {
   const budget = Number(d.b);
   if (!d.n || !d.c || !d.l || !d.f || !d.cur || !Number.isFinite(budget) || budget < 0 || d.b === undefined) return null;
   if (!LEVELS.some((x) => x.value === d.l)) return null;
+  const known = (c: string) => (COUNTRY_CODES as readonly string[]).includes(c);
+  if (!known(d.n) || !(d.c === "ANY" || known(d.c))) return null;
+  if (!CURRENCIES.includes(d.cur) || !FIELDS.includes(d.f)) return null;
   return {
     nationality: d.n,
     studyCountry: d.c,
