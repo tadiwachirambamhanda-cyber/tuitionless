@@ -2,7 +2,7 @@ import type { MatchGroup } from "@/lib/types";
 
 export const GROUP_INFO: Record<MatchGroup, { label: string; cls: string; dot: string; blurb: string }> = {
   best_fit: { label: "Best fit", cls: "bg-best-bg text-best-fg", dot: "bg-best-fg", blurb: "You can apply, and together with what you can afford, these cover a typical year." },
-  worth_a_try: { label: "Worth a try", cls: "bg-worth-bg text-worth-fg", dot: "bg-worth-fg", blurb: "You can apply, but it covers part of your costs or many people apply." },
+  worth_a_try: { label: "Worth a try", cls: "bg-worth-bg text-worth-fg", dot: "bg-worth-fg", blurb: "You can apply, but it covers part of your costs, many people apply, or the amount is not published." },
   stretch: { label: "Stretch", cls: "bg-stretch-bg text-stretch-fg", dot: "bg-stretch-fg", blurb: "A long shot: it covers little, or you meet only part of what they ask." },
 };
 

@@ -32,12 +32,13 @@ export function DetailView({ id }: { id: string }) {
   const profile = useMemo(() => draftToProfile(readDraft(new URLSearchParams(qs))), [qs]);
   const [loaded, setLoaded] = useState<Loaded | null>(null);
   const [failedId, setFailedId] = useState<string | null>(null);
+  const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
     let live = true;
     getScholarship(id, profile).then((data) => live && setLoaded({ id, data }), () => live && setFailedId(id));
     return () => { live = false; };
-  }, [id, profile]);
+  }, [id, profile, attempt]);
 
   const back = `/results${qs ? `?${qs}` : ""}`;
   const top = (
@@ -47,7 +48,10 @@ export function DetailView({ id }: { id: string }) {
     </div>
   );
 
-  if (failedId === id || (loaded && loaded.id === id && !loaded.data)) {
+  if (failedId === id) {
+    return <main>{top}<StatePanel tone="error" title="We couldn't load this scholarship" help="Check your connection and try again." action={<Button onClick={() => { setFailedId(null); setAttempt((n) => n + 1); }}>Try again</Button>} /></main>;
+  }
+  if (loaded && loaded.id === id && !loaded.data) {
     return <main>{top}<StatePanel tone="error" title="We couldn't find this scholarship" help="It may have been removed, or the link is wrong." action={<Button href={back}>Back to results</Button>} /></main>;
   }
   if (!loaded || loaded.id !== id || !loaded.data) {
