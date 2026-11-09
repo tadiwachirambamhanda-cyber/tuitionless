@@ -1240,10 +1240,10 @@
       "masters"
     ],
     "fields": [
-      "engineering",
-      "medicine and health sciences",
-      "science",
-      "social sciences"
+      "Engineering",
+      "Medicine and health",
+      "Natural sciences",
+      "Social sciences"
     ],
     "studyCountries": [
       "GB"
