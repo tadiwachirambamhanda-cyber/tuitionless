@@ -19,6 +19,7 @@ export const FALLBACK_RATES: Rates = {
   SGD: 1.34,
   HKD: 7.8,
   INR: 83,
+  PKR: 280,
   ZAR: 18.5,
   NGN: 1500,
   KES: 130,
