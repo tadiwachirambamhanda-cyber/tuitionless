@@ -45,3 +45,16 @@ Every `fields` value is now one of the shared list in `lib/fields.ts`, or `["ANY
 
 ## Closed rounds (`roundClosed`)
 `roundClosed: true` is set on 30 records whose stored note says the current round has closed or its date has passed. Records that only say "likely closed" (Ireland Fellows), have conflicting dates (Fulbright-Nehru), or give no status stay `false`. This goes stale as new rounds open, so it needs rechecking.
+
+## Round 2 (2026-11-10)
+Added 51 records (files `*-round2.json`) aimed at thin spots; total now 169. Open-round matches (nationalities NG, IN, KE, PK, BR) rose as follows (before to after): UK PhD 1 to 5, UK undergraduate 3 to 8, Germany PhD 0 to 5, Germany masters 5 to 9, Ireland PhD 0 to 2, Ireland undergraduate 2 to 5, France PhD 1 to 3, Canada masters 2 to 5, US PhD 1 to 2. Netherlands PhD is still 0: Dutch PhDs are mostly paid jobs, and no scholarship open to international candidates could be verified.
+
+Nationality re-check of the 74 `["ANY"]` records: every page was re-read. None listed eligible countries. All stay ANY. Changes: Yenching now excludes CN (international track needs a non-Chinese passport), Hiroshima IGS pre-arrival excludes JP, GRIPS MEXT dropped (no nationality rule could be confirmed and MEXT is limiting that route). Checked-on dates updated.
+- ANU International Achievement Award is limited by country of residence (not nationality), which the data cannot express; the record says so.
+- Turkiye Burslari: the TR exclusion is not stated on the page read.
+- New records that were left out because nationality was not clear: KAS, TUM scholarship (depends on BAföG rules), three Polytechnique bachelor awards, a Reading award with no criteria, Dartmouth (source was a 2022 announcement).
+- Region lists expanded to codes by the researchers (check borderline countries): FES (120 codes), KAAD (109), ASU Mastercard (54 African countries), McGill Mastercard (54), Surrey Future Leaders (30). `GB` in excludedNationalities is shorthand for home-fee students at UK universities.
+- Yale: aid is need-based, so the amount is null (the page's 75,220 is an average for all aided students).
+- Some round deadlines have no year on the page (ASU, Engineering, Pasteur, Manitoba, UAlberta); the year was inferred as the coming one.
+
+Not changed, because no better official source was found: Australia and UK entries in `country-costs.json` (the Home Affairs and HESA pages blocked the fetch), and Erasmus Mundus `studyCountries` (the official pages give only "at least 3 countries, one in the EU or an associated country: North Macedonia, Serbia, Iceland, Liechtenstein, Norway, Turkiye", not a host list).

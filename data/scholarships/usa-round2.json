@@ -1,0 +1,214 @@
+[
+  {
+    "checkedOn": "2026-11-10",
+    "excludedNationalities": [],
+    "studyCities": [
+      "Princeton"
+    ],
+    "id": "princeton-spia-full-funding-us",
+    "name": "Princeton SPIA full funding (MPA, MPP, PhD)",
+    "provider": "Princeton University School of Public and International Affairs",
+    "summary": "Every admitted MPA, MPP and PhD student at Princeton's school of public and international affairs, including international students, gets full tuition and fees plus a living stipend. No separate funding application.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "fees",
+      "health insurance",
+      "living stipend"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "Law and public policy",
+      "Social sciences"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Covers all admitted students, domestic and international. Lasts 2 years for the MPA, 1 year for the mid-career MPP and 5 years for the PhD. Stipend amount is not stated on the page. You must first be admitted.",
+    "deadline": null,
+    "deadlineNote": "No funding deadline; funding comes with admission. Check the SPIA and Graduate School admission deadlines.",
+    "roundClosed": false,
+    "officialUrl": "https://spia.princeton.edu/blogs/princeton-spia-we-fully-fund-our-mpa-mpp-and-phd-students",
+    "sourceUrl": "https://spia.princeton.edu/blogs/princeton-spia-we-fully-fund-our-mpa-mpp-and-phd-students"
+  },
+  {
+    "checkedOn": "2026-11-10",
+    "excludedNationalities": [],
+    "studyCities": [
+      "Kigali"
+    ],
+    "id": "asu-mastercard-foundation-scholars-graduate-us",
+    "name": "Mastercard Foundation Scholars Program at ASU (Phase III, master's)",
+    "provider": "Arizona State University / Mastercard Foundation",
+    "summary": "Fully funded ASU Online master's degrees in technology and innovation for young African professionals, studied while living in Kigali, Rwanda. Covers tuition, housing and medical support.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "books",
+      "student fees",
+      "housing",
+      "medical support",
+      "transport to Kigali",
+      "visa costs"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "Computer science",
+      "Engineering",
+      "Business and economics",
+      "Something else"
+    ],
+    "studyCountries": [
+      "RW"
+    ],
+    "eligibleNationalities": [
+      "DZ",
+      "AO",
+      "BJ",
+      "BW",
+      "BF",
+      "BI",
+      "CV",
+      "CM",
+      "CF",
+      "TD",
+      "KM",
+      "CD",
+      "CG",
+      "CI",
+      "DJ",
+      "EG",
+      "GQ",
+      "ER",
+      "SZ",
+      "ET",
+      "GA",
+      "GM",
+      "GH",
+      "GN",
+      "GW",
+      "KE",
+      "LS",
+      "LR",
+      "LY",
+      "MG",
+      "MW",
+      "ML",
+      "MR",
+      "MU",
+      "MA",
+      "MZ",
+      "NA",
+      "NE",
+      "NG",
+      "RW",
+      "ST",
+      "SN",
+      "SC",
+      "SL",
+      "SO",
+      "ZA",
+      "SS",
+      "SD",
+      "TZ",
+      "TG",
+      "TN",
+      "UG",
+      "ZM",
+      "ZW"
+    ],
+    "eligibilityNotes": "The page says the scholarship is for young African professionals and does not list countries; all 54 African countries are used here, so confirm yours with the programme. Scholars must live in Kigali during the programme. Programmes: Business Analytics, Computer Science, Sustainable Engineering, Global Technology and Development, Information Technology, User Experience. Mastercard Foundation guidance sets a maximum age of 35 for master's candidates.",
+    "deadline": "2026-11-22",
+    "deadlineNote": "Page says Sunday 22 November, 23:59 GMT under the 2027 application, without a year; 22 Nov 2026 is a Sunday. Confirm with the programme.",
+    "roundClosed": false,
+    "officialUrl": "https://mcfscholars.asu.edu/phase-three-innovation-and-technology",
+    "sourceUrl": "https://mcfscholars.asu.edu/phase-three-innovation-and-technology"
+  },
+  {
+    "checkedOn": "2026-11-10",
+    "excludedNationalities": [],
+    "studyCities": [
+      "New Haven"
+    ],
+    "id": "yale-international-need-based-aid-us",
+    "name": "Yale need-based financial aid for international undergraduates",
+    "provider": "Yale University",
+    "summary": "Yale admits students without looking at ability to pay and meets 100% of demonstrated need for international students, as scholarship grants rather than loans.",
+    "amount": null,
+    "amountPeriod": "year",
+    "currency": "USD",
+    "fullFunding": false,
+    "covers": [
+      "tuition",
+      "scholarship grant based on need"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Aid is based on family need, regardless of citizenship or immigration status. The CSS Profile is required. The 75,220 figure is the page's average annual need-based scholarship for all aided students, not an international-specific or guaranteed amount.",
+    "deadline": "2026-12-01",
+    "deadlineNote": "International Early Action deadline listed as 1 December (year not on the page, read as 2026); Regular Decision 15 February.",
+    "roundClosed": false,
+    "officialUrl": "https://admissions.yale.edu/financial-aid-international-applicants",
+    "sourceUrl": "https://admissions.yale.edu/financial-aid-international-applicants"
+  },
+  {
+    "checkedOn": "2026-11-10",
+    "excludedNationalities": [],
+    "studyCities": [
+      "Princeton"
+    ],
+    "id": "princeton-need-based-aid-international-us",
+    "name": "Princeton need-based grants for international undergraduates",
+    "provider": "Princeton University",
+    "summary": "Princeton admits without regard to ability to pay and meets the full demonstrated need of admitted international students with grants that do not have to be repaid. It gives no merit scholarships.",
+    "amount": null,
+    "amountPeriod": "year",
+    "currency": "USD",
+    "fullFunding": false,
+    "covers": [
+      "need-based grant"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Aid is based entirely on family need and is the same for international and US students. The amount depends on your family's financial aid application.",
+    "deadline": null,
+    "deadlineNote": "The page lists no aid deadlines; see Princeton's Cost & Aid section for dates.",
+    "roundClosed": false,
+    "officialUrl": "https://admission.princeton.edu/apply/international-students",
+    "sourceUrl": "https://admission.princeton.edu/apply/international-students"
+  }
+]

@@ -1,0 +1,295 @@
+[
+  {
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "eligibleNationalities": [
+      "CN"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Cork"
+    ],
+    "fullFunding": true,
+    "amount": null,
+    "id": "ucc-china-scholarship-council-phd-ie",
+    "name": "China Scholarship Council - UCC PhD Programme",
+    "provider": "University College Cork",
+    "summary": "A four-year PhD award for Chinese citizens covering tuition, research fees and a living allowance, with up to 12 CSC places a year.",
+    "covers": [
+      "tuition",
+      "research fees",
+      "living allowance"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "eligibilityNotes": "Open to citizens or permanent residents of China who have a UCC supervisor, meet English requirements and CSC criteria, and agree to return to China afterwards. Priority areas are listed but others may be considered.",
+    "deadline": "2027-01-08",
+    "deadlineNote": "Expression of interest 2 Nov 2026 to 8 Jan 2027; nominated candidates apply via UCC Apply by 5 Feb 2027; CSC results June 2027.",
+    "officialUrl": "https://www.ucc.ie/en/scholarships/internationaltable/internationalcscuccphd/",
+    "sourceUrl": "https://www.ucc.ie/en/scholarships/internationaltable/internationalcscuccphd/"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fields": [
+      "Arts and humanities"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Dublin"
+    ],
+    "fullFunding": true,
+    "amount": 25000,
+    "id": "tcd-histories-humanities-research-doctorate-award-ie",
+    "name": "Histories and Humanities Research Doctorate Award",
+    "provider": "Trinity College Dublin",
+    "summary": "A stipend of EUR 25,000 a year for up to four years plus a full fee waiver (including non-EU fees) for new PhD students in History, Classics, History of Art and Gender and Women's Studies.",
+    "covers": [
+      "stipend",
+      "tuition (including non-EU fees)"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "eligibilityNotes": "Full-time PhD students, EU and non-EU. No separate form: apply to the School indicating you want funding and you are considered automatically. The page notes the national Government of Ireland Postgraduate Scholarship is being replaced by a new scheme (EMPOWER) for 2026-27.",
+    "deadline": null,
+    "deadlineNote": "Page says apply by 1 May but gives no year, so the 2027/28 date is unconfirmed.",
+    "officialUrl": "https://histories-humanities.tcd.ie/postgraduate/funding.php",
+    "sourceUrl": "https://histories-humanities.tcd.ie/postgraduate/funding.php"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fields": [
+      "Law and public policy"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": true,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Dublin"
+    ],
+    "fullFunding": true,
+    "amount": 25000,
+    "id": "tcd-law-research-doctorate-award-ie",
+    "name": "School of Law Research Doctorate Award",
+    "provider": "Trinity College Dublin",
+    "summary": "A stipend of EUR 25,000 a year for four years plus payment of EU or non-EU fees for new full-time PhD entrants in the School of Law.",
+    "covers": [
+      "stipend",
+      "tuition (including non-EU fees)"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "eligibilityNotes": "Open to new full-time research doctorate entrants, EU and non-EU, with an unconditional offer; considered automatically with the Trinity Research Doctorate Award. Entry year on the page is 2026.",
+    "deadline": null,
+    "deadlineNote": "The page shows the 15 May 2026 personal statement deadline for 2026 entry, which has passed. No 2027/28 date is published.",
+    "officialUrl": "https://www.tcd.ie/law/programmes/postgraduate/research-programmes/scholarship-opportunities/",
+    "sourceUrl": "https://www.tcd.ie/law/programmes/postgraduate/research-programmes/scholarship-opportunities/"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fields": [
+      "Education"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": true,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Dublin"
+    ],
+    "fullFunding": true,
+    "amount": 25000,
+    "id": "tcd-education-research-doctorate-award-ie",
+    "name": "School of Education Research Doctorate Award",
+    "provider": "Trinity College Dublin",
+    "summary": "A stipend of EUR 25,000 a year plus full EU or non-EU fees, for up to four years, for new full-time PhD students in the School of Education.",
+    "covers": [
+      "stipend",
+      "tuition (including non-EU fees)"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "eligibilityNotes": "EU and non-EU students can apply; must be a new full-time student with an eligible School supervisor, and indicate in the programme application that you want to be considered.",
+    "deadline": null,
+    "deadlineNote": "The page shows a 30 April 2026 deadline, which has passed. No 2027/28 round is listed.",
+    "officialUrl": "https://www.tcd.ie/education/courses/doctoral/research-awards-and-scholarships/",
+    "sourceUrl": "https://www.tcd.ie/education/courses/doctoral/research-awards-and-scholarships/"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Galway"
+    ],
+    "fullFunding": false,
+    "amount": null,
+    "id": "galway-phd-international-merit-scholarship-ie",
+    "name": "PhD International Merit Scholarship",
+    "provider": "University of Galway",
+    "summary": "Lowers PhD tuition from the full non-EU rate to the EU rate. This is a fee reduction only, with no stipend.",
+    "covers": [
+      "tuition reduction to EU rate"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "eligibilityNotes": "Open to non-EU students who do not hold another scholarship covering the full non-EU fee (nationality is not otherwise restricted; EU students are not the target). The page gives no value, selection criteria or deadline.",
+    "deadline": null,
+    "deadlineNote": "The page gives no deadline or status.",
+    "officialUrl": "https://www.universityofgalway.ie/colleges-and-schools/arts-social-sciences-and-celtic-studies/phd-research-degrees/",
+    "sourceUrl": "https://www.universityofgalway.ie/colleges-and-schools/arts-social-sciences-and-celtic-studies/phd-research-degrees/"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Dublin"
+    ],
+    "fullFunding": false,
+    "amount": 2000,
+    "id": "tu-dublin-undergraduate-global-entry-scholarship-ie",
+    "name": "Undergraduate Global Entry Scholarship",
+    "provider": "Technological University Dublin",
+    "summary": "EUR 2,000 a year off tuition for the whole degree, for five non-EEA students a year, based on academic achievement.",
+    "covers": [
+      "tuition reduction"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "eligibilityNotes": "Open to non-EEA students; tuition only. Needs continued full-time enrolment and satisfactory progress. The page does not name specific nationalities; EEA nationals are outside it.",
+    "deadline": null,
+    "deadlineNote": "The page lists no deadline.",
+    "officialUrl": "https://www.tudublin.ie/study/international/fees--registration/noneu_scholarships/",
+    "sourceUrl": "https://www.tudublin.ie/study/international/fees--registration/noneu_scholarships/"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Limerick"
+    ],
+    "fullFunding": false,
+    "amount": 2000,
+    "id": "ul-faculty-international-undergraduate-scholarships-ie",
+    "name": "Faculty International Undergraduate Scholarships",
+    "provider": "University of Limerick",
+    "summary": "Merit-based tuition fee reductions of EUR 2,000 or 2,500 a year for non-EU undergraduates, awarded automatically with an offer.",
+    "covers": [
+      "tuition fee reduction"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "eligibilityNotes": "Open to international (non-EU) students only; no separate application. EUR 2,000 a year for Science and Engineering and for Arts, Humanities and Social Sciences; EUR 2,500 a year for Kemmy Business School (amount field shows the lower figure).",
+    "deadline": null,
+    "deadlineNote": "The page lists no deadline; decisions arrive with your offer.",
+    "officialUrl": "https://www.ul.ie/study/undergraduate/international-students/scholarships",
+    "sourceUrl": "https://www.ul.ie/study/undergraduate/international-students/scholarships"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "IE"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Cork"
+    ],
+    "fullFunding": false,
+    "amount": 2000,
+    "id": "ucc-sefs-international-undergraduate-scholarship-ie",
+    "name": "SEFS International Undergraduate Scholarship",
+    "provider": "University College Cork",
+    "summary": "EUR 2,000 off tuition in every year of study for non-EU undergraduates in Science, Engineering and Food Science, awarded automatically at offer stage.",
+    "covers": [
+      "tuition fee reduction"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "eligibilityNotes": "International (non-EU) students with an accepted offer in the College of Science, Engineering and Food Science; renewable for up to 4 years with satisfactory progress. If eligible for several UCC scholarships, only the higher applies.",
+    "deadline": null,
+    "deadlineNote": "No application or deadline listed; awarded at offer stage (2027/28).",
+    "officialUrl": "https://www.ucc.ie/en/scholarships/internationaltable/sefsinternatugsch/",
+    "sourceUrl": "https://www.ucc.ie/en/scholarships/internationaltable/sefsinternatugsch/"
+  }
+]

@@ -1,0 +1,325 @@
+[
+  {
+    "id": "ubc-four-year-doctoral-fellowship-ca",
+    "name": "UBC Four Year Doctoral Fellowship (4YF)",
+    "provider": "University of British Columbia",
+    "summary": "A stipend plus tuition coverage for up to four years for doctoral students at UBC, open to international students. All admitted PhD, DMA and MD/PhD applicants are considered, and programs nominate their top students.",
+    "amount": 24000,
+    "amountPeriod": "year",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [
+      "stipend",
+      "tuition"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "studyCities": [
+      "Vancouver",
+      "Kelowna"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Open to Canadian citizens, permanent residents and international students. Offered mainly to those starting a full-time PhD, DMA or MD/PhD. Stipend of CAD 24,000 per year applies from September 2026. Selection is by academic excellence on the recommendation of the graduate program, so you do not apply separately.",
+    "deadline": null,
+    "deadlineNote": "No separate student deadline. Deadlines are set by each UBC graduate program; apply to your PhD program and ask whether it will nominate you.",
+    "roundClosed": false,
+    "officialUrl": "https://grad.ubc.ca/node/3313",
+    "sourceUrl": "https://grad.ubc.ca/node/3313",
+    "checkedOn": "2026-11-10"
+  },
+  {
+    "id": "ontario-graduate-scholarship-western-ca",
+    "name": "Ontario Graduate Scholarship (OGS) at Western University",
+    "provider": "Western University / Government of Ontario",
+    "summary": "A merit scholarship for master's and doctoral students at Western, with a limited number of awards open to international students who hold a study permit. Worth CAD 15,000 for one year.",
+    "amount": 15000,
+    "amountPeriod": "year",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [
+      "stipend"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "studyCities": [
+      "London"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "International applicants need a valid study permit and a research-based program that offers OGS. Paid at CAD 5,000 per term over three terms. Lifetime limits apply (two OGS at master's level, four at doctoral level).",
+    "deadline": "2027-01-29",
+    "deadlineNote": "2027-28 cycle: application opens 9 Dec 2026 and closes 29 Jan 2027, 4 pm ET; results 30 Apr 2027.",
+    "roundClosed": false,
+    "officialUrl": "https://grad.uwo.ca/funding/scholarships-and-awards/ogs.cfm",
+    "sourceUrl": "https://grad.uwo.ca/funding/scholarships-and-awards/ogs.cfm",
+    "checkedOn": "2026-11-10"
+  },
+  {
+    "id": "ualberta-graduate-recruitment-scholarship-ca",
+    "name": "University of Alberta Graduate Recruitment Scholarship",
+    "provider": "University of Alberta",
+    "summary": "A recruitment award for newly admitted students in PhD or thesis-based master's programs, open to international students on a study permit. Departments nominate you, so you do not apply yourself.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [
+      "stipend"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "studyCities": [
+      "Edmonton"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "eligibilityNotes": "Minimum CAD 5,000, awarded in CAD 5,000 units; the exact amount is set in your offer letter. Needs full-time registration and an admission GPA of at least 3.5. International students must hold a study permit. Course-based programs are not eligible.",
+    "deadline": null,
+    "deadlineNote": "Students cannot apply. Faculties submit nominations by set dates; the next listed one is 12 Nov 2026 for a 1 Jan 2027 start. Ask your department.",
+    "roundClosed": false,
+    "officialUrl": "https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/recruitment-scholarship.html",
+    "sourceUrl": "https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/recruitment-scholarship.html",
+    "checkedOn": "2026-11-10"
+  },
+  {
+    "id": "waterloo-international-masters-award-of-excellence-ca",
+    "name": "Waterloo International Master's Award of Excellence (IMAE)",
+    "provider": "University of Waterloo",
+    "summary": "An award for international students entering a research-based master's program at Waterloo, worth CAD 2,500 per term for up to five terms. Faculties nominate students on academic excellence.",
+    "amount": 12500,
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [
+      "stipend"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "studyCities": [
+      "Waterloo"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "CA"
+    ],
+    "eligibilityNotes": "For eligible international master's students entering a research-based program. No separate application is described; faculties nominate based on their allocation and your admission application. The total of CAD 12,500 is 2,500 x a maximum of five terms.",
+    "deadline": null,
+    "deadlineNote": "No separate deadline; you are considered through your admission application, so use your program's admission deadline.",
+    "roundClosed": false,
+    "officialUrl": "https://uwaterloo.ca/current-graduate-students/awards-and-funding/international-student-funding",
+    "sourceUrl": "https://uwaterloo.ca/current-graduate-students/awards-and-funding/international-student-funding",
+    "checkedOn": "2026-11-10"
+  },
+  {
+    "checkedOn": "2026-11-10",
+    "excludedNationalities": [],
+    "studyCities": [
+      "Montreal"
+    ],
+    "id": "mcgill-mastercard-foundation-scholars-masters-ca",
+    "name": "Mastercard Foundation Scholars Program at McGill (master's)",
+    "provider": "McGill University / Mastercard Foundation",
+    "summary": "Fully funded master's study at McGill for about 35 African students a year across 13 graduate programs in areas such as public health, food science, public policy and agriculture. Priority goes to women, displaced people and people with disabilities.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "housing",
+      "monthly stipend",
+      "pre-arrival support"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "Medicine and health",
+      "Environment and agriculture",
+      "Engineering",
+      "Natural sciences",
+      "Law and public policy",
+      "Mathematics and statistics"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "DZ",
+      "AO",
+      "BJ",
+      "BW",
+      "BF",
+      "BI",
+      "CV",
+      "CM",
+      "CF",
+      "TD",
+      "KM",
+      "CD",
+      "CG",
+      "CI",
+      "DJ",
+      "EG",
+      "GQ",
+      "ER",
+      "SZ",
+      "ET",
+      "GA",
+      "GM",
+      "GH",
+      "GN",
+      "GW",
+      "KE",
+      "LS",
+      "LR",
+      "LY",
+      "MG",
+      "MW",
+      "ML",
+      "MR",
+      "MU",
+      "MA",
+      "MZ",
+      "NA",
+      "NE",
+      "NG",
+      "RW",
+      "ST",
+      "SN",
+      "SC",
+      "SL",
+      "SO",
+      "ZA",
+      "SS",
+      "SD",
+      "TZ",
+      "TG",
+      "TN",
+      "UG",
+      "ZM",
+      "ZW"
+    ],
+    "eligibilityNotes": "Must be a citizen of and live in one of 54 African countries (the page lists them; expanded here to codes). Under 35, no previous master's, financial hardship, leadership record. Dual citizens and refugees, asylees or permanent residents of the US, Canada, UK or EU are not eligible. Study permit required. Eligible programs include Public Health, Public Policy, Biostatistics, Food Science, Human Nutrition, Animal Science, Bioresource Engineering and Biotechnology.",
+    "deadline": null,
+    "deadlineNote": "The Fall 2027 intake is closed. McGill says to check back in Spring 2027 for the next recruitment cycle.",
+    "roundClosed": true,
+    "officialUrl": "https://www.mcgill.ca/mastercardfdn-scholars/",
+    "sourceUrl": "https://www.mcgill.ca/mastercardfdn-scholars/apply/eligibility"
+  },
+  {
+    "checkedOn": "2026-11-10",
+    "excludedNationalities": [
+      "CA"
+    ],
+    "studyCities": [
+      "Toronto"
+    ],
+    "id": "uoft-arts-science-global-scholarship-ca",
+    "name": "University of Toronto Arts & Science Global Scholarship",
+    "provider": "University of Toronto",
+    "summary": "An automatic merit award for international undergraduates entering Arts & Science at the University of Toronto. It equals international tuition, incidental fees and health insurance for four years.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [
+      "tuition",
+      "incidental fees",
+      "health insurance (UHIP)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Listed as an international entrance award, considered automatically on admission with no separate application; merit based, and financial need may be considered. Residence fees are not included. The page gives no dollar value.",
+    "deadline": null,
+    "deadlineNote": "No separate application; you are considered when you apply for admission. Check U of T admission deadlines.",
+    "roundClosed": false,
+    "officialUrl": "https://future.utoronto.ca/scholarships-international-students",
+    "sourceUrl": "https://future.utoronto.ca/scholarships-international-students"
+  },
+  {
+    "checkedOn": "2026-11-10",
+    "excludedNationalities": [
+      "CA"
+    ],
+    "studyCities": [
+      "Toronto"
+    ],
+    "id": "uoft-engineering-international-scholarships-ca",
+    "name": "U of T Engineering International Scholarships",
+    "provider": "University of Toronto Faculty of Applied Science and Engineering",
+    "summary": "Scholarships for international students entering first-year engineering at the University of Toronto. You apply by completing the financial section of the Engineering Supplemental Application.",
+    "amount": null,
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "Engineering"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Not automatic: complete the Financial Information section of the Engineering Supplemental Application (ESA). Value is not stated on the page.",
+    "deadline": "2027-01-15",
+    "deadlineNote": "Page gives 15 January with no year; this is read as 15 Jan 2027 for the next entry cycle.",
+    "roundClosed": false,
+    "officialUrl": "https://future.utoronto.ca/scholarships-international-students",
+    "sourceUrl": "https://future.utoronto.ca/scholarships-international-students"
+  }
+]

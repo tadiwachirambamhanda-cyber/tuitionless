@@ -21,3 +21,6 @@ Round 1, VERDICT: FINDINGS(5). Codex confirmed only `fields` and the two RMIT UR
 3. MINOR, Joint Japan/World Bank mapping: Dismissed. The brief says to keep `["ANY"]` records and map the rest; the awkward fit is listed in RESEARCH-NOTES.md.
 4. MINOR, food science to Environment and agriculture: Dismissed. Closest shared option, noted.
 5. MINOR, technology to Computer science: Dismissed. Closest shared option, noted.
+
+## Round 2 (branch claude/lane-c-round2)
+Gap-filling research: 51 new records, nationality re-check of 74 ANY records, AU/UK costs and Erasmus countries re-checked (no better official source, left as is). See the Round 2 section of data/RESEARCH-NOTES.md.
