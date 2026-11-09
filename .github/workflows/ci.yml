@@ -1,0 +1,54 @@
+# Checks for every pull request. Copy to .github/workflows/ci.yml in each web app repo
+# (the /pr skill does this for you if the file is missing).
+#
+# It runs these package.json scripts on Node 24, and the first three must exist:
+#   "typecheck": "tsc --noEmit"
+#   "lint": "eslint"          (Next.js 16 removed `next lint`, so lint calls eslint directly)
+#   "build": "next build"
+#   "test": your unit tests (runs if the script exists; AI solutions have one or more per rule in data/rules.md)
+# If a script is missing, add it to package.json rather than removing the step.
+#
+# The build and the tests run with no environment variables set. Read env vars inside
+# functions at request time, not at the top of a file, so nothing here needs a key.
+# Unit tests never call the model: stub it.
+#
+# For an Expo (mobile) app at the repo root, use ci-mobile.yml instead. For a repo with a
+# web/ app and a mobile/ app, use ci-web-mobile.yml. The /pr skill picks the right one.
+#
+# AI solutions: npm run cases is NOT run here: it calls the model with your own Anthropic key and costs
+# money. Run it on your laptop with /test-cases; the report goes in the pull request.
+# Never paste a key or secret into this file.
+
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Unit tests
+        run: npm run test --if-present
+
+      - name: Build
+        run: npm run build

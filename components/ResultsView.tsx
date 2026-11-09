@@ -16,7 +16,7 @@ import { countryName, draftToProfile, draftToQuery, levelLabel, readDraft } from
 import { formatMoney } from "@/lib/currency";
 import type { Match, MatchGroup, MatchResult } from "@/lib/types";
 
-const GROUPS: MatchGroup[] = ["best_fit", "worth_a_try", "stretch"];
+const GROUPS: MatchGroup[] = ["best_fit", "worth_a_try", "stretch", "closed"];
 type Sort = "best" | "deadline" | "amount" | "country";
 type Filters = { countries: string[]; minAmount: number; within: number };
 const NO_FILTERS: Filters = { countries: [], minAmount: 0, within: 0 };
@@ -174,7 +174,7 @@ export function ResultsView() {
         <>
           <div className="sticky top-0 z-10 border-b border-border bg-bg/90 backdrop-blur">
             <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-3">
-              <nav aria-label="Jump to a group" className="grid grid-cols-3 gap-2">
+              <nav aria-label="Jump to a group" className="grid grid-cols-4 gap-2">
                 {GROUPS.map((g) => (
                   <a key={g} href={`#${g}`} aria-label={`${GROUP_INFO[g].label}, ${shown[g].length}`} className="flex min-h-11 flex-col items-center justify-center rounded-xl border border-border bg-surface px-1 text-sm font-semibold">
                     <span className="font-display text-lg leading-none">{shown[g].length}</span>{GROUP_INFO[g].label}

@@ -16,6 +16,7 @@ const base = {
   studyCities: [] as string[],
   excludedNationalities: [] as string[],
   deadlineNote: null,
+  roundClosed: false,
   checkedOn: "2026-11-07",
   sourceUrl: "https://example.com/sample",
   officialUrl: "https://example.com/apply",

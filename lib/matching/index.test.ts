@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { sampleCosts, sampleProfile, sampleScholarships } from "../sample-data";
 import type { Scholarship, StudentProfile } from "../types";
@@ -157,5 +159,33 @@ describe("reason and result", () => {
       { rates, today },
     );
     expect(r.groups.best_fit.map((m) => m.scholarship.id)).toEqual(["b", "a"]);
+  });
+});
+
+// Reproduces: Chevening (round closed, next not published) showed as Best fit for a Nigerian masters student.
+describe("closed rounds", () => {
+  const closed = { roundClosed: true } as unknown as Partial<Scholarship>;
+  const groupsOf = (r: ReturnType<typeof run>) => r.groups as unknown as Record<string, unknown[]>;
+
+  it("never puts a closed round in Best fit, even with full funding", () => {
+    const r = run({ ...closed, fullFunding: true });
+    expect(groupsOf(r).best_fit).toHaveLength(0);
+    expect(groupsOf(r).closed).toHaveLength(1);
+    expect(r.total).toBe(1);
+  });
+  it("keeps closed rounds out of Worth a try and Stretch too", () => {
+    const r = run({ ...closed, amount: null });
+    expect(groupsOf(r).worth_a_try).toHaveLength(0);
+    expect(groupsOf(r).stretch).toHaveLength(0);
+    expect(groupsOf(r).closed).toHaveLength(1);
+  });
+  it("leaves an open round where it was", () => {
+    const r = run({ roundClosed: false, fullFunding: true } as unknown as Partial<Scholarship>);
+    expect(groupsOf(r).best_fit).toHaveLength(1);
+    expect(groupsOf(r).closed).toHaveLength(0);
+  });
+  it("marks Chevening closed in the research data", () => {
+    const uk = JSON.parse(readFileSync(join(process.cwd(), "data/scholarships/uk.json"), "utf8")) as Array<{ id: string; roundClosed?: boolean }>;
+    expect(uk.find((s) => s.id === "chevening-scholarship-uk")?.roundClosed).toBe(true);
   });
 });

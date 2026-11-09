@@ -36,7 +36,7 @@ export async function getScholarship(
   if (profile) {
     try {
       const r = await getMatches(profile);
-      match = [...r.groups.best_fit, ...r.groups.worth_a_try, ...r.groups.stretch].find((m) => m.scholarship.id === id) ?? null;
+      match = [...r.groups.best_fit, ...r.groups.worth_a_try, ...r.groups.stretch, ...r.groups.closed].find((m) => m.scholarship.id === id) ?? null;
     } catch {
       match = null;
     }

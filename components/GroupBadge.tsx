@@ -4,6 +4,7 @@ export const GROUP_INFO: Record<MatchGroup, { label: string; cls: string; dot: s
   best_fit: { label: "Best fit", cls: "bg-best-bg text-best-fg", dot: "bg-best-fg", blurb: "You can apply, and together with what you can afford, these cover a typical year." },
   worth_a_try: { label: "Worth a try", cls: "bg-worth-bg text-worth-fg", dot: "bg-worth-fg", blurb: "You can apply, but it covers part of your costs, many people apply, or the amount is not published." },
   stretch: { label: "Stretch", cls: "bg-stretch-bg text-stretch-fg", dot: "bg-stretch-fg", blurb: "A long shot: it covers little, or you meet only part of what they ask." },
+  closed: { label: "Round closed", cls: "bg-surface-muted text-ink-muted", dot: "bg-ink-muted", blurb: "These fit you, but applications are shut right now. Check the note on each one for the next round." },
 };
 
 export function GroupBadge({ group, label }: { group: MatchGroup; label?: string }) {

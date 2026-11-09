@@ -88,6 +88,8 @@ function classify(
   costs: CountryCost[],
   rates: Rates,
 ): MatchGroup {
+  // A closed round cannot be applied to now, whatever it pays.
+  if (s.roundClosed) return "closed";
   if (s.fullFunding) return "best_fit";
   const perYear = yearlyAmount(s, profile.level);
 
@@ -142,7 +144,7 @@ export function matchScholarships(
 ): MatchResult {
   const rates = options.rates ?? FALLBACK_RATES;
   const today = options.today ?? todayString();
-  const groups: MatchResult["groups"] = { best_fit: [], worth_a_try: [], stretch: [] };
+  const groups: MatchResult["groups"] = { best_fit: [], worth_a_try: [], stretch: [], closed: [] };
 
   for (const s of scholarships) {
     if (
@@ -170,6 +172,6 @@ export function matchScholarships(
 
   return {
     groups,
-    total: groups.best_fit.length + groups.worth_a_try.length + groups.stretch.length,
+    total: groups.best_fit.length + groups.worth_a_try.length + groups.stretch.length + groups.closed.length,
   };
 }
