@@ -1,0 +1,490 @@
+[
+  {
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "books",
+      "incidental fees",
+      "residence"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Toronto"
+    ],
+    "excludedNationalities": [
+      "CA"
+    ],
+    "deadline": null,
+    "deadlineNote": "The 2026-27 round closed on 6 Nov 2026 (school nominations closed 9 Oct 2026). Next round dates are not yet published.",
+    "checkedOn": "2026-11-07",
+    "id": "lester-b-pearson-international-scholarship-ca",
+    "name": "Lester B. Pearson International Scholarship",
+    "provider": "University of Toronto",
+    "summary": "About 37 international undergraduates a year receive tuition, books, fees and full residence support for four years at the University of Toronto. Students must be nominated by their school.",
+    "amount": null,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "For international students who need a study permit, in their final year of secondary school or graduated no earlier than June 2026, starting at U of T in September 2027. Your high school must nominate you through the online process.",
+    "officialUrl": "https://future.utoronto.ca/scholarships/lester-b-pearson-international-scholarship-program/",
+    "sourceUrl": "https://future.utoronto.ca/scholarships/lester-b-pearson-international-scholarship-program/"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Vancouver",
+      "Kelowna"
+    ],
+    "excludedNationalities": [
+      "CA"
+    ],
+    "deadline": "2026-11-25",
+    "deadlineNote": "Application deadline 25 Nov 2026 at 12:00 PM Pacific time (extended from 15 Nov). UBC documents are due 31 January.",
+    "checkedOn": "2026-11-07",
+    "id": "ubc-international-scholars-program-ca",
+    "name": "UBC International Scholars Program",
+    "provider": "University of British Columbia",
+    "summary": "Need-and-merit awards for international first-year undergraduates at UBC, including the Karen McKellin International Leader of Tomorrow Award. You apply once and are considered for all awards you qualify for.",
+    "amount": null,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "For international students on a Canadian study permit, entering first undergraduate degree directly from secondary school, with all-A results and significant financial need. A school nominator and a teacher referee are required. Dollar amounts are not stated on the page.",
+    "officialUrl": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+    "sourceUrl": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [
+      "tuition",
+      "living expenses",
+      "research and travel (up to 20,000 CAD a year extra)"
+    ],
+    "fields": [
+      "humanities",
+      "social sciences"
+    ],
+    "studyCities": [],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "Applications for the 2027 scholarship are closed. No date for the next competition is published.",
+    "checkedOn": "2026-11-07",
+    "id": "trudeau-foundation-doctoral-scholarship-ca",
+    "name": "Trudeau Foundation Doctoral Scholarship",
+    "provider": "Pierre Elliott Trudeau Foundation",
+    "summary": "Up to 50,000 CAD a year for three years for PhD students in humanities and social sciences, plus up to 20,000 CAD a year for research and travel. International students enrolled at a Canadian university can apply.",
+    "amount": 50000,
+    "levels": [
+      "phd"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "You must be in year one or two of a PhD at a Canadian university, with research linked to one of the Foundation's four themes. International students living outside Canada or enrolled outside Canada are not eligible. The amount is the stated maximum.",
+    "officialUrl": "https://www.trudeaufoundation.ca/become-a-scholar/",
+    "sourceUrl": "https://www.trudeaufoundation.ca/scholarship/"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "No deadline on the page; deadlines are set by each university.",
+    "checkedOn": "2026-11-07",
+    "id": "ontario-trillium-scholarship-ca",
+    "name": "Ontario Trillium Scholarship",
+    "provider": "Government of Ontario",
+    "summary": "75 awards a year worth 40,000 CAD each to top international PhD students at Ontario universities, renewable for up to four years. The university selects the winners.",
+    "amount": 40000,
+    "levels": [
+      "phd"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Described as for the best doctoral students from around the world. There is no direct application: each Ontario university picks candidates, so ask the graduate office of the university you want to attend. Exact eligibility rules are not on the page.",
+    "officialUrl": "https://www.ontario.ca/page/study-ontario-international-students",
+    "sourceUrl": "https://www.ontario.ca/page/study-ontario-international-students"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Winnipeg"
+    ],
+    "excludedNationalities": [
+      "CA"
+    ],
+    "deadline": null,
+    "deadlineNote": "Complete application due 1 December; the page does not state the year (it is for 2027/28 entry).",
+    "checkedOn": "2026-11-07",
+    "id": "umanitoba-international-excellence-entrance-ca",
+    "name": "International Excellence Entrance Scholarship",
+    "provider": "University of Manitoba",
+    "summary": "Three awards a year for international students entering first year: one of 25,000 CAD and two of 10,000 CAD, for leadership and community involvement.",
+    "amount": null,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "For international high school students applying for direct entry. The 25,000 CAD award needs a 90 percent average across five senior courses; both need strong leadership and community involvement. The page does not mention renewal.",
+    "officialUrl": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+    "sourceUrl": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "housing",
+      "monthly stipend",
+      "book allowance and laptop",
+      "return flight"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Montreal"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "The Fall 2027 round is closed. McGill says to check back in spring 2027 for the next round.",
+    "checkedOn": "2026-11-07",
+    "id": "mastercard-foundation-scholars-mcgill-ca",
+    "name": "Mastercard Foundation Scholars Program at McGill",
+    "provider": "McGill University (Mastercard Foundation)",
+    "summary": "A master's scholarship for young African students with financial barriers, covering international tuition, on-campus housing, a monthly stipend and learning support.",
+    "amount": null,
+    "levels": [
+      "masters"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "DZ",
+      "AO",
+      "BJ",
+      "BW",
+      "BF",
+      "BI",
+      "CV",
+      "CM",
+      "CF",
+      "TD",
+      "KM",
+      "CD",
+      "CG",
+      "CI",
+      "DJ",
+      "EG",
+      "GQ",
+      "ER",
+      "SZ",
+      "ET",
+      "GA",
+      "GM",
+      "GH",
+      "GN",
+      "GW",
+      "KE",
+      "LS",
+      "LR",
+      "LY",
+      "MG",
+      "MW",
+      "ML",
+      "MR",
+      "MU",
+      "MA",
+      "MZ",
+      "NA",
+      "NE",
+      "NG",
+      "RW",
+      "ST",
+      "SN",
+      "SC",
+      "SL",
+      "SO",
+      "ZA",
+      "SS",
+      "SD",
+      "TZ",
+      "TG",
+      "TN",
+      "UG",
+      "ZM",
+      "ZW"
+    ],
+    "eligibilityNotes": "You must be a citizen of and live in an African country (codes expanded by us), aged 35 or under, with no previous master's, and admissible to an eligible McGill program. Dual citizens and people with refugee or permanent resident status in the US, Canada, UK or EU are not eligible. Priority goes to women, displaced people and people with disabilities.",
+    "officialUrl": "https://www.mcgill.ca/mastercardfdn-scholars/apply",
+    "sourceUrl": "https://www.mcgill.ca/mastercardfdn-scholars/apply/eligibility"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Edmonton"
+    ],
+    "excludedNationalities": [
+      "CA"
+    ],
+    "deadline": "2027-01-10",
+    "deadlineNote": "The entrance scholarship application window for September 2027 runs 1 Oct 2026 to 10 Jan 2027.",
+    "checkedOn": "2026-11-07",
+    "id": "ualberta-presidents-international-distinction-ca",
+    "name": "President's International Distinction Scholarship",
+    "provider": "University of Alberta",
+    "summary": "25 entrance scholarships a year worth up to 120,000 CAD paid over four years, for international first-year undergraduates with top grades and leadership.",
+    "amount": 120000,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "For entering first-year undergraduates on a student visa permit with a superior admission average and demonstrated leadership. The page says 'up to' 120,000 CAD, so the actual amount may be lower. You must apply to a degree program first.",
+    "officialUrl": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+    "sourceUrl": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Edmonton"
+    ],
+    "excludedNationalities": [
+      "CA"
+    ],
+    "deadline": "2027-01-10",
+    "deadlineNote": "The entrance scholarship application window for September 2027 runs 1 Oct 2026 to 10 Jan 2027.",
+    "checkedOn": "2026-11-07",
+    "id": "ualberta-international-leader-scholarship-ca",
+    "name": "International Leader Scholarship",
+    "provider": "University of Alberta",
+    "summary": "Up to 15,000 CAD for well-rounded international first-year undergraduates with strong grades and leadership roles. The page does not say if it is paid at once or over several years.",
+    "amount": 15000,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "For international applicants with superior academics and leadership in school, community, activities or work. The page says 'up to' 15,000 CAD and does not state the number of awards. You must apply to a degree program first.",
+    "officialUrl": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+    "sourceUrl": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [],
+    "excludedNationalities": [
+      "CA"
+    ],
+    "deadline": "2026-12-15",
+    "deadlineNote": "Fall 2027 intake: apply 1 Oct to 15 Dec 2026; supporting documents due 31 Jan 2027.",
+    "checkedOn": "2026-11-07",
+    "id": "sfu-international-undergraduate-scholars-entrance-ca",
+    "name": "International Undergraduate Scholars Entrance Scholarship",
+    "provider": "Simon Fraser University",
+    "summary": "A 140,000 CAD entrance scholarship paid in eight instalments of 17,500 CAD for top international high school applicants to SFU, with housing and course-enrolment priority.",
+    "amount": 140000,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "For international high school applicants with a 90 percent average or 31 IB points and strong extracurriculars; two references needed. The page does not list the number of awards or what costs it covers; an extra living allowance may go to students with financial need.",
+    "officialUrl": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
+    "sourceUrl": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Toronto"
+    ],
+    "excludedNationalities": [
+      "CA"
+    ],
+    "deadline": null,
+    "deadlineNote": "No single deadline: units nominate in winter based on their own admission deadlines, with results in early March.",
+    "checkedOn": "2026-11-07",
+    "id": "uoft-connaught-doctoral-scholarship-ca",
+    "name": "Connaught Doctoral Scholarship",
+    "provider": "University of Toronto",
+    "summary": "A 10,000 CAD yearly top-up for new international PhD students at the University of Toronto, bringing total funding to at least 50,000 CAD a year, renewable for four to five years.",
+    "amount": 10000,
+    "levels": [
+      "phd"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "For incoming full-time doctoral students with a funded offer and an A- average in each of the last two years. Your department nominates you, so contact it when applying. Current U of T students are not eligible. The page says domestic students join from the 2027-28 cohort.",
+    "officialUrl": "https://www.sgs.utoronto.ca/awards/connaught-international-scholarship/",
+    "sourceUrl": "https://www.sgs.utoronto.ca/awards/connaught-international-scholarship/"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "CAD",
+    "fullFunding": false,
+    "covers": [],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Toronto"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "The deadline on the page (3 Nov 2025) belongs to the previous round and has passed. The next round's date is not confirmed.",
+    "checkedOn": "2026-11-07",
+    "id": "mastercard-foundation-scholars-uoft-graduate-ca",
+    "name": "Mastercard Foundation Scholars Program (Graduate)",
+    "provider": "University of Toronto (Mastercard Foundation)",
+    "summary": "A fully funded master's scholarship for Sub-Saharan African graduates of Africa Health Collaborative partner universities. The page does not list what costs it covers.",
+    "amount": null,
+    "levels": [
+      "masters"
+    ],
+    "studyCountries": [
+      "CA"
+    ],
+    "eligibleNationalities": [
+      "AO",
+      "BJ",
+      "BW",
+      "BF",
+      "BI",
+      "CV",
+      "CM",
+      "CF",
+      "TD",
+      "KM",
+      "CD",
+      "CG",
+      "CI",
+      "GQ",
+      "ER",
+      "SZ",
+      "ET",
+      "GA",
+      "GM",
+      "GH",
+      "GN",
+      "GW",
+      "KE",
+      "LS",
+      "LR",
+      "MG",
+      "MW",
+      "ML",
+      "MR",
+      "MU",
+      "MZ",
+      "NA",
+      "NE",
+      "NG",
+      "RW",
+      "ST",
+      "SN",
+      "SC",
+      "SL",
+      "SO",
+      "ZA",
+      "SS",
+      "SD",
+      "TZ",
+      "TG",
+      "UG",
+      "ZM",
+      "ZW"
+    ],
+    "eligibilityNotes": "You must be a citizen living in a Sub-Saharan African country (codes expanded by us using the World Bank list), under 35, a graduate of an Africa Health Collaborative partner institution, and not yet started graduate study. It is for professional and research master's students in sponsored programs.",
+    "officialUrl": "https://ihpme.utoronto.ca/award/the-mastercard-foundation-scholars-program/",
+    "sourceUrl": "https://ihpme.utoronto.ca/award/the-mastercard-foundation-scholars-program/"
+  }
+]

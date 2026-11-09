@@ -1,0 +1,645 @@
+[
+  {
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "living stipend",
+      "travel"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Stanford"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "The 2027 cohort deadline (6 Oct 2026) has passed. The 2028 cohort application opens in summer 2027 with no date published yet.",
+    "checkedOn": "2026-11-07",
+    "id": "knight-hennessy-scholars-us",
+    "name": "Knight-Hennessy Scholars",
+    "provider": "Stanford University",
+    "summary": "A fellowship for graduate study at Stanford, with tuition for up to three years plus a living and travel stipend. Open to applicants from any region.",
+    "amount": null,
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "You must be admitted to a full-time Stanford graduate degree and hold a bachelor's degree earned in January 2020 or later (or finish by September 2027). No quotas by region. Stanford currently cannot process applications from people located in Iran.",
+    "officialUrl": "https://knight-hennessy.stanford.edu/",
+    "sourceUrl": "https://knight-hennessy.stanford.edu/admission/before-you-apply/eligibility"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "housing",
+      "food",
+      "fees"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Berea"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "International applicants must submit everything by 30 November; the page does not state the year.",
+    "checkedOn": "2026-11-07",
+    "id": "berea-college-international-us",
+    "name": "Berea College full funding for international students",
+    "provider": "Berea College",
+    "summary": "Berea covers tuition, housing, food and fees for every admitted international undergraduate. It admits only a small number of students each year.",
+    "amount": null,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Undergraduate only, for first bachelor's degrees. No country restrictions, but it is rare to admit more than one student per country per year. Admitted students pay a 2,200 USD deposit and need an English or SAT/ACT score. Financial need is weighed in admission.",
+    "officialUrl": "https://www.berea.edu/admissions/admission-information/apply",
+    "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "USD",
+    "fullFunding": false,
+    "covers": [
+      "tuition",
+      "fees",
+      "course materials",
+      "living expenses"
+    ],
+    "fields": [
+      "science",
+      "technology",
+      "engineering",
+      "mathematics"
+    ],
+    "studyCities": [],
+    "excludedNationalities": [
+      "US"
+    ],
+    "deadline": null,
+    "deadlineNote": "The 2027-28 round closed on 17 Sep 2026. The next round dates are not yet published.",
+    "checkedOn": "2026-11-07",
+    "id": "aauw-international-fellowships-us",
+    "name": "AAUW International Fellowships",
+    "provider": "American Association of University Women (AAUW)",
+    "summary": "Fellowships for women who are not US citizens or green card holders to study STEM at the master's or doctoral level in the US. Pays 20,000 USD for a master's and 25,000 USD for a doctorate.",
+    "amount": null,
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "For women only, in STEM fields, with a bachelor's equivalent and at least a 3.5 GPA on a 4.0 scale. Applicants cannot be US citizens, US permanent residents or green card applicants. A few awards allow study outside the US for applicants from travel-ban countries.",
+    "officialUrl": "https://www.aauw.org/resources/programs/fellowships-grants/aauw-international-fellowships/",
+    "sourceUrl": "https://www.aauw.org/resources/programs/fellowships-grants/aauw-international-fellowships/"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "USD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "room",
+      "board"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Washington"
+    ],
+    "excludedNationalities": [
+      "US"
+    ],
+    "deadline": "2027-01-15",
+    "deadlineNote": "Fall 2027 intake: Common Application and the scholarship application are both due 15 Jan 2027.",
+    "checkedOn": "2026-11-07",
+    "id": "american-university-egls-us",
+    "name": "AU Emerging Global Leader Scholarship",
+    "provider": "American University",
+    "summary": "Two full scholarships a year for international undergraduates at American University in Washington, DC, covering tuition, room and board for up to four years. Partial awards of up to 40,000 USD a year also exist.",
+    "amount": null,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "For international students who need a non-immigrant visa. Not open to US citizens, permanent residents or dual US citizens, or to anyone who already started university study. Secondary school must have finished in 2024 or later; students still in school get preference. Health insurance, books and flights are not covered.",
+    "officialUrl": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
+    "sourceUrl": "https://www.american.edu/admissions/international/au-egls-apply.cfm"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": false,
+    "covers": [],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Ithaca"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "Cornell's first-year international aid deadlines are 1 Nov (Early Decision) and 2 Jan (Regular Decision); the page does not state the year.",
+    "checkedOn": "2026-11-07",
+    "id": "cornell-tata-scholarship-us",
+    "name": "Tata Scholarship at Cornell",
+    "provider": "Cornell University",
+    "summary": "Need-based support for undergraduates from India admitted to Cornell, funded by the Tata Education and Development Trust. About 20 scholars are supported at a time.",
+    "amount": null,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "IN"
+    ],
+    "eligibilityNotes": "You must have attended secondary school in India, be admitted to Cornell as an undergraduate and qualify for need-based aid by filing the CSS Profile. Preference goes to architecture, engineering, applied economics and management, and the sciences. Funding lasts up to eight semesters.",
+    "officialUrl": "https://admissions.cornell.edu/how-to-apply/first-year-international-applicants",
+    "sourceUrl": "https://admissions.cornell.edu/how-to-apply/first-year-international-applicants"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "USD",
+    "fullFunding": false,
+    "covers": [
+      "tuition and study costs (need-based grant)"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [],
+    "excludedNationalities": [
+      "US",
+      "CA"
+    ],
+    "deadline": null,
+    "deadlineNote": "The eligibility form window runs 15 Sep to 15 Dec each year; the page does not state the current year.",
+    "checkedOn": "2026-11-07",
+    "id": "peo-international-peace-scholarship-us",
+    "name": "P.E.O. International Peace Scholarship",
+    "provider": "P.E.O. International",
+    "summary": "Need-based grants for women from outside the US and Canada studying for an advanced degree at an accredited US or Canadian school. The maximum award is 12,500 USD.",
+    "amount": 12500,
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "For women only, who plan to return home after study. US and Canadian citizens and permanent residents are not eligible. You need a full year of formal coursework left and must show other funds for your costs. The amount is the maximum; smaller awards are possible.",
+    "officialUrl": "https://www.peointernational.org/educational-support/international-peace-scholarship-fund/",
+    "sourceUrl": "https://www.peointernational.org/educational-support/international-peace-scholarship-fund/eligibility-and-application-process/"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": false,
+    "covers": [
+      "tuition and fees",
+      "living costs",
+      "airfare",
+      "health coverage"
+    ],
+    "fields": [
+      "economics",
+      "environmental science",
+      "higher education administration",
+      "international legal studies",
+      "journalism and mass communication",
+      "public health",
+      "sustainable development",
+      "urban and regional planning"
+    ],
+    "studyCities": [],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "The page shows 14 May 2025 under the 2026-27 label, so the dates conflict. The next cycle's deadline is not confirmed; check masters@usief.org.in.",
+    "checkedOn": "2026-11-07",
+    "id": "fulbright-nehru-masters-us",
+    "name": "Fulbright-Nehru Master's Fellowships",
+    "provider": "United States-India Educational Foundation (USIEF)",
+    "summary": "Funds Indian professionals for a master's in the US in selected fields, covering tuition, living costs, airfare and insurance. The page says funding may not cover every cost.",
+    "amount": null,
+    "levels": [
+      "masters"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "IN"
+    ],
+    "eligibilityNotes": "For Indian citizens with a bachelor's equivalent (55 percent or more), at least three years of full-time work experience, and leadership or community service. Government of India and state government employees are not eligible. Fields listed are from the 2026-27 page.",
+    "officialUrl": "https://usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/fulbright-nehru-masters-fellowships/",
+    "sourceUrl": "https://usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/fulbright-nehru-masters-fellowships/"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "fees",
+      "room and board",
+      "supplies",
+      "travel home"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Middletown"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "No dates on the scholarship page; applicants are considered automatically when they apply to Wesleyan. See the International Applicants page for admission dates.",
+    "checkedOn": "2026-11-07",
+    "id": "wesleyan-freeman-asian-scholarship-us",
+    "name": "Freeman Asian Scholarship",
+    "provider": "Wesleyan University",
+    "summary": "A four-year scholarship covering the full cost of attendance at Wesleyan for about 11 first-year students from selected East and Southeast Asian countries each year. No separate application.",
+    "amount": null,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "CN",
+      "HK",
+      "ID",
+      "JP",
+      "MY",
+      "PH",
+      "SG",
+      "KR",
+      "TW",
+      "TH",
+      "VN"
+    ],
+    "eligibilityNotes": "Open to citizens or permanent residents of China, Hong Kong, Indonesia, Japan, Malaysia, the Philippines, Singapore, South Korea, Taiwan, Thailand and Vietnam. Applicants must show financial need, must not be dual US citizens or US permanent residents, and must never have enrolled full-time in college. Hong Kong uses the code HK.",
+    "officialUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/freeman-scholars.html",
+    "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/freeman-scholars.html"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "fees",
+      "room and board",
+      "supplies",
+      "travel home",
+      "summer experience grant"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Middletown"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "No dates on the scholarship page; applicants are considered automatically when they apply to Wesleyan.",
+    "checkedOn": "2026-11-07",
+    "id": "wesleyan-african-scholars-us",
+    "name": "Wesleyan African Scholars Program",
+    "provider": "Wesleyan University",
+    "summary": "Full cost of attendance for about 10 incoming students a year from African countries, plus mentoring, alumni networks and a summer experience grant. No separate application.",
+    "amount": null,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "DZ",
+      "AO",
+      "BJ",
+      "BW",
+      "BF",
+      "BI",
+      "CV",
+      "CM",
+      "CF",
+      "TD",
+      "KM",
+      "CD",
+      "CG",
+      "CI",
+      "DJ",
+      "EG",
+      "GQ",
+      "ER",
+      "SZ",
+      "ET",
+      "GA",
+      "GM",
+      "GH",
+      "GN",
+      "GW",
+      "KE",
+      "LS",
+      "LR",
+      "LY",
+      "MG",
+      "MW",
+      "ML",
+      "MR",
+      "MU",
+      "MA",
+      "MZ",
+      "NA",
+      "NE",
+      "NG",
+      "RW",
+      "ST",
+      "SN",
+      "SC",
+      "SL",
+      "SO",
+      "ZA",
+      "SS",
+      "SD",
+      "TZ",
+      "TG",
+      "TN",
+      "UG",
+      "ZM",
+      "ZW"
+    ],
+    "eligibilityNotes": "For citizens or permanent residents of any of Africa's 54 countries (the page does not list them, so the codes here are expanded by us). Applicants must show financial need, must not be dual US citizens or US permanent residents, and must never have enrolled full-time in college.",
+    "officialUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/african-scholars.html",
+    "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/african-scholars.html"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": true,
+    "covers": [
+      "tuition and fees",
+      "room and board",
+      "health insurance",
+      "airfare",
+      "stipend"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Madison"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "Fall 2027 entry: early action application due 1 Nov and scholarship application due 15 Nov; the page does not state the year.",
+    "checkedOn": "2026-11-07",
+    "id": "king-morgridge-scholars-us",
+    "name": "King-Morgridge Scholars Program",
+    "provider": "University of Wisconsin-Madison",
+    "summary": "A four-year full scholarship for six undergraduates a year from Africa, the Caribbean, Latin America, South Asia and Southeast Asia, covering tuition, housing, food, insurance, flights and a stipend.",
+    "amount": null,
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "DZ",
+      "AO",
+      "BJ",
+      "BW",
+      "BF",
+      "BI",
+      "CV",
+      "CM",
+      "CF",
+      "TD",
+      "KM",
+      "CD",
+      "CG",
+      "CI",
+      "DJ",
+      "EG",
+      "GQ",
+      "ER",
+      "SZ",
+      "ET",
+      "GA",
+      "GM",
+      "GH",
+      "GN",
+      "GW",
+      "KE",
+      "LS",
+      "LR",
+      "LY",
+      "MG",
+      "MW",
+      "ML",
+      "MR",
+      "MU",
+      "MA",
+      "MZ",
+      "NA",
+      "NE",
+      "NG",
+      "RW",
+      "ST",
+      "SN",
+      "SC",
+      "SL",
+      "SO",
+      "ZA",
+      "SS",
+      "SD",
+      "TZ",
+      "TG",
+      "TN",
+      "UG",
+      "ZM",
+      "ZW",
+      "AR",
+      "BZ",
+      "BO",
+      "BR",
+      "CL",
+      "CO",
+      "CR",
+      "EC",
+      "SV",
+      "GF",
+      "GT",
+      "GY",
+      "HN",
+      "MX",
+      "NI",
+      "PA",
+      "PY",
+      "PE",
+      "SR",
+      "UY",
+      "VE",
+      "AG",
+      "BS",
+      "BB",
+      "CU",
+      "DM",
+      "DO",
+      "GD",
+      "HT",
+      "JM",
+      "KN",
+      "LC",
+      "VC",
+      "TT",
+      "AF",
+      "BD",
+      "BT",
+      "IN",
+      "MV",
+      "NP",
+      "PK",
+      "LK",
+      "BN",
+      "MM",
+      "KH",
+      "ID",
+      "LA",
+      "MY",
+      "PH",
+      "SG",
+      "TH",
+      "TL",
+      "VN"
+    ],
+    "eligibilityNotes": "You must have earned your secondary credential in a listed country of Africa, the Caribbean, Latin America, South Asia or Southeast Asia (countries expanded to codes by us from the page's list). Transfer and graduate students, current UW-Madison students and holders of a post-secondary degree are not eligible.",
+    "officialUrl": "https://admissions.wisc.edu/international-scholarships/",
+    "sourceUrl": "https://admissions.wisc.edu/international-scholarships/"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "USD",
+    "fullFunding": false,
+    "covers": [],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Berkeley"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "Apply to Berkeley in the first round (before January); the page gives a 15 Nov step for fee waivers only and does not state the cycle year.",
+    "checkedOn": "2026-11-07",
+    "id": "mastercard-foundation-scholars-berkeley-us",
+    "name": "Mastercard Foundation Scholars Program at UC Berkeley",
+    "provider": "UC Berkeley (Mastercard Foundation)",
+    "summary": "A scholarship program for African students admitted to a UC Berkeley master's degree of two years or less. The page does not say what it pays for.",
+    "amount": null,
+    "levels": [
+      "masters"
+    ],
+    "studyCountries": [
+      "US"
+    ],
+    "eligibleNationalities": [
+      "DZ",
+      "AO",
+      "BJ",
+      "BW",
+      "BF",
+      "BI",
+      "CV",
+      "CM",
+      "CF",
+      "TD",
+      "KM",
+      "CD",
+      "CG",
+      "CI",
+      "DJ",
+      "EG",
+      "GQ",
+      "ER",
+      "SZ",
+      "ET",
+      "GA",
+      "GM",
+      "GH",
+      "GN",
+      "GW",
+      "KE",
+      "LS",
+      "LR",
+      "LY",
+      "MG",
+      "MW",
+      "ML",
+      "MR",
+      "MU",
+      "MA",
+      "MZ",
+      "NA",
+      "NE",
+      "NG",
+      "RW",
+      "ST",
+      "SN",
+      "SC",
+      "SL",
+      "SO",
+      "ZA",
+      "SS",
+      "SD",
+      "TZ",
+      "TG",
+      "TN",
+      "UG",
+      "ZM",
+      "ZW"
+    ],
+    "eligibilityNotes": "You must be a citizen of an African country (codes expanded by us) and admitted to an eligible UC Berkeley master's degree. Dual citizens and people with asylee, refugee or permanent resident status in the US, Canada, UK or EU are not eligible. Doctoral, bachelor's and dual degrees do not qualify. Coverage, age limit and number of awards are not stated on the pages read.",
+    "officialUrl": "https://mcfscholarsprogram.berkeley.edu/graduate-application-process",
+    "sourceUrl": "https://mcfscholarsprogram.berkeley.edu/am-i-eligible-scholarship"
+  }
+]

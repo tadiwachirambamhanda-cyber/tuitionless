@@ -1,0 +1,351 @@
+[
+  {
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Paris"
+    ],
+    "excludedNationalities": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "CH",
+      "NO"
+    ],
+    "deadline": "2026-11-29",
+    "deadlineNote": "Master's 2nd committee. Master's 1st committee was 18 Oct 2026; Bachelor's (foreign school) 13 Jan 2027.",
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "tuition exemption"
+    ],
+    "checkedOn": "2026-11-07",
+    "id": "sciences-po-emile-boutmy-fr",
+    "name": "Emile Boutmy Scholarship",
+    "provider": "Sciences Po",
+    "summary": "Tuition exemption at Sciences Po for first-time applicants from outside the EU: full or 9,500 EUR for a Bachelor's first year, or 18,500 EUR per year for a two-year Master's.",
+    "amount": null,
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Page requires a non-EU state and a household not taxed in the EU; EU states, Switzerland and Norway expanded to codes as exclusions (also EU dual citizens). Amount depends on level and package, so it is left empty. PhD, 1-year Master's and exchange students excluded.",
+    "officialUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/",
+    "sourceUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/"
+  },
+  {
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Paris"
+    ],
+    "excludedNationalities": [
+      "FR"
+    ],
+    "deadline": null,
+    "deadlineNote": "2026 cycle closed (31 March 2026); next dates not yet published.",
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "living allowance",
+      "travel and visa flat fee (up to 900 EUR)"
+    ],
+    "checkedOn": "2026-11-07",
+    "id": "paris-saclay-international-masters-fr",
+    "name": "Université Paris-Saclay International Master's Scholarship",
+    "provider": "Université Paris-Saclay",
+    "summary": "10,000 EUR per year, paid monthly from September to June, plus up to 900 EUR for travel and visa, for foreign students admitted to a Paris-Saclay Master's. For students new to French higher education.",
+    "amount": 10000,
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Page says foreign nationality; French excluded. Must be under 30, new to French higher education, and receive no other funding above 600 EUR a month. Not combinable with Eiffel, Europa or Erasmus Mundus. Page does not say if tuition is covered.",
+    "officialUrl": "https://www.universite-paris-saclay.fr/en/admission/bourses-et-aides-financieres/international-masters-scholarships-program",
+    "sourceUrl": "https://www.universite-paris-saclay.fr/en/admission/bourses-et-aides-financieres/international-masters-scholarships-program"
+  },
+  {
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [],
+    "excludedNationalities": [
+      "FR"
+    ],
+    "deadline": "2027-01-06",
+    "deadlineNote": "Campus France pages give both 6 and 8 January 2027; institutions set earlier internal deadlines (for example 20 Nov 2026 at Strasbourg).",
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "living allowance",
+      "international and national transport",
+      "insurance"
+    ],
+    "checkedOn": "2026-11-07",
+    "id": "france-excellence-eiffel-fr",
+    "name": "France Excellence Eiffel Scholarship",
+    "provider": "French Ministry for Europe and Foreign Affairs, run by Campus France",
+    "summary": "Monthly allowance of 1,200 EUR (Master's) or 2,100 EUR (PhD) with travel, insurance and housing help for foreign students. Only French institutions can nominate candidates; tuition is not covered.",
+    "amount": null,
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Campus France page does not list nationalities; university pages (Strasbourg, Cote d'Azur) say foreign nationals only, French dual nationals excluded. Master's age 29 or under, PhD 35 or under; not currently studying in France. Allowance differs by level, so amount is left empty.",
+    "officialUrl": "https://www.campusfrance.org/en/the-france-excellence-eiffel-scholarship-program",
+    "sourceUrl": "https://www.campusfrance.org/en/the-france-excellence-eiffel-scholarship-program"
+  },
+  {
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Nice"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "Applications run April to May each year; currently closed.",
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "tuition exemption",
+      "stipend"
+    ],
+    "checkedOn": "2026-11-07",
+    "id": "cote-d-azur-idex-msc-fr",
+    "name": "Université Côte d'Azur IdEx Scholarship for International MSc Programs",
+    "provider": "Université Côte d'Azur",
+    "summary": "Tuition exemption plus a 5,000 EUR stipend for one year, for ten top applicants to eleven international MSc programs at Côte d'Azur.",
+    "amount": 5000,
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Page says any nationality. Must apply to an eligible MSc first; current Côte d'Azur students are excluded; cannot be combined with other scholarships.",
+    "officialUrl": "https://univ-cotedazur.eu/msc-programs/tuition-fees/are-you-an-international-student/academic-excellence-scholarships",
+    "sourceUrl": "https://univ-cotedazur.eu/msc-programs/tuition-fees/are-you-an-international-student/academic-excellence-scholarships"
+  },
+  {
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Marseille"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "No separate deadline; follow each eligible programme's application dates.",
+    "amountPeriod": "total",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "stipend",
+      "student residence room"
+    ],
+    "checkedOn": "2026-11-07",
+    "id": "amu-tiger-masters-excellence-fr",
+    "name": "Aix-Marseille TIGER Master's Excellence Scholarship",
+    "provider": "Aix-Marseille Université",
+    "summary": "Up to 10,000 EUR for one academic year plus a reserved CROUS room for strong Master's students in eligible programmes. No separate application; programme coordinators choose winners.",
+    "amount": 10000,
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "eligibilityNotes": "Page speaks of profiles from all over the world and sets no nationality rule; it does not say whether French nationals are excluded. Amount is a maximum. Only listed programmes qualify.",
+    "officialUrl": "https://www.univ-amu.fr/en/etudiants-internationaux/etudiants-internationaux-formation-diplomante/bourses-aides-financiers-etudiants-internationaux",
+    "sourceUrl": "https://www.univ-amu.fr/en/etudiants-internationaux/etudiants-internationaux-formation-diplomante/bourses-aides-financiers-etudiants-internationaux"
+  },
+  {
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Paris"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "Not published on the page.",
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "living expenses"
+    ],
+    "checkedOn": "2026-11-07",
+    "id": "sciences-po-tahtawi-egypt-fr",
+    "name": "Tahtawi Scholarship (Sciences Po)",
+    "provider": "Sciences Po",
+    "summary": "Helps Egyptian students entering the second year of a Sciences Po Master's with living expenses.",
+    "amount": null,
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibleNationalities": [
+      "EG"
+    ],
+    "eligibilityNotes": "Egyptian students only, entering year two of a Master's. Amount and deadline are not on the page.",
+    "officialUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/scholarships-non-european-students/",
+    "sourceUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/scholarships-non-european-students/"
+  },
+  {
+    "levels": [
+      "undergraduate",
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Paris"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "Not published on the page.",
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [],
+    "checkedOn": "2026-11-07",
+    "id": "sciences-po-custodian-two-holy-mosques-fr",
+    "name": "Custodian of the Two Holy Mosques Scholarship (Sciences Po)",
+    "provider": "Sciences Po",
+    "summary": "Scholarship for Saudi students admitted to a Sciences Po Bachelor's, Master's or PhD.",
+    "amount": null,
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibleNationalities": [
+      "SA"
+    ],
+    "eligibilityNotes": "Saudi students only. Amount, coverage and deadline are not on the page.",
+    "officialUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/scholarships-non-european-students/",
+    "sourceUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/scholarships-non-european-students/"
+  },
+  {
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [
+      "Paris"
+    ],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "Not published on the page.",
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [],
+    "checkedOn": "2026-11-07",
+    "id": "sciences-po-french-embassy-iran-fr",
+    "name": "French Embassy in Iran Scholarship (Sciences Po)",
+    "provider": "Sciences Po with the French Embassy in Iran",
+    "summary": "Scholarship for Iranian students living in Iran who are admitted to a Sciences Po Master's.",
+    "amount": null,
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibleNationalities": [
+      "IR"
+    ],
+    "eligibilityNotes": "Iranian students living in Iran only. Amount, coverage and deadline are not on the page.",
+    "officialUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/scholarships-non-european-students/",
+    "sourceUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/scholarships-non-european-students/"
+  },
+  {
+    "levels": [
+      "undergraduate",
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCities": [],
+    "excludedNationalities": [],
+    "deadline": null,
+    "deadlineNote": "Not published on the page.",
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [],
+    "checkedOn": "2026-11-07",
+    "id": "france-excellence-charpak-india-fr",
+    "name": "France Excellence Charpak Scholarship (listed by Sciences Po)",
+    "provider": "French Embassy in India",
+    "summary": "Scholarship run by the French Embassy in India for Indian students studying in France at undergraduate or postgraduate level.",
+    "amount": null,
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibleNationalities": [
+      "IN"
+    ],
+    "eligibilityNotes": "Indian students only. Sciences Po page says undergraduate or postgraduate; PhD not confirmed so not listed. Facts come from Sciences Po's summary, so confirm with the embassy page.",
+    "officialUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/scholarships-non-european-students/",
+    "sourceUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/scholarships-non-european-students/"
+  }
+]
