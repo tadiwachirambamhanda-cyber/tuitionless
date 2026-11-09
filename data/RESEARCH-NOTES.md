@@ -55,6 +55,6 @@ Nationality re-check of the 74 `["ANY"]` records: every page was re-read. None l
 - New records that were left out because nationality was not clear: KAS, TUM scholarship (depends on BAföG rules), three Polytechnique bachelor awards, a Reading award with no criteria, Dartmouth (source was a 2022 announcement).
 - Region lists expanded to codes by the researchers (check borderline countries): FES (120 codes), KAAD (109), ASU Mastercard (54 African countries), McGill Mastercard (54), Surrey Future Leaders (30). `GB` in excludedNationalities is shorthand for home-fee students at UK universities.
 - Yale: aid is need-based, so the amount is null (the page's 75,220 is an average for all aided students).
-- Some round deadlines have no year on the page (ASU, Engineering, Pasteur, Manitoba, UAlberta); the year was inferred as the coming one.
+- Deadlines that the page prints without a year (ASU, Engineering, Manitoba, UAlberta, Villigst) are stored as null with the date in the note, not as a guessed year.
 
 Not changed, because no better official source was found: Australia and UK entries in `country-costs.json` (the Home Affairs and HESA pages blocked the fetch), and Erasmus Mundus `studyCountries` (the official pages give only "at least 3 countries, one in the EU or an associated country: North Macedonia, Serbia, Iceland, Liechtenstein, Norway, Turkiye", not a host list).

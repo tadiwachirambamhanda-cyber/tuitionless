@@ -316,8 +316,8 @@
       "ANY"
     ],
     "eligibilityNotes": "Not automatic: complete the Financial Information section of the Engineering Supplemental Application (ESA). Value is not stated on the page.",
-    "deadline": "2027-01-15",
-    "deadlineNote": "Page gives 15 January with no year; this is read as 15 Jan 2027 for the next entry cycle.",
+    "deadline": null,
+    "deadlineNote": "The page gives 15 January without a year; check the official page for the exact date of the next round.",
     "roundClosed": false,
     "officialUrl": "https://future.utoronto.ca/scholarships-international-students",
     "sourceUrl": "https://future.utoronto.ca/scholarships-international-students"

@@ -160,8 +160,8 @@
     "excludedNationalities": [
       "CA"
     ],
-    "deadline": "2026-12-01",
-    "deadlineNote": "Page says 'December 1'; year inferred as 2026 from the 2027/28 intake",
+    "deadline": null,
+    "deadlineNote": "The page gives 1 December without a year; check the official page for the exact date of the next round.",
     "roundClosed": false,
     "checkedOn": "2026-11-10",
     "id": "umanitoba-international-excellence-entrance-ca",
@@ -289,8 +289,8 @@
     "excludedNationalities": [
       "CA"
     ],
-    "deadline": "2027-01-10",
-    "deadlineNote": "The entrance scholarship application window for September 2027 runs 1 Oct 2026 to 10 Jan 2027.",
+    "deadline": null,
+    "deadlineNote": "The page gives 10 January without a year; check the official page for the exact date of the next round.",
     "roundClosed": false,
     "checkedOn": "2026-11-10",
     "id": "ualberta-presidents-international-distinction-ca",
@@ -325,8 +325,8 @@
     "excludedNationalities": [
       "CA"
     ],
-    "deadline": "2027-01-10",
-    "deadlineNote": "The entrance scholarship application window for September 2027 runs 1 Oct 2026 to 10 Jan 2027.",
+    "deadline": null,
+    "deadlineNote": "The page gives 10 January without a year; check the official page for the exact date of the next round.",
     "roundClosed": false,
     "checkedOn": "2026-11-10",
     "id": "ualberta-international-leader-scholarship-ca",

@@ -24,3 +24,11 @@ Round 1, VERDICT: FINDINGS(5). Codex confirmed only `fields` and the two RMIT UR
 
 ## Round 2 (branch claude/lane-c-round2)
 Gap-filling research: 51 new records, nationality re-check of 74 ANY records, AU/UK costs and Erasmus countries re-checked (no better official source, left as is). See the Round 2 section of data/RESEARCH-NOTES.md.
+
+### Codex review, round 2 (VERDICT: FINDINGS(5))
+Codex fetched five new records (Böll, Toronto Arts and Science, Yale, Princeton matched; UBC page unreachable).
+- MAJOR, ASU 54 African countries: Dismissed. The page names the region (young African professionals); the brief allows expanding a named region to codes, and the record's notes say so.
+- MAJOR, ASU yearless deadline: Fixed. Deadline set to null with the date in the note.
+- MAJOR, Engineering yearless January 15: Fixed, same way.
+- MINOR, other yearless deadlines (Manitoba, UAlberta x2, Villigst): Fixed, same way. Pasteur's page states the year, so it stays.
+- MINOR, Böll ANY: Dismissed. The page gives DAC countries only as priority and sets no exclusion.
