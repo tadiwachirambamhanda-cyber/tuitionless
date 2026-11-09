@@ -112,7 +112,15 @@ export function ResultsView() {
     return true;
   };
   const sorter = (a: Match, b: Match) => {
-    if (sort === "deadline") return (a.scholarship.deadline ?? "9999").localeCompare(b.scholarship.deadline ?? "9999");
+    if (sort === "deadline") {
+      // Upcoming first (soonest to latest), then closed, then rolling.
+      const rank = (m: Match) => {
+        const d = m.scholarship.deadline;
+        if (!d) return 2;
+        return daysLeft(d) >= 0 ? 0 : 1;
+      };
+      return rank(a) - rank(b) || (a.scholarship.deadline ?? "").localeCompare(b.scholarship.deadline ?? "");
+    }
     if (sort === "amount") {
       const v = (m: Match) => (m.scholarship.amount === null ? (m.scholarship.fullFunding ? Infinity : -1) : toDisplay(m.scholarship.amount, m.scholarship.currency, cur) ?? 0);
       return v(b) - v(a);
