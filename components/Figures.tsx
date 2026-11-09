@@ -41,7 +41,7 @@ export function DeadlineFigure({ s, big = "text-2xl" }: { s: Scholarship; big?: 
   if (!s.deadline) {
     return (
       <>
-        <p className="font-display text-xl font-bold text-ink-muted">Check official site</p>
+        <p className="font-display text-xl font-bold text-ink-muted">{s.roundClosed ? "Round closed" : "Check official site"}</p>
         {s.deadlineNote && <p className="text-sm text-ink-muted">{s.deadlineNote}</p>}
       </>
     );

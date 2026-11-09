@@ -228,6 +228,7 @@
     "eligibilityNotes": "Nationality list expanded from the country selector on Chevening's who-can-apply page, so confirm your country on the official site. Needs 2 years (2,800 hours) of work experience, and an unconditional offer from one of three chosen UK courses by the offer deadline. Not open to British citizens or people living in the UK. Some countries' awards also require living in your home country.",
     "deadline": null,
     "deadlineNote": "The 2027/28 round closed in October 2026 (exact date is on each country page, not the timeline page). The next round is not published yet.",
+    "roundClosed": true,
     "officialUrl": "https://www.chevening.org/apply/",
     "sourceUrl": "https://www.chevening.org/scholarships/who-can-apply/eligibility/",
     "checkedOn": "2026-11-07"
@@ -306,6 +307,7 @@
     "eligibilityNotes": "Countries listed on the CSC page are expanded to codes. Stipend is 1,712 GBP per month (2,000 GBP in the London area) at current rates. Applicants apply through the CSC's online system.",
     "deadline": null,
     "deadlineNote": "The 2027/28 round closed on 20 October 2026 at 16:00 BST. The next round dates are not published yet.",
+    "roundClosed": true,
     "officialUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
     "sourceUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
     "checkedOn": "2026-11-07"
@@ -385,6 +387,7 @@
     "eligibilityNotes": "Open to citizens or refugees of the 43 countries listed on the CSC page (expanded to codes). Needs at least a 2:1 degree (or a 2:2 plus a relevant postgraduate qualification) and no year or more of study or work in a high income country. Apply to a participating UK university first, then through the CSC online system.",
     "deadline": "2026-12-08",
     "deadlineNote": "Applications for 2027/28 open 10 November 2026 and close 8 December 2026 at 16:00 GMT. Universities have their own course deadlines too.",
+    "roundClosed": false,
     "officialUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/",
     "sourceUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/",
     "checkedOn": "2026-11-07"
@@ -438,6 +441,7 @@
     "eligibilityNotes": "Countries listed on the CSC page are expanded to codes. Stipend is 1,712 GBP per month (2,000 GBP in the London area) at current rates.",
     "deadline": null,
     "deadlineNote": "The 2027/28 round closed on 20 October 2026 at 16:00 BST. The next round dates are not published yet.",
+    "roundClosed": true,
     "officialUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-phd-scholarships-for-least-developed-countries-and-vulnerable-states/",
     "sourceUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-phd-scholarships-for-least-developed-countries-and-vulnerable-states/",
     "checkedOn": "2026-11-07"
@@ -479,6 +483,7 @@
     "eligibilityNotes": "Open to citizens of any country outside the UK. The living allowance is 23,152 GBP for 12 months at the 2026-27 rate. Undergraduate degrees, MASt, MBA and most part-time courses are not eligible.",
     "deadline": "2026-12-08",
     "deadlineNote": "Closing date for non-US applicants is 8 December 2026 or 6 January 2027 depending on the course. US citizens living in the USA had 14 October 2026.",
+    "roundClosed": false,
     "officialUrl": "https://www.gatescambridge.org/apply/how-to-apply/",
     "sourceUrl": "https://www.gatescambridge.org/programme/the-scholarship/",
     "checkedOn": "2026-11-07"
@@ -715,6 +720,7 @@
     "eligibilityNotes": "Country list taken from the eligibility list on Glasgow's page (the UK is not on it). Needs the equivalent of a UK first class degree and an offer for a 1-year full-time in-person master's starting September 2027. Cannot be combined with other Glasgow awards.",
     "deadline": null,
     "deadlineNote": "No date published yet for 2027/28. Glasgow says it will confirm the date, usually late August, and awards are made on a rolling basis.",
+    "roundClosed": false,
     "officialUrl": "https://www.gla.ac.uk/scholarships/globalleadershipscholarship/",
     "sourceUrl": "https://www.gla.ac.uk/scholarships/globalleadershipscholarship/",
     "checkedOn": "2026-11-07"
@@ -950,6 +956,7 @@
     "eligibilityNotes": "Amount depends on the college (10,000 or 7,000 GBP per year), so none is stored. Country list taken from Glasgow's page (the UK and Ireland are not on it). Needs an offer and typically AAB at A level or IB 36, higher for some courses. No separate application.",
     "deadline": null,
     "deadlineNote": "No application deadline: offer holders are assessed automatically.",
+    "roundClosed": false,
     "officialUrl": "https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/",
     "sourceUrl": "https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/",
     "checkedOn": "2026-11-07"
@@ -987,6 +994,7 @@
     "eligibilityNotes": "Open to nationals or residents of Thailand, Mexico and Ghana with an offer for an eligible one-year on-campus MSc and the equivalent of a UK first class degree. The British Council's programme-wide minimum is 10,000 GBP but the value of Edinburgh's awards is not stated, so no amount is stored.",
     "deadline": null,
     "deadlineNote": "The 2026 round has closed. Edinburgh says 2027 information is coming soon.",
+    "roundClosed": true,
     "officialUrl": "https://registryservices.ed.ac.uk/scholarships-and-student-funding/prospective-postgraduates/funding-for-international-students/great",
     "sourceUrl": "https://registryservices.ed.ac.uk/scholarships-and-student-funding/prospective-postgraduates/funding-for-international-students/great",
     "checkedOn": "2026-11-07"
@@ -1023,6 +1031,7 @@
     "eligibilityNotes": "No nationality limit stated. Must have applied for an eligible in-person course and be classed as an overseas fee student. The page does not state an amount. Online and part-time courses are not eligible.",
     "deadline": "2027-03-19",
     "deadlineNote": "Closes 1pm UK time on 19 March 2027 for September 2027 entry. Outcomes expected by end of May 2027.",
+    "roundClosed": false,
     "officialUrl": "https://www.bristol.ac.uk/students/support/finances/scholarships/think-big-scholarships/",
     "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/scholarships/think-big-scholarships/",
     "checkedOn": "2026-11-07"
@@ -1058,6 +1067,7 @@
     "eligibilityNotes": "No nationality limit stated. Needs an offer, international fee status, a predicted or achieved 2:1 or equivalent, and self or partial funding. MBA and online courses are excluded. Amount varies by award (3,000, 6,000 or 16,000 GBP).",
     "deadline": "2027-02-28",
     "deadlineNote": "Round one closes 28 February 2027. The page also describes a second round closing 16 May 2027 but its header calls 28 February the final deadline, so check.",
+    "roundClosed": false,
     "officialUrl": "https://www.leeds.ac.uk/scholarship/12/masters-international-excellence-scholarships",
     "sourceUrl": "https://www.leeds.ac.uk/scholarship/12/masters-international-excellence-scholarships",
     "checkedOn": "2026-11-07"
@@ -1103,6 +1113,7 @@
     "eligibilityNotes": "Based on holding a passport from one of the listed countries. No application: eligible offer holders receive it automatically. MBA and online courses are excluded.",
     "deadline": null,
     "deadlineNote": "Ongoing with no final deadline.",
+    "roundClosed": false,
     "officialUrl": "https://www.leeds.ac.uk/scholarship/14/masters-international-regional-scholarships",
     "sourceUrl": "https://www.leeds.ac.uk/scholarship/14/masters-international-regional-scholarships",
     "checkedOn": "2026-11-07"
@@ -1140,6 +1151,7 @@
     "eligibilityNotes": "Birmingham says it is open to all nationalities but you must be living in (domiciled in) Ghana, Kenya or Nigeria, so those three codes are used. PGDip, MRes, MPhil, PhD and distance courses are excluded.",
     "deadline": null,
     "deadlineNote": "The page shows the September 2026 round, which closed 30 June 2026. No 2027 round is published on that page yet.",
+    "roundClosed": true,
     "officialUrl": "https://www.birmingham.ac.uk/study/scholarships-funding/africa-postgraduate-chancellors",
     "sourceUrl": "https://www.birmingham.ac.uk/study/scholarships-funding/africa-postgraduate-chancellors",
     "checkedOn": "2026-11-07"
@@ -1185,6 +1197,7 @@
     "eligibilityNotes": "Eligibility is by residence, not nationality: you must live in, or have lived for the last three years in, one of the 11 listed countries, so the codes are used as the closest match. Must be self-funded with overseas fee status. PGDip and PGCert are excluded.",
     "deadline": "2027-07-06",
     "deadlineNote": "Accept your offer before 4pm UK time on 6 July 2027. No separate application.",
+    "roundClosed": false,
     "officialUrl": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/2027",
     "sourceUrl": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/2027",
     "checkedOn": "2026-11-07"
@@ -1220,6 +1233,7 @@
     "eligibilityNotes": "No nationality limit stated. Needs overseas fee status, self-funding and an average of 60% or above each year to keep it. Medicine and Dentistry are excluded. Awarded automatically.",
     "deadline": "2027-06-02",
     "deadlineNote": "Make Sheffield your firm or insurance choice by 4pm UK time on 2 June 2027.",
+    "roundClosed": false,
     "officialUrl": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/undergraduate/international-undergraduate-scholarship-2027",
     "sourceUrl": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/undergraduate/international-undergraduate-scholarship-2027",
     "checkedOn": "2026-11-07"
@@ -1349,6 +1363,7 @@
     "eligibilityNotes": "Open to students domiciled in all African countries plus the listed Commonwealth and territory countries; expanded to codes here (domicile is the real test, not nationality). Needs an offer for a full-time master's or MRes in the Faculty of Engineering, Medicine and Health Sciences, Science, or Social Sciences.",
     "deadline": null,
     "deadlineNote": "The page covers 2026/27 entry and says its deadline has passed. The next round is not published.",
+    "roundClosed": true,
     "officialUrl": "https://www.nottingham.ac.uk/pgstudy/funding/developing-solutions-masters-scholarship",
     "sourceUrl": "https://www.nottingham.ac.uk/pgstudy/funding/developing-solutions-masters-scholarship",
     "checkedOn": "2026-11-07"

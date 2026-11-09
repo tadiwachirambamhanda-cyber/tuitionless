@@ -31,6 +31,7 @@ export const scholarshipSchema = z.object({
   eligibilityNotes: z.string(),
   deadline: date.nullable(),
   deadlineNote: z.string().nullable(),
+  roundClosed: z.boolean(),
   officialUrl: url,
   sourceUrl: url,
   checkedOn: date,

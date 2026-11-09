@@ -3,7 +3,7 @@
 // The value "ANY" means "no restriction" in list fields.
 
 export type StudyLevel = "undergraduate" | "masters" | "phd";
-export type MatchGroup = "best_fit" | "worth_a_try" | "stretch";
+export type MatchGroup = "best_fit" | "worth_a_try" | "stretch" | "closed";
 
 export interface StudentProfile {
   nationality: string; // ISO country code
@@ -34,6 +34,7 @@ export interface Scholarship {
   eligibilityNotes: string;
   deadline: string | null; // YYYY-MM-DD, null when rolling or unknown
   deadlineNote: string | null;
+  roundClosed: boolean; // the page says the current round has closed or passed
   officialUrl: string; // the official application page
   sourceUrl: string; // where the facts were checked
   checkedOn: string; // YYYY-MM-DD

@@ -45,6 +45,7 @@
     "eligibilityNotes": "The page names these countries as examples and says the list is not complete, so other nationalities may qualify via the programme's eligibility tool. Not available for study in the UK or Russia. 50% of the award must be repaid. Master's awards cover the full degree; PhD awards cover two years.",
     "deadline": null,
     "deadlineNote": "The 2026-27 round is closed and the next one opens in early 2027; no closing date is published yet.",
+    "roundClosed": true,
     "officialUrl": "https://the.akdn/our-agencies/aga-khan-foundation/international-scholarship-programme",
     "sourceUrl": "https://the.akdn/our-agencies/aga-khan-foundation/international-scholarship-programme"
   },
@@ -81,6 +82,7 @@
     "eligibilityNotes": "Open to students worldwide with a bachelor's degree or in their final year. Only some programmes offer full scholarships. Each programme involves institutions in Europe and beyond; the page gives no country list, so check the course catalogue for the actual study countries.",
     "deadline": null,
     "deadlineNote": "Usually between October and January for the following academic year; each programme sets its own date.",
+    "roundClosed": false,
     "officialUrl": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters-scholarships",
     "sourceUrl": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters-scholarships"
   },
@@ -119,6 +121,7 @@
     "eligibilityNotes": "Separate tracks exist for international applicants (valid non-Chinese passport), mainland China, and Hong Kong, Macao and Taiwan. Needs a bachelor's degree or expected graduation in August, plus English proficiency. Students of partner universities must first pass their home university's selection.",
     "deadline": "2026-11-30",
     "deadlineNote": "For the 2027 intake, international applications close 30 November 2026 at 9:00 am Beijing time.",
+    "roundClosed": false,
     "officialUrl": "https://apply.yca.pku.edu.cn/",
     "sourceUrl": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm"
   },
@@ -165,6 +168,7 @@
     "eligibilityNotes": "The page does not list nationalities; non-Turkish citizens apply, and Turkish citizens or former citizens are excluded (from search summary of the official site). Monthly stipend is 6,500 TL undergraduate, 9,500 TL master's and 13,000 TL PhD. Health sciences are not funded at master's or PhD level.",
     "deadline": null,
     "deadlineNote": "The programme page says applications run each year from 10 January to 20 February; the 2027 dates are not yet published.",
+    "roundClosed": false,
     "officialUrl": "https://tbbs.turkiyeburslari.gov.tr",
     "sourceUrl": "https://www.turkiyeburslari.gov.tr/fulltimeprograms"
   },
@@ -245,6 +249,7 @@
     "eligibilityNotes": "Eligible countries expanded to codes from the page's list of 40. Applicants must be 35 or younger (waivable) with two years of full-time work experience, and dual citizens of a developed country are ineligible. Study is at 27 partner institutions in Asia and the Pacific (17 in Japan); the page does not give the country list, so studyCountries is set to ANY as a placeholder.",
     "deadline": null,
     "deadlineNote": "Not stated on the page; the deadline is set by each partner institution.",
+    "roundClosed": false,
     "officialUrl": "https://www.adb.org/work-with-us/careers/japan-scholarship-program",
     "sourceUrl": "https://www.adb.org/work-with-us/careers/japan-scholarship-program"
   },
@@ -369,6 +374,7 @@
     "eligibilityNotes": "Eligible countries expanded to codes from the World Bank list of 87 countries for the 2027 cycle (Kosovo as XK, West Bank and Gaza as PS). Needs 3 years of paid development work, a bachelor's earned 3 or more years before the deadline, and unconditional admission to a participating programme outside the home country. Programmes are at 24 universities in the US, Europe, Africa, Oceania and Japan; no country list is published on the page, so studyCountries is ANY as a placeholder.",
     "deadline": "2027-02-26",
     "deadlineNote": "Window 1 closes 26 February 2027; window 2 runs 29 March to 21 May 2027. The application form is only sent to candidates admitted and shortlisted by a participating university.",
+    "roundClosed": false,
     "officialUrl": "https://www.worldbank.org/en/programs/scholarships/jj-wbgsp",
     "sourceUrl": "https://www.worldbank.org/en/programs/scholarships/jj-wbgsp"
   }

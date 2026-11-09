@@ -33,6 +33,7 @@
     "eligibilityNotes": "Open to international students (as defined in Australian law); Australian citizens, permanent residents and dual Australian citizens are excluded. Full-time, first undergraduate degree, no earlier tertiary study. Living costs, health cover and housing are not covered.",
     "deadline": null,
     "deadlineNote": "Semester 1 2027 round is closed; Semester 2 2027 round is open but the page lists no closing date.",
+    "roundClosed": false,
     "officialUrl": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html",
     "sourceUrl": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html",
     "checkedOn": "2026-11-07"
@@ -71,6 +72,7 @@
     "eligibilityNotes": "Any international student (as defined in Australian law) with an unconditional offer by the round deadline who does not hold an Australian Government scholarship. No separate application: eligible offer holders are considered automatically. Page names no nationality limits.",
     "deadline": "2026-11-16",
     "deadlineNote": "Round 3 for Semester 1 2027 closes 16 Nov 2026. Semester 2 2027 rounds close 15 Feb, 22 Mar and 3 May 2027.",
+    "roundClosed": false,
     "officialUrl": "https://www.sydney.edu.au/scholarships/e/vice-chancellor-international-scholarships-scheme.html",
     "sourceUrl": "https://www.sydney.edu.au/scholarships/e/vice-chancellor-international-scholarships-scheme.html",
     "checkedOn": "2026-11-07"
@@ -107,6 +109,7 @@
     "eligibilityNotes": "Must be an Indian citizen currently living in India (proof of residence required) and an international student with an unconditional offer. 28 awards a year, up to AUD 40,000 each.",
     "deadline": null,
     "deadlineNote": "The 2026 round closed 24 May 2026; next round dates not yet published.",
+    "roundClosed": true,
     "officialUrl": "https://www.sydney.edu.au/scholarships/e/sydney-scholars-india-scholarship-program.html",
     "sourceUrl": "https://www.sydney.edu.au/scholarships/e/sydney-scholars-india-scholarship-program.html",
     "checkedOn": "2026-11-07"
@@ -146,6 +149,7 @@
     "eligibilityNotes": "Stipend figure is the 2027 yearly rate. Tuition offset covers up to 14 research periods and is awarded automatically with the stipend. Open to international students starting or enrolled in a higher degree by research; page names no nationality limits.",
     "deadline": "2026-12-18",
     "deadlineNote": "Deadline for research periods 3 and 4 of 2027. Next listed: 10 Sep 2027 for periods 1 and 2 of 2028.",
+    "roundClosed": false,
     "officialUrl": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
     "sourceUrl": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
     "checkedOn": "2026-11-07"
@@ -182,6 +186,7 @@
     "eligibilityNotes": "Open to international students starting full-time on-campus undergraduate or postgraduate coursework (not UNSW Online or Canberra) with an unconditional or English-package offer. Page names no nationality limits; research students are directed elsewhere. This record is the Term 2 2026 round, which has closed.",
     "deadline": null,
     "deadlineNote": "Term 2 2026 round closed 26 Feb 2026; dates for later intakes not published on this page.",
+    "roundClosed": true,
     "officialUrl": "https://www.scholarships.unsw.edu.au/scholarships/id/1923",
     "sourceUrl": "https://www.scholarships.unsw.edu.au/scholarships/id/1923",
     "checkedOn": "2026-11-07"
@@ -218,6 +223,7 @@
     "eligibilityNotes": "International students applying for full-time study at UQ from 2027 in eligible programs; must not hold another UQ scholarship or a full outside scholarship. Page names no nationality limits.",
     "deadline": null,
     "deadlineNote": "No application deadline; students are told how long they have to accept when they receive their offer.",
+    "roundClosed": false,
     "officialUrl": "https://scholarships.uq.edu.au/scholarship/uq-international-excellence-scholarship",
     "sourceUrl": "https://scholarships.uq.edu.au/scholarship/uq-international-excellence-scholarship",
     "checkedOn": "2026-11-07"
@@ -253,6 +259,7 @@
     "eligibilityNotes": "Selection is by demonstrated financial need. Open to international undergraduates; Malaysian students may get preference. Page names no other nationality limits.",
     "deadline": null,
     "deadlineNote": "Applications open Dec 2026 and close Feb 2027; the page gives no exact closing day.",
+    "roundClosed": false,
     "officialUrl": "https://scholarships.uq.edu.au/scholarship/international-student-scholarship",
     "sourceUrl": "https://scholarships.uq.edu.au/scholarship/international-student-scholarship",
     "checkedOn": "2026-11-07"
@@ -288,6 +295,7 @@
     "eligibilityNotes": "Must be an international ANU bachelor's student, entering second year with a GPA of at least 5.0 over the first two semesters. No application: eligible students are considered automatically. Page names no nationality limits.",
     "deadline": null,
     "deadlineNote": "No deadline listed; page says open for applications.",
+    "roundClosed": false,
     "officialUrl": "https://study.anu.edu.au/scholarships/find-scholarship/terrell-international-undergraduate-scholarships",
     "sourceUrl": "https://study.anu.edu.au/scholarships/find-scholarship/terrell-international-undergraduate-scholarships",
     "checkedOn": "2026-11-07"
@@ -324,6 +332,7 @@
     "eligibilityNotes": "Tiers: 20% undergraduate and postgraduate, 25% South East Asia, 50% Pacific. Eligibility is by country of residence, not citizenship: residents of China (incl. Taiwan, Hong Kong, Macau), Japan, Mongolia and Korea are excluded and use a separate ANU award. Needs undergraduate selection rank 85 or postgraduate GPA 5.5. Owner to double-check how residence rule maps to nationality.",
     "deadline": null,
     "deadlineNote": "Open all year; no closing date listed.",
+    "roundClosed": false,
     "officialUrl": "https://study.anu.edu.au/scholarships/find-scholarship/anu-international-achievement-award",
     "sourceUrl": "https://study.anu.edu.au/scholarships/find-scholarship/anu-international-achievement-award",
     "checkedOn": "2026-11-07"
@@ -361,6 +370,7 @@
     "eligibilityNotes": "International research applicants ranked on merit; needs a supervisor and available place. No separate form: tick 'Australia: ANU - Other Scholarship' on the admission application. Page names no nationality limits. Does not itself include a living stipend.",
     "deadline": "2027-04-15",
     "deadlineNote": "Round 2 (same-year start) closes 15 Apr; Round 1 for the following year closes 31 Aug.",
+    "roundClosed": false,
     "officialUrl": "https://study.anu.edu.au/scholarships/find-scholarship/research-training-program-rtp-international-fee-offset-scholarship",
     "sourceUrl": "https://study.anu.edu.au/scholarships/find-scholarship/research-training-program-rtp-international-fee-offset-scholarship",
     "checkedOn": "2026-11-07"
@@ -397,6 +407,7 @@
     "eligibilityNotes": "Needs ATAR 99 (or equivalent) for undergraduate or GPA 6.7/7 for postgraduate coursework; excludes most health programs, Australia Awards holders and fully sponsored students. International students only; page names no nationality limits.",
     "deadline": null,
     "deadlineNote": "Applications opened 24 Aug 2026 and are reviewed on a rolling basis until places run out; no closing date.",
+    "roundClosed": false,
     "officialUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-academic-excellence-scholarship-50/",
     "sourceUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-academic-excellence-scholarship-50/",
     "checkedOn": "2026-11-07"
@@ -433,6 +444,7 @@
     "eligibilityNotes": "Needs ATAR 75 or a GPA of 4.5 to 5.0 depending on route; excludes many health programs, Australia Awards holders and fully sponsored students. No separate application. International students only.",
     "deadline": null,
     "deadlineNote": "No application deadline; assessed automatically at offer stage.",
+    "roundClosed": false,
     "officialUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-merit-scholarship-15/",
     "sourceUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-merit-scholarship-15/",
     "checkedOn": "2026-11-07"
@@ -469,6 +481,7 @@
     "eligibilityNotes": "Page states students from all countries are eligible. Needs ATAR 85 or 90 equivalent, or WAM 65 or 75. Excludes some medical, dental, law and optometry courses. Assessed automatically from the course application.",
     "deadline": null,
     "deadlineNote": "No closing date listed.",
+    "roundClosed": false,
     "officialUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/uwa-funded-scholarships/global-excellence-scholarship",
     "sourceUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/uwa-funded-scholarships/global-excellence-scholarship",
     "checkedOn": "2026-11-07"
@@ -515,6 +528,7 @@
     "eligibilityNotes": "Citizens of Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Vietnam or Timor-Leste on a student visa, full-time. Countries expanded to ISO codes from the page list. Assessed automatically.",
     "deadline": null,
     "deadlineNote": "No closing date listed.",
+    "roundClosed": false,
     "officialUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/asean-scholarship",
     "sourceUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/asean-scholarship",
     "checkedOn": "2026-11-07"
@@ -577,6 +591,7 @@
     "eligibilityNotes": "Citizens of the 27 countries named on the page (expanded to ISO codes): Argentina, Bangladesh, Bhutan, Bolivia, Brazil, Chile, China, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, India, Kenya, Maldives, Mexico, Nepal, Nicaragua, Panama, Paraguay, Peru, Sri Lanka, Uruguay, Venezuela. Student visa and full-time study required. A footnote on the page was not visible, so check conditions.",
     "deadline": null,
     "deadlineNote": "No closing date listed.",
+    "roundClosed": false,
     "officialUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/international-student-award",
     "sourceUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/international-student-award",
     "checkedOn": "2026-11-07"
@@ -615,6 +630,7 @@
     "eligibilityNotes": "By citizenship: China, Indonesia, Malaysia, Vietnam (a few awards each). Needs ATAR 98 equivalent. Page does not state the study level; the ATAR rule suggests undergraduate. A separate WACE award for offshore school graduates is not included here.",
     "deadline": null,
     "deadlineNote": "Page refers to a deadline but gives no date; check the scholarship listing.",
+    "roundClosed": false,
     "officialUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/vice-chancellors-scholarships",
     "sourceUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/vice-chancellors-scholarships",
     "checkedOn": "2026-11-07"
@@ -654,6 +670,7 @@
     "eligibilityNotes": "International students only (Australian and New Zealand citizens and Australian permanent residents excluded). Covers undergraduate, honours and postgraduate coursework from 2025 to 2028 intakes. No separate application.",
     "deadline": null,
     "deadlineNote": "Opened 1 Jan 2026; no closing date listed.",
+    "roundClosed": false,
     "officialUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-excellence-international-scholarship",
     "sourceUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-excellence-international-scholarship",
     "checkedOn": "2026-11-07"
@@ -693,6 +710,7 @@
     "eligibilityNotes": "International students only (Australian and New Zealand citizens and Australian permanent residents excluded). Available for intakes up to Spring 2028. No separate application.",
     "deadline": null,
     "deadlineNote": "Opened 1 Jan 2026; no closing date listed.",
+    "roundClosed": false,
     "officialUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-merit-international-scholarship",
     "sourceUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-merit-international-scholarship",
     "checkedOn": "2026-11-07"
@@ -731,6 +749,7 @@
     "eligibilityNotes": "Open to international, fee-paying, non-sponsored students of any nationality except Australian; needs about 95 percent course-weighted average, then 70 percent to keep it. Excludes some medical and nursing courses. No separate application.",
     "deadline": "2027-10-01",
     "deadlineNote": "Applications open 27 Jul 2026 and close 1 Oct 2027 (covers 2027 and 2028 starts).",
+    "roundClosed": false,
     "officialUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7985",
     "sourceUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7985",
     "checkedOn": "2026-11-07"
@@ -769,6 +788,7 @@
     "eligibilityNotes": "Open to international, fee-paying, non-sponsored students of any nationality except Australian; cannot hold another Curtin or Australian government scholarship. No separate application.",
     "deadline": "2027-10-01",
     "deadlineNote": "Applications open 27 Jul 2026 and close 1 Oct 2027.",
+    "roundClosed": false,
     "officialUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7986",
     "sourceUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7986",
     "checkedOn": "2026-11-07"
@@ -807,6 +827,7 @@
     "eligibilityNotes": "Open to international, fee-paying, non-sponsored students of any nationality except Australian; needs at least 1.5 years of study at the campus. Credit only, not cash. No separate application.",
     "deadline": "2027-10-01",
     "deadlineNote": "Applications open 27 Jul 2026 and close 1 Oct 2027.",
+    "roundClosed": false,
     "officialUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7987",
     "sourceUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7987",
     "checkedOn": "2026-11-07"
@@ -848,6 +869,7 @@
     "eligibilityNotes": "Citizens (including dual) of India, Sri Lanka, Bangladesh, Bhutan, Nepal or Pakistan on, or applying for, a student visa; offer from 2026 intakes onward. No separate form: apply to RMIT and the offer letter shows the award.",
     "deadline": null,
     "deadlineNote": "No dates on the page; see RMIT's key dates page for intakes.",
+    "roundClosed": false,
     "officialUrl": "https://www.rmit.edu.au/scholarships/international-scholarships/future-leaders-scholarship",
     "sourceUrl": "https://www.rmit.edu.au/scholarships/international-scholarships/future-leaders-scholarship",
     "checkedOn": "2026-11-07"
@@ -883,6 +905,7 @@
     "eligibilityNotes": "Needs outstanding results via ATAR, equivalent, foundation or approved pathway; excludes some education, social work and exercise science courses. No application needed. Page lists a 2026/2027 year inconsistency, so confirm the intake with UOW.",
     "deadline": null,
     "deadlineNote": "No deadline; offers issued from 12 Jun 2026 for 2027 starts.",
+    "roundClosed": false,
     "officialUrl": "https://www.uow.edu.au/study/scholarships/international/university-excellence-scholarships/",
     "sourceUrl": "https://www.uow.edu.au/study/scholarships/international/university-excellence-scholarships/",
     "checkedOn": "2026-11-07"

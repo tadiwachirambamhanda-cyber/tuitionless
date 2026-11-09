@@ -69,7 +69,7 @@ export function DetailView({ id }: { id: string }) {
   const place = s.studyCountries.includes("ANY") ? "Any country" : s.studyCountries.map(countryName).join(", ");
   const apply = (
     <Button href={s.officialUrl} target="_blank" className="w-full">
-      Apply on official site <External size={18} /><span className="sr-only">(opens in a new tab)</span>
+      {s.roundClosed ? "See official site" : "Apply on official site"} <External size={18} /><span className="sr-only">(opens in a new tab)</span>
     </Button>
   );
   const card = "rounded-[20px] border border-border bg-surface p-5";

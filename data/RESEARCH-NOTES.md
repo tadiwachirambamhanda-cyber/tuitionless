@@ -42,3 +42,6 @@ Every `fields` value is now one of the shared list in `lib/fields.ts`, or `["ANY
 ## Link and study-country follow-ups
 - The RMIT Future Leaders links now use https (the https page loads and is the right page).
 - Erasmus Mundus `studyCountries` stays `["ANY"]`: the official Erasmus+ page only says each programme involves at least three countries and gives no list, so no verified correction was possible. Use the course catalogue for the real countries.
+
+## Closed rounds (`roundClosed`)
+`roundClosed: true` is set on 30 records whose stored note says the current round has closed or its date has passed. Records that only say "likely closed" (Ireland Fellows), have conflicting dates (Fulbright-Nehru), or give no status stay `false`. This goes stale as new rounds open, so it needs rechecking.

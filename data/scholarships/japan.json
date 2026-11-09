@@ -33,6 +33,7 @@
     "eligibilityNotes": "Page requires the nationality of a country that has diplomatic relations with Japan (Japanese nationals not eligible), so recorded as ANY with JP excluded. Born on or after 2 Apr 1992; fields may be limited by the embassy. Monthly allowance is 143,000 (non-degree), 144,000 (master's) or 145,000 (doctoral) yen; amount shown is master's rate x12.",
     "deadline": null,
     "deadlineNote": "Embassy sets its own date; recruitment for 2027 entry ran Apr-May 2026. 2028 call not yet published.",
+    "roundClosed": true,
     "officialUrl": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-research.html",
     "sourceUrl": "https://www.studyinjapan.go.jp/en/_mt/2026/04/01-2027_Research_Guidelines_E.pdf",
     "checkedOn": "2026-11-07"
@@ -70,6 +71,7 @@
     "eligibilityNotes": "Page requires the nationality of a country that has diplomatic relations with Japan (Japanese nationals not eligible), so recorded as ANY with JP excluded. Born on or after 2 Apr 2002; 12 years of schooling. Allowance 117,000 yen a month (amount shown x12).",
     "deadline": null,
     "deadlineNote": "Embassy sets its own date; recruitment for 2027 entry ran Apr-May 2026 with screening to Aug. 2028 call not yet published.",
+    "roundClosed": true,
     "officialUrl": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-undergraduate.html",
     "sourceUrl": "https://www.studyinjapan.go.jp/en/_mt/2026/04/2027_Guidelines_Undergraduate_E.pdf",
     "checkedOn": "2026-11-07"
@@ -104,6 +106,7 @@
     "eligibilityNotes": "Page says all nationalities and all research fields are welcome. Pays 230,000 yen a month for 1-2 year degrees, 210,000 for 3 years, 180,000 for longer, over the minimum degree period. About ten awards; includes a short video and interviews.",
     "deadline": null,
     "deadlineNote": "2026 window (1 Sep-31 Oct 2026) is closed; 2027 guideline dates to be published.",
+    "roundClosed": true,
     "officialUrl": "https://www.hisf.or.jp/en/scholarship/foreigner/",
     "sourceUrl": "https://www.hisf.or.jp/en/scholarship/foreigner/",
     "checkedOn": "2026-11-07"
@@ -144,6 +147,7 @@
     "eligibilityNotes": "Citizens of UN member states living outside Japan (Japan and North Korea excluded); citizens of Vatican City, Kosovo, Cook Islands, Niue and Taiwan also eligible. Recorded as ANY, so non-UN states other than those named may not qualify. Under 35, field relevant to Aichi industry, intent to work for an Aichi employer. 150,000 yen a month (amount shown x12).",
     "deadline": null,
     "deadlineNote": "Applications run March to May via an Aichi graduate school; exact date not published.",
+    "roundClosed": false,
     "officialUrl": "https://www.pref.aichi.jp/soshiki/kokusai/aichi-scholarship-program.html",
     "sourceUrl": "https://www.pref.aichi.jp/soshiki/kokusai/aichi-scholarship-program.html",
     "checkedOn": "2026-11-07"
@@ -180,6 +184,7 @@
     "eligibilityNotes": "Page states no general nationality limit (two donor awards inside it are limited to US/UK citizens). Applicants seeking tuition exemption can apply but must give it up if accepted. 200,000 yen a month (amount shown x12).",
     "deadline": null,
     "deadlineNote": "Deadline set by each graduate school; see the AY2026 guidelines.",
+    "roundClosed": false,
     "officialUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html",
     "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html",
     "checkedOn": "2026-11-07"
@@ -213,6 +218,7 @@
     "eligibilityNotes": "Must apply to a GSFS doctoral course, hold a college student visa at enrolment, and not seek private-organisation scholarships. Page states no nationality limit. 200,000 yen a month (amount shown x12).",
     "deadline": null,
     "deadlineNote": "Submitted with the GSFS entrance exam application; dates not on the page.",
+    "roundClosed": false,
     "officialUrl": "https://www.k.u-tokyo.ac.jp/en/exam/master/foreign_research_students/tokyo_fellowship/",
     "sourceUrl": "https://www.k.u-tokyo.ac.jp/en/exam/master/foreign_research_students/tokyo_fellowship/",
     "checkedOn": "2026-11-07"
@@ -250,6 +256,7 @@
     "eligibilityNotes": "FAQ says funding is given regardless of nationality. Need a BSc, MSc or equivalent by enrolment. About 2.6 million yen in year one rising to about 3.6 million yen. Does not take MEXT holders directly. Page figures differ slightly from other OIST pages.",
     "deadline": null,
     "deadlineNote": "Deadlines not on the FAQ; enrolment in May, September or January; see the Apply to PhD page.",
+    "roundClosed": false,
     "officialUrl": "https://www.oist.jp/admissions/faq",
     "sourceUrl": "https://www.oist.jp/education/student-support",
     "checkedOn": "2026-11-07"
@@ -283,6 +290,7 @@
     "eligibilityNotes": "Needs a student visa; page sets no nationality limit. Cannot be applied for after enrolment. Lasts for the minimum time to graduate, up to 8 semesters, with a review each semester.",
     "deadline": null,
     "deadlineNote": "No deadline on the page; see the application handbook.",
+    "roundClosed": false,
     "officialUrl": "https://en.apu.ac.jp/studentsupport/scholarship_tuition/international/exemption_Undergraduate/",
     "sourceUrl": "https://en.apu.ac.jp/studentsupport/scholarship_tuition/international/exemption_Undergraduate/",
     "checkedOn": "2026-11-07"
@@ -319,6 +327,7 @@
     "eligibilityNotes": "Pays 100,000 yen a month (undergraduate) or 140,000 (master's/doctoral). Needs JLPT N3 or higher and your own admission application; language schools and research students not eligible. Page lists no nationality rule, so ANY is assumed - owner to confirm.",
     "deadline": null,
     "deadlineNote": "2026 window (1-31 Oct 2026) is closed; next window not yet published.",
+    "roundClosed": true,
     "officialUrl": "https://www.rotary-yoneyama.or.jp/english/overseas/",
     "sourceUrl": "https://www.rotary-yoneyama.or.jp/english/overseas/",
     "checkedOn": "2026-11-07"
@@ -359,6 +368,7 @@
     "eligibilityNotes": "Page requires the nationality of a country that has diplomatic relations with Japan (Japanese nationals not eligible), so recorded as ANY with JP excluded. Under 35 as of 1 Apr 2026. Stipend 147,000 yen a month for master's (148,000 for PhD); amount shown is master's x12.",
     "deadline": null,
     "deadlineNote": "Apply directly to GRIPS; no closing date in the eligibility chart.",
+    "roundClosed": false,
     "officialUrl": "https://www.grips.ac.jp/en/admissions/apply/",
     "sourceUrl": "https://www.grips.ac.jp/uploads/admissions/2025/07/GRIPS_Scholarships_2026.pdf",
     "checkedOn": "2026-11-07"
@@ -424,6 +434,7 @@
     "eligibilityNotes": "Government officials, generally under 40 as of 1 Oct 2026, with 3 or more years in public administration. Countries named on the GRIPS chart expanded to ISO codes: Australia, Bangladesh, Brunei, Bulgaria, Cambodia, China, Czechia, Hungary, India, Indonesia, Kazakhstan, Korea, Kyrgyzstan, Laos, Malaysia, Mongolia, Pakistan, Philippines, Poland, Turkiye, Romania, Singapore, Slovakia, Sri Lanka, Thailand, Turkmenistan, Uzbekistan, Vietnam. Stipend 242,000 yen a month (amount shown x12).",
     "deadline": null,
     "deadlineNote": "Apply through your sponsoring organisation; dates not on the chart.",
+    "roundClosed": false,
     "officialUrl": "https://www.mext.go.jp/en/policy/education/highered/title02/detail02/sdetail02/sdetail02/1374094.htm",
     "sourceUrl": "https://www.grips.ac.jp/uploads/admissions/2025/07/GRIPS_Scholarships_2026.pdf",
     "checkedOn": "2026-11-07"
@@ -462,6 +473,7 @@
     "eligibilityNotes": "Must live outside Japan when applying, enter on a student visa, receive no more than 90,000 yen a month from family, and meet a language level (JLPT N1/N2, EJU Japanese over 200, or English above CEFR B2). Page lists no nationality limit. Amount shown is 48,000 x12; JASSO pays for a fixed period.",
     "deadline": null,
     "deadlineNote": "Windows are approximate (e.g. GSEP mid Aug to early Sep); not exact dates.",
+    "roundClosed": false,
     "officialUrl": "https://www.titech.ac.jp/english/student-support/prospective-students/scholarships/jasso",
     "sourceUrl": "https://www.titech.ac.jp/english/student-support/prospective-students/scholarships/jasso",
     "checkedOn": "2026-11-07"
@@ -498,6 +510,7 @@
     "eligibilityNotes": "Page does not state nationality limits. Lasts 2 years (master's) or 3 years (doctoral). Several schools only invite chosen candidates. Allowance shown is 200,000 x12.",
     "deadline": null,
     "deadlineNote": "2027 entry calls (Aug-Oct 2026) have closed; interviews 12 Dec 2026.",
+    "roundClosed": true,
     "officialUrl": "https://www.keio.ac.jp/en/admissions/scholarship/grad/",
     "sourceUrl": "https://www.ic.keio.ac.jp/en/life/scholarship/dfaward.html",
     "checkedOn": "2026-11-07"
@@ -534,6 +547,7 @@
     "eligibilityNotes": "Needs student visa status and no tuition aid from MEXT, foreign governments or foundations. No separate application: passing a designated exam qualifies. Page sets no nationality limit. 535,800 yen is annual tuition as of FY2025.",
     "deadline": null,
     "deadlineNote": "No application deadline; ties to the graduate entrance exam.",
+    "roundClosed": false,
     "officialUrl": "https://www.osaka-u.ac.jp/en/international/inbound/Scholarships/tokutai",
     "sourceUrl": "https://www.osaka-u.ac.jp/en/international/inbound/Scholarships/tokutai",
     "checkedOn": "2026-11-07"
@@ -567,6 +581,7 @@
     "eligibilityNotes": "Applied for with the admission application, before enrolment. Based on need and desire to study at ICU; page does not state nationality limits.",
     "deadline": null,
     "deadlineNote": "No dates on the page.",
+    "roundClosed": false,
     "officialUrl": "https://www.icu.ac.jp/en/admissions/finance/gs/",
     "sourceUrl": "https://www.icu.ac.jp/en/admissions/finance/gs/",
     "checkedOn": "2026-11-07"
@@ -604,6 +619,7 @@
     "eligibilityNotes": "Open to nationals of Indonesia, Australia and the UAE (page lists these three). Indonesian track is STEM and healthcare; UAE track covers all fields. 160,000 yen a month (amount shown x12) per the JASSO pamphlet. Under 30.",
     "deadline": null,
     "deadlineNote": "Usual window is 1 Aug-31 Oct; the 2026 round has closed.",
+    "roundClosed": true,
     "officialUrl": "https://www.inpex-s.com/en/",
     "sourceUrl": "https://www.studyinjapan.go.jp/en/assets/pdf/scholarship_pamphlet_en.pdf",
     "checkedOn": "2026-11-07"
@@ -642,6 +658,7 @@
     "eligibilityNotes": "Page gives no nationality rule; MEXT's own rule (nationality of a country with diplomatic relations with Japan) is assumed. Amount shown is 117,000 x12.",
     "deadline": null,
     "deadlineNote": "No dates on the page.",
+    "roundClosed": false,
     "officialUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
     "sourceUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
     "checkedOn": "2026-11-07"
@@ -677,6 +694,7 @@
     "eligibilityNotes": "Page lists no nationality rule. Amount shown is 48,000 x12 months.",
     "deadline": null,
     "deadlineNote": "No dates on the page.",
+    "roundClosed": false,
     "officialUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
     "sourceUrl": "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships",
     "checkedOn": "2026-11-07"
@@ -718,6 +736,7 @@
     "eligibilityNotes": "Page requires the nationality of a country that has diplomatic relations with Japan (Japanese nationals not eligible), so recorded as ANY with JP excluded. Stipend 143,000-145,000 yen for graduate/research and 117,000 for undergraduate. General university recommendation for graduate study is not planned for 2027 entry.",
     "deadline": null,
     "deadlineNote": "Letters of provisional acceptance had to be requested by 1 Sep 2026; embassy dates vary.",
+    "roundClosed": false,
     "officialUrl": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
     "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
     "checkedOn": "2026-11-07"
@@ -759,6 +778,7 @@
     "eligibilityNotes": "Page says nationals of countries with diplomatic relations with Japan. Stipends (Sendai): 119,000 undergraduate, 145,000 research, 146,000 master's, 147,000 PhD yen a month. General university recommendation is discontinued; special programs only.",
     "deadline": null,
     "deadlineNote": "Undergraduate embassy deadlines are typically around April and vary by embassy; no exact date.",
+    "roundClosed": false,
     "officialUrl": "https://www.insc.tohoku.ac.jp/english/scholarship-for-international-students/",
     "sourceUrl": "https://www.insc.tohoku.ac.jp/english/scholarship-for-international-students/",
     "checkedOn": "2026-11-07"
