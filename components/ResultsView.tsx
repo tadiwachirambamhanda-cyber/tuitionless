@@ -101,7 +101,7 @@ export function ResultsView() {
         if (!s.fullFunding) return false;
       } else {
         const v = toDisplay(s.amount, s.currency, cur);
-        if (v !== null && v < filters.minAmount) return false;
+        if (v === null || v < filters.minAmount) return false;
       }
     }
     if (filters.within) {
