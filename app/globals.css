@@ -30,3 +30,8 @@ h1, h2, h3 {
   outline: none;
   box-shadow: var(--focus-ring);
 }
+
+/* Headings get focus from code so screen readers announce them. They are not controls, so no ring. */
+[tabindex="-1"]:focus-visible {
+  box-shadow: none;
+}
