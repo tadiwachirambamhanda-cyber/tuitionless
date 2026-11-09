@@ -90,7 +90,6 @@ function classify(
 ): MatchGroup {
   if (s.fullFunding) return "best_fit";
   const perYear = yearlyAmount(s, profile.level);
-  if (perYear === null) return "stretch";
 
   const cost = costs.find((c) => c.country.toUpperCase() === profile.studyCountry.toUpperCase());
   if (!cost) return "stretch"; // cannot judge the gap without a yearly cost
@@ -98,6 +97,8 @@ function classify(
   try {
     const yearlyCost = convert(cost.yearlyCost[profile.level], cost.currency, s.currency, rates);
     const budget = convert(profile.yearlyBudget, profile.budgetCurrency, s.currency, rates);
+    // Owner decision: an unpublished amount is worth a try (the student checks the official page).
+    if (perYear === null) return "worth_a_try";
     const gap = yearlyCost - budget;
     if (gap <= 0 || perYear >= gap) return "best_fit";
     if (perYear >= gap / 2) return "worth_a_try";
@@ -112,15 +113,10 @@ function buildReason(profile: StudentProfile, s: Scholarship): string {
     ? "Open to students from any country."
     : `Open to students from ${countryName(profile.nationality)}.`;
   const place = upper(s.studyCountries).includes(ANY) ? "anywhere" : countryName(profile.studyCountry);
-  let money: string;
-  if (s.fullFunding) {
-    money = "full funding";
-  } else if (s.amount !== null) {
-    money = `up to ${formatMoney(s.amount, s.currency)} ${s.amountPeriod === "year" ? "a year" : "in total"}`;
-  } else {
-    money = "amount not published";
-  }
   const where = place === "anywhere" ? "Use it anywhere" : `Covers ${profile.level} in ${place}`;
+  if (s.fullFunding) return `${open} ${where}, full funding.`;
+  if (s.amount === null) return `${open} ${where}. Amount not published, check the official page.`;
+  const money = `up to ${formatMoney(s.amount, s.currency)} ${s.amountPeriod === "year" ? "a year" : "in total"}`;
   return `${open} ${where}, ${money}.`;
 }
 

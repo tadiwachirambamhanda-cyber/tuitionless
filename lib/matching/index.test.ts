@@ -88,8 +88,24 @@ describe("groups", () => {
   it("covering less than half is a stretch", () => {
     expect(run({ amount: 4000 }).groups.stretch).toHaveLength(1);
   });
-  it("unpublished amount is a stretch", () => {
-    expect(run({ amount: null }).groups.stretch).toHaveLength(1);
+  it("unpublished amount that is not full funding is worth a try", () => {
+    expect(run({ amount: null }).groups.worth_a_try).toHaveLength(1);
+  });
+  it("unpublished amount says so and points to the official page", () => {
+    const m = run({ amount: null, eligibleNationalities: ["NG"] }).groups.worth_a_try[0];
+    expect(m.reason).toBe(
+      "Open to students from Nigeria. Covers masters in Germany. Amount not published, check the official page.",
+    );
+  });
+  it("unpublished amount with no cost data for the country is still a stretch", () => {
+    const r = matchScholarships(profile, [{ ...base, amount: null }], [], { rates, today });
+    expect(r.groups.stretch).toHaveLength(1);
+  });
+  it("unpublished amount in an unknown currency is still a stretch", () => {
+    expect(run({ amount: null, currency: "XXX" }).groups.stretch).toHaveLength(1);
+  });
+  it("unpublished amount is best fit when it is full funding", () => {
+    expect(run({ amount: null, fullFunding: true }).groups.best_fit).toHaveLength(1);
   });
   it("converts currencies before comparing", () => {
     // 100,000 SEK = 10,000 EUR at the test rate
