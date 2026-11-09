@@ -17,7 +17,7 @@ function Stats() {
   if (!counts) {
     return (
       <div className="rounded-[20px] border border-border bg-surface p-5 text-center shadow-(--shadow-sm)">
-        <p className="font-display text-xl font-bold">We&apos;re adding scholarships every week</p>
+        <p className="font-display text-xl font-bold">Every scholarship links to its official page</p>
         <p className="text-ink-muted">Start matching to see what fits you today.</p>
       </div>
     );
@@ -55,9 +55,9 @@ export default function Home() {
               </ul>
             </div>
             <div aria-hidden="true" className="rounded-[20px] bg-surface p-5 shadow-(--shadow-lg) lg:rotate-[-2deg]">
-              <div className="flex items-center justify-between"><GroupBadge group="best_fit" /><span className="text-sm text-ink-muted">Germany</span></div>
-              <p className="mt-3 font-display text-xl font-bold">Rhine Future Scholars Award</p>
-              <p className="text-sm text-ink-muted">Sample Foundation</p>
+              <div className="flex items-center justify-between"><GroupBadge group="best_fit" /><span className="rounded-full bg-surface-muted px-3 py-1 text-xs font-semibold text-ink-muted">Example only</span></div>
+              <p className="mt-3 font-display text-xl font-bold">Example scholarship</p>
+              <p className="text-sm text-ink-muted">This is how each match looks</p>
               <div className="mt-3 grid grid-cols-2 gap-3 rounded-xl bg-surface-muted p-4">
                 <div><p className="text-xs font-semibold uppercase tracking-[0.06em] text-ink-muted">Amount</p><p className="font-display text-2xl font-bold">$11,880</p><p className="text-sm text-ink-muted">a year · €11,000</p></div>
                 <div><p className="text-xs font-semibold uppercase tracking-[0.06em] text-ink-muted">Deadline</p><p className="font-display text-2xl font-bold">15 Jan</p><p className="text-sm text-ink-muted">2027</p></div>
