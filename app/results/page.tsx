@@ -1,3 +1,12 @@
+import { Suspense } from "react";
+import { ResultsFallback, ResultsView } from "@/components/ResultsView";
+
+export const metadata = { title: "Your matches · Tuitionless" };
+
 export default function Results() {
-  return <h1 className="p-4 text-2xl">Your matches (Lane B builds this)</h1>;
+  return (
+    <Suspense fallback={<ResultsFallback />}>
+      <ResultsView />
+    </Suspense>
+  );
 }
