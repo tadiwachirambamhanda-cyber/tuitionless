@@ -31,11 +31,11 @@ export function DetailView({ id }: { id: string }) {
   const qs = sp.toString();
   const profile = useMemo(() => draftToProfile(readDraft(new URLSearchParams(qs))), [qs]);
   const [loaded, setLoaded] = useState<Loaded | null>(null);
-  const [failed, setFailed] = useState(false);
+  const [failedId, setFailedId] = useState<string | null>(null);
 
   useEffect(() => {
     let live = true;
-    getScholarship(id, profile).then((data) => live && setLoaded({ id, data }), () => live && setFailed(true));
+    getScholarship(id, profile).then((data) => live && setLoaded({ id, data }), () => live && setFailedId(id));
     return () => { live = false; };
   }, [id, profile]);
 
@@ -47,7 +47,7 @@ export function DetailView({ id }: { id: string }) {
     </div>
   );
 
-  if (failed || (loaded && loaded.id === id && !loaded.data)) {
+  if (failedId === id || (loaded && loaded.id === id && !loaded.data)) {
     return <main>{top}<StatePanel tone="error" title="We couldn't find this scholarship" help="It may have been removed, or the link is wrong." action={<Button href={back}>Back to results</Button>} /></main>;
   }
   if (!loaded || loaded.id !== id || !loaded.data) {
