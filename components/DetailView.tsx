@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { Logo } from "./Logo";
 import { Button } from "./Button";
-import { GroupBadge } from "./GroupBadge";
+import { GROUP_INFO, GroupBadge } from "./GroupBadge";
 import { DeadlineFigure, MoneyFigure } from "./Figures";
 import { StatePanel } from "./StatePanel";
 import { Skeleton } from "./Skeleton";
@@ -80,7 +80,7 @@ export function DetailView({ id }: { id: string }) {
       <div className="mx-auto grid max-w-5xl gap-6 px-4 grid-cols-[minmax(0,1fr)] min-[1100px]:grid-cols-[minmax(0,1fr)_320px]">
         <div className="space-y-4">
           <header className="rounded-[28px] bg-(image:--gradient-hero) p-6">
-            {match && <GroupBadge group={match.group} label={`${match.group === "best_fit" ? "Best fit" : match.group === "worth_a_try" ? "Worth a try" : "Stretch"} for you`} />}
+            {match && <GroupBadge group={match.group} label={match.group === "closed" ? GROUP_INFO.closed.label : `${GROUP_INFO[match.group].label} for you`} />}
             <h1 className="mt-3 font-display text-3xl font-bold [overflow-wrap:anywhere] md:text-5xl">{s.name}</h1>
             <p className="mt-1">{s.provider} · {place}</p>
             <div className="mt-5 grid grid-cols-2 gap-3">
