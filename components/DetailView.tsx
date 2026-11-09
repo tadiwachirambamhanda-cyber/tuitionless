@@ -32,12 +32,13 @@ export function DetailView({ id }: { id: string }) {
   const profile = useMemo(() => draftToProfile(readDraft(new URLSearchParams(qs))), [qs]);
   const [loaded, setLoaded] = useState<Loaded | null>(null);
   const [failedId, setFailedId] = useState<string | null>(null);
+  const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
     let live = true;
     getScholarship(id, profile).then((data) => live && setLoaded({ id, data }), () => live && setFailedId(id));
     return () => { live = false; };
-  }, [id, profile]);
+  }, [id, profile, attempt]);
 
   const back = `/results${qs ? `?${qs}` : ""}`;
   const top = (
@@ -47,7 +48,10 @@ export function DetailView({ id }: { id: string }) {
     </div>
   );
 
-  if (failedId === id || (loaded && loaded.id === id && !loaded.data)) {
+  if (failedId === id) {
+    return <main>{top}<StatePanel tone="error" title="We couldn't load this scholarship" help="Check your connection and try again." action={<Button onClick={() => { setFailedId(null); setAttempt((n) => n + 1); }}>Try again</Button>} /></main>;
+  }
+  if (loaded && loaded.id === id && !loaded.data) {
     return <main>{top}<StatePanel tone="error" title="We couldn't find this scholarship" help="It may have been removed, or the link is wrong." action={<Button href={back}>Back to results</Button>} /></main>;
   }
   if (!loaded || loaded.id !== id || !loaded.data) {
@@ -73,11 +77,11 @@ export function DetailView({ id }: { id: string }) {
   return (
     <main className="pb-28 min-[1100px]:pb-10">
       {top}
-      <div className="mx-auto grid max-w-5xl gap-6 px-4 min-[1100px]:grid-cols-[1fr_320px]">
+      <div className="mx-auto grid max-w-5xl gap-6 px-4 grid-cols-[minmax(0,1fr)] min-[1100px]:grid-cols-[minmax(0,1fr)_320px]">
         <div className="space-y-4">
           <header className="rounded-[28px] bg-(image:--gradient-hero) p-6">
             {match && <GroupBadge group={match.group} label={`${match.group === "best_fit" ? "Best fit" : match.group === "worth_a_try" ? "Worth a try" : "Stretch"} for you`} />}
-            <h1 className="mt-3 font-display text-3xl font-bold md:text-5xl">{s.name}</h1>
+            <h1 className="mt-3 font-display text-3xl font-bold [overflow-wrap:anywhere] md:text-5xl">{s.name}</h1>
             <p className="mt-1">{s.provider} · {place}</p>
             <div className="mt-5 grid grid-cols-2 gap-3">
               <div className="rounded-xl bg-white/70 p-4"><p className="text-xs font-semibold uppercase tracking-[0.06em]">Amount</p><MoneyFigure s={s} currency={cur} big="text-3xl" /></div>
@@ -109,7 +113,7 @@ export function DetailView({ id }: { id: string }) {
 
           <section className={card} aria-labelledby="facts">
             <h2 id="facts" className="font-display text-xl font-bold">Key facts</h2>
-            <dl className="mt-3 grid grid-cols-[auto_1fr] gap-x-6 gap-y-2">
+            <dl className="mt-3 grid grid-cols-[auto_minmax(0,1fr)] gap-x-6 gap-y-2 [overflow-wrap:anywhere]">
               <dt className="text-ink-muted">Where</dt><dd>{place}</dd>
               <dt className="text-ink-muted">Level</dt><dd>{s.levels.map(levelLabel).join(", ")}</dd>
               <dt className="text-ink-muted">Field</dt><dd>{s.fields.includes("ANY") ? "Any field" : s.fields.join(", ")}</dd>

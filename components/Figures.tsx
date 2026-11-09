@@ -20,7 +20,10 @@ export function MoneyFigure({ s, currency, big = "text-2xl" }: { s: Scholarship;
         <p className="text-sm text-ink-muted">amount set by your university</p>
       </>
     ) : (
-      <p className={`font-display ${big} font-bold text-ink-muted`}>Not published</p>
+      <>
+        <p className="font-display text-xl font-bold text-ink-muted">Not published</p>
+        <p className="text-sm text-ink-muted">check the official site</p>
+      </>
     );
   }
   const shown = toDisplay(s.amount, s.currency, currency);
@@ -38,7 +41,7 @@ export function DeadlineFigure({ s, big = "text-2xl" }: { s: Scholarship; big?: 
   if (!s.deadline) {
     return (
       <>
-        <p className={`font-display ${big} font-bold`}>Rolling</p>
+        <p className="font-display text-xl font-bold text-ink-muted">Check official site</p>
         {s.deadlineNote && <p className="text-sm text-ink-muted">{s.deadlineNote}</p>}
       </>
     );

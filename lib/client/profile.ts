@@ -1,3 +1,4 @@
+import { FIELD_OPTIONS } from "@/lib/fields";
 import type { StudentProfile, StudyLevel } from "@/lib/types";
 
 export const STEP_TOPICS = ["Nationality", "University", "Level", "Field", "Budget"] as const;
@@ -21,10 +22,7 @@ export const COUNTRY_CODES = [
 ] as const;
 export const POPULAR_NATIONALITIES = ["NG", "IN", "KE", "BR", "PK"];
 
-export const FIELDS = [
-  "Computer science", "Engineering", "Business", "Medicine and health", "Natural sciences",
-  "Social sciences", "Law", "Arts and humanities", "Something else",
-];
+export const FIELDS: readonly string[] = FIELD_OPTIONS; // shared list from lib/fields.ts
 export const CURRENCIES = ["USD", "EUR", "GBP", "NGN", "INR", "KES", "BRL", "PKR", "GHS", "ZAR"];
 export const LEVELS: { value: StudyLevel; label: string; sub: string }[] = [
   { value: "undergraduate", label: "Undergraduate", sub: "Bachelor's degree" },

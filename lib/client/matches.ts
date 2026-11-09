@@ -1,20 +1,45 @@
-// The ONE place the screens get data from. Until Lane A's POST /api/match is merged this
-// runs the matcher in the browser on sample data. To switch, replace the bodies below.
-import { matchScholarships } from "@/lib/matching";
-import { sampleCosts, sampleScholarships } from "@/lib/sample-data";
+// The ONE place the screens get data from. Talks to the app's own API routes only,
+// so the matcher and the scholarship data never ship to the browser.
 import type { Match, MatchResult, Scholarship, StudentProfile } from "@/lib/types";
 
-export async function getMatches(profile: StudentProfile): Promise<MatchResult> {
-  return matchScholarships(profile, sampleScholarships, sampleCosts);
+async function failMessage(res: Response, fallback: string): Promise<string> {
+  try {
+    const body = (await res.json()) as { error?: string };
+    return body.error ?? fallback;
+  } catch {
+    return fallback;
+  }
 }
 
-export async function getScholarship(id: string, profile: StudentProfile | null): Promise<{ scholarship: Scholarship; match: Match | null } | null> {
-  const scholarship = sampleScholarships.find((s) => s.id === id);
-  if (!scholarship) return null;
+export async function getMatches(profile: StudentProfile): Promise<MatchResult> {
+  const res = await fetch("/api/match", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(profile),
+  });
+  if (!res.ok) throw new Error(await failMessage(res, "Could not load matches."));
+  return (await res.json()) as MatchResult;
+}
+
+/** Returns null when the scholarship does not exist; throws when the call fails. */
+export async function getScholarship(
+  id: string,
+  profile: StudentProfile | null,
+): Promise<{ scholarship: Scholarship; match: Match | null } | null> {
+  const res = await fetch(`/api/scholarships/${encodeURIComponent(id)}`);
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(await failMessage(res, "Could not load the scholarship."));
+  const scholarship = (await res.json()) as Scholarship;
+
+  // The reasons need the profile. If matching fails the page still shows the facts.
   let match: Match | null = null;
   if (profile) {
-    const r = await getMatches(profile);
-    match = [...r.groups.best_fit, ...r.groups.worth_a_try, ...r.groups.stretch].find((m) => m.scholarship.id === id) ?? null;
+    try {
+      const r = await getMatches(profile);
+      match = [...r.groups.best_fit, ...r.groups.worth_a_try, ...r.groups.stretch].find((m) => m.scholarship.id === id) ?? null;
+    } catch {
+      match = null;
+    }
   }
   return { scholarship, match };
 }

@@ -18,7 +18,7 @@ export function MatchCard({ match, currency, query }: { match: Match; currency: 
         </span>
       </div>
       <div>
-        <h3 className="font-display text-xl font-bold">{s.name}</h3>
+        <h3 className="font-display text-xl font-bold [overflow-wrap:anywhere]">{s.name}</h3>
         <p className="text-sm text-ink-muted">{s.provider}</p>
       </div>
       <div className="grid grid-cols-2 gap-3 rounded-xl bg-surface-muted p-4">
