@@ -15,3 +15,14 @@ Screenshots at 390 and 1440 wide: `plans/lane-b-screenshots/` (results shots use
 | 3 | MAJOR | Profile values in the link were not validated | Fixed: nationality, country, field and currency are checked against the supported lists |
 | 4 | MINOR | Detail error state stuck when the id changed | Fixed: failure is stored with its id |
 | 5 | MINOR | Nationality search claimed to be a combobox | Fixed: now a labelled search that filters the radio list |
+
+### Round 2: VERDICT: FINDINGS(4)
+
+| # | Severity | Finding | Decision |
+|---|---|---|---|
+| 1 | MAJOR | Country list omitted many countries | Fixed: all ISO countries plus Kosovo (XK) |
+| 2 | MAJOR | Amount filter kept awards that could not be converted | Fixed: they are dropped when a minimum is set |
+| 3 | MINOR | Soonest-first put closed deadlines first | Fixed: upcoming, then closed, then rolling |
+| 4 | MINOR | Decimal budget became 100x larger | Fixed: digits after a decimal point are ignored |
+
+Round 3 not run: the fixes are small (Chief Architect agreed one more round is only needed for a large fix).
