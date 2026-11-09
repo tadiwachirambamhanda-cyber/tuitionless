@@ -11,3 +11,16 @@ Built per docs/lanes/lane-a.md. Notes:
 Round 1, VERDICT: FINDINGS(2)
 1. MAJOR, city never checked: Fixed (city-listed scholarships need a matching city; no city given keeps them).
 2. MINOR, field substring overlap ("art" vs "cartography"): Fixed (whole-word matching).
+
+## Follow-up: exact fields, validation, rates, detail API
+
+Diagnosis (119 records, 9 countries with costs, today 2026-11-09), records left after each hard filter in order (nationality, country, level, deadline, field, city):
+- NG, masters, DE (Munich): 98, 8, 5, 5, 3, 3. Result 3, all Stretch.
+- IN, undergraduate, CA: 100, 13, 6, 6, 6, 6. Result 6 (1 Best fit, 2 Worth a try, 3 Stretch).
+- KE, PhD, GB: 98, 15, 2, 2, 2, 2. Result 2 (1 Best fit, 1 Stretch).
+Country and level are what thin the list. 54 records have no published amount and are not full funding, so they can only be Stretch.
+
+## Codex review (follow-up)
+
+Round 1, VERDICT: FINDINGS(1)
+1. MINOR, id not validated on GET /api/scholarships/[id]: Fixed (bad ids return 404 without a database call).
