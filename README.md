@@ -10,7 +10,7 @@ A free web app that matches students from **any country** with scholarships by n
 3. Filters and sorts by amount, deadline or country, then opens a scholarship for what it covers, who is eligible, the deadline and a link to the official application page.
 
 ## Data
-A researched dataset of **119 scholarships** across 9 destination countries plus global awards, and a country cost-of-living table. Sources and notes are in `data/`. Scholarship data is validated with Zod schemas before it is loaded.
+A researched dataset of **169 scholarships** across 9 destination countries plus global awards, and a country cost-of-living table. Sources and notes are in `data/`. Scholarship data is validated with Zod schemas before it is loaded.
 
 ## How it was built
 A chief-architect foundation first, then **three parallel lanes** with separate file ownership (matching engine, screens, research), merged through gated pull requests. See `docs/` for the PRD, feature list, lane briefs and reviews.
