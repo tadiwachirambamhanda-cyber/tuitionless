@@ -1,4 +1,6 @@
+import path from "node:path";
 import { createPublicClient } from "../supabase/server";
+import { loadDataFolder, type LoadedData } from "./files";
 import type { CountryCost, Scholarship } from "../types";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -82,20 +84,43 @@ export function countryCostToRow(c: CountryCost) {
   };
 }
 
+// The research data also lives in the repository (data/). If the database cannot be reached
+// (paused free project, network error), the app answers from those files instead of failing.
+let fileCache: LoadedData | null = null;
+function fromFiles(): LoadedData {
+  fileCache ??= loadDataFolder(path.join(process.cwd(), "data"));
+  return fileCache;
+}
+
 export async function loadScholarships(): Promise<Scholarship[]> {
-  const { data, error } = await createPublicClient().from("scholarships").select("*");
-  if (error) throw new Error(`Could not load scholarships: ${error.message}`);
-  return (data ?? []).map(rowToScholarship);
+  try {
+    const { data, error } = await createPublicClient().from("scholarships").select("*");
+    if (error) throw new Error(`Could not load scholarships: ${error.message}`);
+    return (data ?? []).map(rowToScholarship);
+  } catch (e) {
+    console.error("database unavailable, using the data files:", (e as Error).message);
+    return fromFiles().scholarships;
+  }
 }
 
 export async function loadCountryCosts(): Promise<CountryCost[]> {
-  const { data, error } = await createPublicClient().from("country_costs").select("*");
-  if (error) throw new Error(`Could not load country costs: ${error.message}`);
-  return (data ?? []).map(rowToCountryCost);
+  try {
+    const { data, error } = await createPublicClient().from("country_costs").select("*");
+    if (error) throw new Error(`Could not load country costs: ${error.message}`);
+    return (data ?? []).map(rowToCountryCost);
+  } catch (e) {
+    console.error("database unavailable, using the data files:", (e as Error).message);
+    return fromFiles().costs;
+  }
 }
 
 export async function loadScholarship(id: string): Promise<Scholarship | null> {
-  const { data, error } = await createPublicClient().from("scholarships").select("*").eq("id", id).maybeSingle();
-  if (error) throw new Error(`Could not load scholarship: ${error.message}`);
-  return data ? rowToScholarship(data) : null;
+  try {
+    const { data, error } = await createPublicClient().from("scholarships").select("*").eq("id", id).maybeSingle();
+    if (error) throw new Error(`Could not load scholarship: ${error.message}`);
+    return data ? rowToScholarship(data) : null;
+  } catch (e) {
+    console.error("database unavailable, using the data files:", (e as Error).message);
+    return fromFiles().scholarships.find((x) => x.id === id) ?? null;
+  }
 }
