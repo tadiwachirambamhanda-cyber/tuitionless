@@ -1,0 +1,411 @@
+[
+  {
+    "amountPeriod": "year",
+    "currency": "GBP",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "GB"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "id": "imperial-presidents-phd-scholarships-uk",
+    "name": "President's PhD Scholarships",
+    "provider": "Imperial College London",
+    "summary": "Fully funded 3.5-year PhD places at Imperial: tuition, a yearly stipend of GBP 27,036 (2027-28 rate) and a GBP 2,000 yearly consumables fund. About 50 awards for 2027-28 entry.",
+    "amount": 27036,
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "stipend",
+      "research consumables"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "studyCities": [
+      "London"
+    ],
+    "eligibilityNotes": "No nationality restriction; UK and international candidates can apply, though some departments may be unable to support international candidates. Needs a first-class degree (or a distinction at master's) and an agreed Imperial supervisor; current Imperial PhD students are excluded. Amount shown is the yearly stipend only.",
+    "deadline": "2027-01-11",
+    "deadlineNote": "Round 1 closed on 2 November 2026. Round 2 closes 11 January 2027; round 3 closes 1 March 2027 (all 23:59 UK time).",
+    "officialUrl": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/",
+    "sourceUrl": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "GBP",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "GB"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "id": "warwick-pgr-chancellors-scholarships-uk",
+    "name": "Warwick Chancellor's PGR Scholarships (Autumn 2027)",
+    "provider": "University of Warwick",
+    "summary": "Up to 80 PhD scholarships across several streams; the main Faculty and Interdisciplinary Chancellor's streams pay full fees, a tax-free stipend at the UKRI rate for 3.5 years and a GBP 5,000 research grant.",
+    "amount": null,
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "stipend",
+      "research training grant"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "studyCities": [],
+    "eligibilityNotes": "Faculty, Interdisciplinary, AHRC and Pathway streams are open to any nationality or fee status. The China Scholarship Council stream is only for PRC passport holders and the Sanctuary stream needs a UK asylum-related status. Current Warwick PGR students cannot apply. Stipend amount is not stated as a figure on the page.",
+    "deadline": "2026-12-10",
+    "deadlineNote": "Scholarship application deadline 10 December 2026 16:59 GMT; you must also submit the course application by 7 December 2026. Page says the call opens 5 October 2026.",
+    "officialUrl": "https://warwick.ac.uk/services/dc/schols_fund/applicants/competitions/",
+    "sourceUrl": "https://warwick.ac.uk/services/dc/schols_fund/applicants/competitions/"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "GBP",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "GB"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "id": "manchester-presidents-doctoral-scholar-award-uk",
+    "name": "President's Doctoral Scholar Award",
+    "provider": "University of Manchester",
+    "summary": "A four-year fully funded PhD studentship with tuition at home or international rate, a stipend and a research and skills grant of up to GBP 20,000. Eight to ten projects are funded for 2027/28.",
+    "amount": null,
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "stipend",
+      "research training grant"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "studyCities": [
+      "Manchester"
+    ],
+    "eligibilityNotes": "Open to all nationalities. Stipend is the UKRI minimum plus GBP 1,000 (GBP 22,805 in 2026/27). Needs a first or 2:1 (or equivalent). The Science and Engineering faculty page lists the 2027/28 theme as 'Sensing the World'; other faculties run their own themes, so check the project list for your field.",
+    "deadline": "2026-12-18",
+    "deadlineNote": "Projects were announced 30 October 2026; application deadline 18 December 2026 on the Science and Engineering faculty page. Other faculty pages may differ.",
+    "officialUrl": "https://www.presidentsaward.manchester.ac.uk/",
+    "sourceUrl": "https://www.se.manchester.ac.uk/study/postgraduate-research/fees-and-funding/search-for-funding/presidents-doctoral-scholarship/"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "GBP",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "GB"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "GB",
+      "IE"
+    ],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "id": "cambridge-trust-international-scholarship-phd-uk",
+    "name": "Cambridge Trust International Scholarship (PhD)",
+    "provider": "Cambridge Trust, University of Cambridge",
+    "summary": "About 60 PhD awards for 2027/28 covering international fees, maintenance, student visa cost and the immigration health surcharge, with up to six extra months of write-up funding.",
+    "amount": null,
+    "fullFunding": true,
+    "covers": [
+      "tuition",
+      "maintenance",
+      "visa costs",
+      "immigration health surcharge"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "studyCities": [
+      "Cambridge"
+    ],
+    "eligibilityNotes": "Open to applicants from all countries except the UK and Ireland with overseas fee status, who are ranked highly by their department. Any subject except premium-rate courses. No separate form is described; the funding deadline of your course applies.",
+    "deadline": null,
+    "deadlineNote": "The page gives no date; it follows the funding deadline of the PhD course you apply to. Check that course's deadline.",
+    "officialUrl": "https://www.student-funding.cam.ac.uk/fund/cambridge-international-scholarship-2026",
+    "sourceUrl": "https://www.student-funding.cam.ac.uk/fund/cambridge-international-scholarship-2026"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "GBP",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "GB"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "GB"
+    ],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "id": "leeds-undergraduate-international-excellence-scholarships-uk",
+    "name": "Undergraduate International Excellence Scholarships",
+    "provider": "University of Leeds",
+    "summary": "A first-year tuition discount of GBP 3,000, GBP 6,000 or GBP 16,000 for international students starting a Leeds bachelor's degree in September 2027.",
+    "amount": null,
+    "fullFunding": false,
+    "covers": [
+      "tuition discount (year one)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "studyCities": [
+      "Leeds"
+    ],
+    "eligibilityNotes": "Open to anyone classed as an international (overseas fee) student with an offer for an eligible course and self- or part-funded. The page says fee status, not a nationality list; excluded GB is our shorthand for home-fee students. Medicine and Dentistry are excluded. Form is sent to offer holders by email.",
+    "deadline": "2027-04-11",
+    "deadlineNote": "Final deadline 11 April 2027; outcomes by 10 May 2027.",
+    "officialUrl": "https://www.leeds.ac.uk/scholarship/15/undergraduate-international-excellence-scholarships",
+    "sourceUrl": "https://www.leeds.ac.uk/scholarship/15/undergraduate-international-excellence-scholarships"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "GBP",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "GB"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "GB"
+    ],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Bath"
+    ],
+    "fullFunding": false,
+    "amount": null,
+    "id": "bath-international-excellence-scholarship-uk",
+    "name": "Bath International Excellence Scholarship",
+    "provider": "University of Bath",
+    "summary": "Up to 300 tuition discounts of GBP 8,000 per year (up to GBP 24,000 over three years) for overseas-fee students starting a Bath bachelor's degree in September 2027.",
+    "covers": [
+      "tuition discount"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "eligibilityNotes": "Page gives no nationality list; eligibility depends on being assessed as an overseas fee payer, with Bath as your firm UCAS choice. The two-year MArch Architecture is excluded. Excluded GB is our shorthand for home-fee students. Considered on merit, not first come, first served.",
+    "deadline": "2027-02-14",
+    "deadlineNote": "Round 1 closes 14 February 2027; round 2 closes 31 March 2027. Applications were due to open in late 2026.",
+    "officialUrl": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+    "sourceUrl": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "GBP",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "GB"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "GB"
+    ],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Guildford"
+    ],
+    "fullFunding": false,
+    "amount": 5000,
+    "id": "surrey-international-excellence-award-undergraduate-uk",
+    "name": "International Excellence Award (Undergraduate)",
+    "provider": "University of Surrey",
+    "summary": "A GBP 5,000 first-year tuition fee waiver for self-funded overseas-fee students starting a full-time Surrey bachelor's degree in September 2027.",
+    "covers": [
+      "tuition fee waiver (year one)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "eligibilityNotes": "Open to self-funded international fee-paying students of any nationality or domicile; home-fee students are not eligible (GB used as shorthand). Surrey must be your firm UCAS choice, apply before a CAS is issued, first year only, cannot be combined with other Surrey scholarships.",
+    "deadline": "2027-08-24",
+    "deadlineNote": "Closes 24 August 2027 (UCAS application by 30 June 2027). Awards are reviewed monthly and given first come, first served, so apply early.",
+    "officialUrl": "https://www.surrey.ac.uk/fees-and-funding/scholarships-and-bursaries/international-excellence-award-undergraduate",
+    "sourceUrl": "https://www.surrey.ac.uk/fees-and-funding/scholarships-and-bursaries/international-excellence-award-undergraduate"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "GBP",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "GB"
+    ],
+    "eligibleNationalities": [
+      "DZ",
+      "BW",
+      "BR",
+      "BG",
+      "CL",
+      "CO",
+      "EC",
+      "EG",
+      "ID",
+      "IT",
+      "JO",
+      "KZ",
+      "KE",
+      "LB",
+      "MU",
+      "MX",
+      "MN",
+      "MA",
+      "MM",
+      "NP",
+      "OM",
+      "PE",
+      "PL",
+      "PT",
+      "ZA",
+      "LK",
+      "TZ",
+      "UG",
+      "VN",
+      "ZW"
+    ],
+    "excludedNationalities": [],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Guildford"
+    ],
+    "fullFunding": false,
+    "amount": 7500,
+    "id": "surrey-vice-chancellors-future-leaders-award-undergraduate-uk",
+    "name": "Vice-Chancellor's Future Leaders Award (Undergraduate)",
+    "provider": "University of Surrey",
+    "summary": "A GBP 7,500 first-year tuition fee waiver for self-funded overseas-fee students from 30 listed countries starting a Surrey bachelor's degree in September 2027.",
+    "covers": [
+      "tuition fee waiver (year one)"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "eligibilityNotes": "Expanded from the page's country list (domicile): Algeria, Botswana, Brazil, Bulgaria, Chile, Colombia, Ecuador, Egypt, Indonesia, Italy, Jordan, Kazakhstan, Kenya, Lebanon, Mauritius, Mexico, Mongolia, Morocco, Myanmar, Nepal, Oman, Peru, Poland, Portugal, South Africa, Sri Lanka, Tanzania, Uganda, Vietnam, Zimbabwe. Must be self-funded with Surrey as firm UCAS choice; not combinable with other Surrey scholarships.",
+    "deadline": "2027-08-24",
+    "deadlineNote": "Closes 24 August 2027, first come, first served.",
+    "officialUrl": "https://www.surrey.ac.uk/fees-and-funding/scholarships-and-bursaries/vice-chancellors-future-leaders-award-undergraduate",
+    "sourceUrl": "https://www.surrey.ac.uk/fees-and-funding/scholarships-and-bursaries/vice-chancellors-future-leaders-award-undergraduate"
+  },
+  {
+    "amountPeriod": "total",
+    "currency": "GBP",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "GB"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "GB"
+    ],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "St Andrews"
+    ],
+    "fullFunding": false,
+    "amount": null,
+    "id": "st-andrews-international-undergraduate-scholarship-uk",
+    "name": "International Undergraduate Scholarship",
+    "provider": "University of St Andrews",
+    "summary": "A needs-based tuition fee reduction, paid every year of the degree, for first-year overseas-fee entrants in 2027. The value will be confirmed by December 2026.",
+    "covers": [
+      "tuition fee reduction"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "eligibilityNotes": "For students with overseas fee status (GB used as shorthand for home-fee students). Applicants must meet at least one criterion such as financial need, previous needs-based funding, a disadvantaged area, disability or minority group. Transfers are excluded, as are William & Mary joint honours.",
+    "deadline": "2027-01-27",
+    "deadlineNote": "Applications opened 17 August 2026 and close 27 January 2027; results week of 17 March 2027. You can apply after submitting the course application, without an offer.",
+    "officialUrl": "https://www.st-andrews.ac.uk/study/scholarships/scholarships-catalogue/undergraduate-scholarships/international-undergraduate-scholarship/",
+    "sourceUrl": "https://www.st-andrews.ac.uk/study/scholarships/scholarships-catalogue/undergraduate-scholarships/international-undergraduate-scholarship/"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "GBP",
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "GB"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "GB"
+    ],
+    "roundClosed": false,
+    "checkedOn": "2026-11-10",
+    "studyCities": [
+      "Reading"
+    ],
+    "fullFunding": false,
+    "amount": 5000,
+    "id": "reading-undergraduate-excellence-scholarship-uk",
+    "name": "Undergraduate Excellence Scholarship",
+    "provider": "University of Reading",
+    "summary": "A GBP 5,000 per year tuition fee reduction for international fee-paying undergraduates, awarded in four application rounds.",
+    "covers": [
+      "tuition fee reduction"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "eligibilityNotes": "Page states no nationality requirement; it is for international fee payers (GB used as shorthand for home-fee students). The page does not state the entry year; 2027 entry is inferred from the dates.",
+    "deadline": "2026-12-31",
+    "deadlineNote": "Round 1: 31 Dec 2026; round 2: 31 Mar 2027; round 3: 30 Jun 2027; round 4: 20 Aug 2027.",
+    "officialUrl": "https://www.reading.ac.uk/ready-to-study/study/fees-and-funding/scholarships/international-scholarships",
+    "sourceUrl": "https://www.reading.ac.uk/ready-to-study/study/fees-and-funding/scholarships/international-scholarships"
+  }
+]

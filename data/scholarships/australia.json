@@ -36,7 +36,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html",
     "sourceUrl": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "sydney-vice-chancellors-international-scholarships-scheme-au",
@@ -75,7 +75,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.sydney.edu.au/scholarships/e/vice-chancellor-international-scholarships-scheme.html",
     "sourceUrl": "https://www.sydney.edu.au/scholarships/e/vice-chancellor-international-scholarships-scheme.html",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "sydney-scholars-india-scholarship-program-au",
@@ -152,7 +152,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
     "sourceUrl": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "unsw-international-scholarships-term-2-2026-au",
@@ -189,7 +189,7 @@
     "roundClosed": true,
     "officialUrl": "https://www.scholarships.unsw.edu.au/scholarships/id/1923",
     "sourceUrl": "https://www.scholarships.unsw.edu.au/scholarships/id/1923",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "uq-international-excellence-scholarship-au",
@@ -226,7 +226,7 @@
     "roundClosed": false,
     "officialUrl": "https://scholarships.uq.edu.au/scholarship/uq-international-excellence-scholarship",
     "sourceUrl": "https://scholarships.uq.edu.au/scholarship/uq-international-excellence-scholarship",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "uq-international-student-scholarship-au",
@@ -259,10 +259,10 @@
     "eligibilityNotes": "Selection is by demonstrated financial need. Open to international undergraduates; Malaysian students may get preference. Page names no other nationality limits.",
     "deadline": null,
     "deadlineNote": "Applications open Dec 2026 and close Feb 2027; the page gives no exact closing day.",
-    "roundClosed": false,
+    "roundClosed": true,
     "officialUrl": "https://scholarships.uq.edu.au/scholarship/international-student-scholarship",
     "sourceUrl": "https://scholarships.uq.edu.au/scholarship/international-student-scholarship",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "anu-terrell-international-undergraduate-scholarships-au",
@@ -298,7 +298,7 @@
     "roundClosed": false,
     "officialUrl": "https://study.anu.edu.au/scholarships/find-scholarship/terrell-international-undergraduate-scholarships",
     "sourceUrl": "https://study.anu.edu.au/scholarships/find-scholarship/terrell-international-undergraduate-scholarships",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "anu-international-achievement-award-au",
@@ -335,7 +335,7 @@
     "roundClosed": false,
     "officialUrl": "https://study.anu.edu.au/scholarships/find-scholarship/anu-international-achievement-award",
     "sourceUrl": "https://study.anu.edu.au/scholarships/find-scholarship/anu-international-achievement-award",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "anu-rtp-international-fee-offset-au",
@@ -373,7 +373,7 @@
     "roundClosed": false,
     "officialUrl": "https://study.anu.edu.au/scholarships/find-scholarship/research-training-program-rtp-international-fee-offset-scholarship",
     "sourceUrl": "https://study.anu.edu.au/scholarships/find-scholarship/research-training-program-rtp-international-fee-offset-scholarship",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "adelaide-academic-excellence-scholarship-50-au",
@@ -410,7 +410,7 @@
     "roundClosed": false,
     "officialUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-academic-excellence-scholarship-50/",
     "sourceUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-academic-excellence-scholarship-50/",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "adelaide-merit-scholarship-15-au",
@@ -447,7 +447,7 @@
     "roundClosed": false,
     "officialUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-merit-scholarship-15/",
     "sourceUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-merit-scholarship-15/",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "uwa-global-excellence-scholarship-au",
@@ -484,7 +484,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/uwa-funded-scholarships/global-excellence-scholarship",
     "sourceUrl": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/uwa-funded-scholarships/global-excellence-scholarship",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "uwa-asean-scholarship-au",
@@ -673,7 +673,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-excellence-international-scholarship",
     "sourceUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-excellence-international-scholarship",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "uts-academic-merit-international-scholarship-au",
@@ -713,7 +713,7 @@
     "roundClosed": false,
     "officialUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-merit-international-scholarship",
     "sourceUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-merit-international-scholarship",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "curtin-john-curtin-global-excellence-scholarship-au",
@@ -752,7 +752,7 @@
     "roundClosed": false,
     "officialUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7985",
     "sourceUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7985",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "curtin-global-merit-scholarship-au",
@@ -791,7 +791,7 @@
     "roundClosed": false,
     "officialUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7986",
     "sourceUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7986",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "curtin-global-future-leaders-scholarship-au",
@@ -830,7 +830,7 @@
     "roundClosed": false,
     "officialUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7987",
     "sourceUrl": "https://scholarships.curtin.edu.au/Scholarship/?id=7987",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   },
   {
     "id": "rmit-future-leaders-scholarship-au",
@@ -908,6 +908,6 @@
     "roundClosed": false,
     "officialUrl": "https://www.uow.edu.au/study/scholarships/international/university-excellence-scholarships/",
     "sourceUrl": "https://www.uow.edu.au/study/scholarships/international/university-excellence-scholarships/",
-    "checkedOn": "2026-11-07"
+    "checkedOn": "2026-11-10"
   }
 ]

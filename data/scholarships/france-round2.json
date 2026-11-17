@@ -1,0 +1,228 @@
+[
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "studyCities": [
+      "Paris"
+    ],
+    "checkedOn": "2026-11-10",
+    "roundClosed": false,
+    "id": "psl-phd-tracks-fr",
+    "name": "PSL PhD Tracks (5-year funded programme)",
+    "provider": "Université PSL (Paris Sciences et Lettres)",
+    "summary": "A five-year English-taught programme (2-year master's then 3-year PhD) with funding throughout: a master's stipend, then a doctoral contract. Open to applicants of any nationality.",
+    "amount": 10000,
+    "fullFunding": false,
+    "covers": [
+      "master's stipend (1,000 EUR/month for 10 months)",
+      "doctoral contract (minimum gross 2,300 EUR/month)"
+    ],
+    "levels": [
+      "masters",
+      "phd"
+    ],
+    "fields": [
+      "Natural sciences",
+      "Medicine and health",
+      "Computer science"
+    ],
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibilityNotes": "The page sets no nationality restriction ('regardless of their nationality'). Amount shown is the master's-phase stipend per year; the 3 PhD years are paid as an employment contract. Funding does not cover tuition, housing or transport. Entry is only at Master's Year 1 (no direct PhD entry); needs a bachelor's (or final-year enrolment); C1 English recommended. For September 2027 only Chemistry, Life Sciences, Astrophysics and Computer Science are open.",
+    "deadline": "2026-12-14",
+    "deadlineNote": "Applications 14 October to 14 December 2026, 11:59 pm CET, for September 2027 entry. Interviews are remote.",
+    "officialUrl": "https://psl.eu/en/education/find-your-curriculum/psl-phd-tracks",
+    "sourceUrl": "https://psl.eu/en/education/find-your-curriculum/psl-phd-tracks"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "studyCities": [
+      "Paris"
+    ],
+    "checkedOn": "2026-11-10",
+    "roundClosed": false,
+    "id": "pasteur-paris-university-ppu-phd-fr",
+    "name": "Pasteur-Paris University (PPU) International PhD Programme",
+    "provider": "Institut Pasteur",
+    "summary": "A three-year PhD in life sciences in Institut Pasteur labs in Paris, paid as an employment contract with a welcome bonus and yearly trip home. Nationality does not affect eligibility.",
+    "amount": 24000,
+    "fullFunding": true,
+    "covers": [
+      "salary 2,000 EUR/month",
+      "4,000 EUR gross welcome bonus",
+      "one round-trip ticket per year",
+      "750 EUR/year for conferences",
+      "first-year accommodation help"
+    ],
+    "levels": [
+      "phd"
+    ],
+    "fields": [
+      "Medicine and health",
+      "Natural sciences"
+    ],
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibilityNotes": "Page states nationality does not affect eligibility. Standard tracks need a master's (or equivalent) in science or medicine from a university outside France; a four-year bachelor can be considered with 6+ months lab experience. Applicants must not have lived in France more than 12 months in the previous 3 years. No age limit; English required, French not. Amount is monthly salary x 12.",
+    "deadline": "2026-11-16",
+    "deadlineNote": "Call for October 2027 enrolment is open 1 October to 16 November 2026. Interviews early March 2027 (per search result, not the programme page).",
+    "officialUrl": "https://www.pasteur.fr/en/about-us/our-missions/education/training-programs/doctoral-programs/ppu",
+    "sourceUrl": "https://www.pasteur.fr/en/about-us/our-missions/education/training-programs/doctoral-programs/ppu"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "studyCities": [
+      "Palaiseau"
+    ],
+    "checkedOn": "2026-11-10",
+    "roundClosed": false,
+    "id": "polytechnique-bachelor-need-based-waiver-fr",
+    "name": "Ecole polytechnique Bachelor Need-Based Fee Waiver and Loan",
+    "provider": "Ecole polytechnique",
+    "summary": "A partial tuition waiver and/or interest-free loan for admitted bachelor students who are not eligible for the French CROUS bursary, based on family resources.",
+    "amount": null,
+    "fullFunding": false,
+    "covers": [
+      "partial tuition waiver",
+      "interest-free loan"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibilityNotes": "The page says it is for international, European and French students not eligible for the CROUS bursary. Amount depends on family resources and the number of waivers depends on available funds.",
+    "deadline": null,
+    "deadlineNote": "No deadline listed; instructions sent on admission.",
+    "officialUrl": "https://programmes.polytechnique.edu/en/bachelor/costs-and-funding/scholarships-and-financial-aid",
+    "sourceUrl": "https://programmes.polytechnique.edu/en/bachelor/costs-and-funding/scholarships-and-financial-aid"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "studyCities": [
+      "Palaiseau"
+    ],
+    "checkedOn": "2026-11-10",
+    "roundClosed": false,
+    "id": "polytechnique-msct-excellence-fr",
+    "name": "Ecole polytechnique Foundation Excellence Scholarship (MSc&T)",
+    "provider": "Ecole polytechnique Foundation",
+    "summary": "A merit scholarship for admitted international MSc&T master's students, paid after the first master's year is validated.",
+    "amount": 8000,
+    "fullFunding": false,
+    "covers": [
+      "merit grant"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibilityNotes": "All admitted MSc&T candidates are considered automatically (no separate application); selection weighs academic excellence and diversity. Applicants in the first and second admission rounds are prioritised.",
+    "deadline": null,
+    "deadlineNote": "No separate deadline; results emailed after admission.",
+    "officialUrl": "https://programmes.polytechnique.edu/en/master/admissions-msct/scholarships-and-financial-aid",
+    "sourceUrl": "https://programmes.polytechnique.edu/en/master/admissions-msct/scholarships-and-financial-aid"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "studyCities": [
+      "Palaiseau"
+    ],
+    "checkedOn": "2026-11-10",
+    "roundClosed": false,
+    "id": "polytechnique-msct-cma-cgm-fr",
+    "name": "CMA CGM Excellence Fund for Education (MSc&T)",
+    "provider": "Ecole polytechnique Foundation",
+    "summary": "A need-and-merit scholarship for MSc&T master's students; half the awards are reserved for Lebanese nationals and the rest are open to all nationalities.",
+    "amount": 7500,
+    "fullFunding": false,
+    "covers": [
+      "grant"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibilityNotes": "Half of awards are reserved for Lebanese nationals; the rest are open to all. Social criteria apply and applicants must disclose all other financial aid. Paid after the first master's year is validated.",
+    "deadline": null,
+    "deadlineNote": "No separate deadline; instructions after admission results.",
+    "officialUrl": "https://programmes.polytechnique.edu/en/master/admissions-msct/scholarships-and-financial-aid",
+    "sourceUrl": "https://programmes.polytechnique.edu/en/master/admissions-msct/scholarships-and-financial-aid"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [],
+    "studyCities": [
+      "Paris"
+    ],
+    "checkedOn": "2026-11-10",
+    "roundClosed": false,
+    "id": "dauphine-psl-merit-fee-exemption-fr",
+    "name": "Dauphine-PSL Academic Merit-Based Fee Exemption",
+    "provider": "Université Paris Dauphine-PSL",
+    "summary": "A 50% or full tuition exemption for non-EU students entering the first or second year of a Dauphine Grande École master's, awarded on academic and social criteria.",
+    "amount": null,
+    "fullFunding": false,
+    "covers": [
+      "tuition exemption (50% or full)"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "FR"
+    ],
+    "eligibilityNotes": "For non-EU international students whose tax residence is outside the EEA (residence-based). Only Grande École Diploma master's programmes with modulated tuition fees in standard initial training. Apply with the MyCandidature application; decision in July. Amount depends on the programme fee.",
+    "deadline": null,
+    "deadlineNote": "No separate date; submitted with the admission file on MyCandidature.",
+    "officialUrl": "https://dauphine.psl.eu/en/training/scholarships-and-social-assistance",
+    "sourceUrl": "https://dauphine.psl.eu/en/training/scholarships-and-social-assistance"
+  }
+]

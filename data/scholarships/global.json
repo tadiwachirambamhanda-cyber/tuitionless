@@ -52,7 +52,7 @@
   {
     "studyCities": [],
     "excludedNationalities": [],
-    "checkedOn": "2026-11-07",
+    "checkedOn": "2026-11-10",
     "id": "erasmus-mundus-joint-masters-global",
     "name": "Erasmus Mundus Joint Masters Scholarships",
     "provider": "European Commission (Erasmus+)",
@@ -88,8 +88,10 @@
   },
   {
     "studyCities": [],
-    "excludedNationalities": [],
-    "checkedOn": "2026-11-07",
+    "excludedNationalities": [
+      "CN"
+    ],
+    "checkedOn": "2026-11-10",
     "id": "yenching-academy-peking-university-global",
     "name": "Yenching Academy of Peking University Fellowship",
     "provider": "Yenching Academy, Peking University",
@@ -118,7 +120,7 @@
     "eligibleNationalities": [
       "ANY"
     ],
-    "eligibilityNotes": "Separate tracks exist for international applicants (valid non-Chinese passport), mainland China, and Hong Kong, Macao and Taiwan. Needs a bachelor's degree or expected graduation in August, plus English proficiency. Students of partner universities must first pass their home university's selection.",
+    "eligibilityNotes": "International track excludes Chinese citizens; mainland applicants use a separate Peking University route. So ANY with CN excluded (HK, MO, TW remain eligible via their route). Decided from the passport rule.",
     "deadline": "2026-11-30",
     "deadlineNote": "For the 2027 intake, international applications close 30 November 2026 at 9:00 am Beijing time.",
     "roundClosed": false,
@@ -130,7 +132,7 @@
     "excludedNationalities": [
       "TR"
     ],
-    "checkedOn": "2026-11-07",
+    "checkedOn": "2026-11-10",
     "id": "turkiye-burslari-scholarships-global",
     "name": "Turkiye Scholarships (Turkiye Burslari)",
     "provider": "Government of Turkiye",

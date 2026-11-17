@@ -1,0 +1,206 @@
+[
+  {
+    "id": "radboud-scholarship-programme-nl",
+    "name": "Radboud Scholarship Programme",
+    "provider": "Radboud University",
+    "summary": "A partial scholarship that cuts the tuition fee for a full English-taught master's at Radboud University. It also covers visa, residence permit and insurance costs, but not living costs.",
+    "amount": null,
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "fullFunding": false,
+    "covers": [
+      "tuition (reduced)",
+      "visa and residence permit",
+      "health insurance",
+      "liability insurance"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "ANY"
+    ],
+    "studyCountries": [
+      "NL"
+    ],
+    "studyCities": [
+      "Nijmegen"
+    ],
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "IS",
+      "LI",
+      "NO"
+    ],
+    "eligibilityNotes": "Open to holders of a non-EU/non-EEA passport who do not qualify for the lower EU/EEA tuition fee for other reasons. Bachelor's degree must be from outside the Netherlands, with no prior Dutch education. Must be fully admitted to an English-taught Radboud master's starting 1 September 2027. Erasmus Mundus and joint-degree programmes are excluded. Maximum 26 scholarships. The page gives an example where tuition falls to about 2,771 EUR (to be confirmed), so the exact award is not published as a single figure.",
+    "deadline": "2027-01-31",
+    "deadlineNote": "Submit the OSIRIS application by 31 January 2027 and make it complete by 14 February 2027. Decisions expected before mid-April 2027.",
+    "roundClosed": false,
+    "officialUrl": "https://www.ru.nl/en/education/scholarships/radboud-scholarship-programme",
+    "sourceUrl": "https://www.ru.nl/en/education/scholarships/radboud-scholarship-programme",
+    "checkedOn": "2026-11-10"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "IS",
+      "LI",
+      "NO"
+    ],
+    "studyCities": [
+      "Amsterdam"
+    ],
+    "checkedOn": "2026-11-10",
+    "roundClosed": false,
+    "id": "uva-amsterdam-merit-economics-business-bachelor-nl",
+    "name": "Amsterdam Merit Scholarship (Economics and Business bachelor)",
+    "provider": "University of Amsterdam, Faculty of Economics and Business",
+    "summary": "A merit scholarship for outstanding non-EU students starting a bachelor in Economics and Business at the University of Amsterdam. A limited number are awarded each year.",
+    "amount": 6000,
+    "fullFunding": false,
+    "covers": [
+      "partial tuition support"
+    ],
+    "levels": [
+      "undergraduate"
+    ],
+    "fields": [
+      "Business and economics"
+    ],
+    "studyCountries": [
+      "NL"
+    ],
+    "eligibilityNotes": "The programme page says outstanding students from outside the EU can apply (excluded list is the EU/EEA/EFTA codes). Programme page gives 6,000 EUR per year (18,000 EUR in total); the faculty scholarship page says amounts are set yearly and published in late autumn, so check the current figure. Pays by reimbursement, not a tuition waiver. Requires excellent grades (about 90-100% or A to A+), no entitlement to Dutch study finance, no other full scholarship, and admission to the programme via Studielink.",
+    "deadline": null,
+    "deadlineNote": "Faculty page lists 15 January (Business Administration, Economics and Business Economics) and 1 March (other Economics and Business bachelors) but does not state the year; confirm the 2027 entry date. Results announced end of April.",
+    "officialUrl": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/tuition-fee/tuition-fee.html",
+    "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/actuarial-science/tuition-fee/scholarships.html"
+  },
+  {
+    "amountPeriod": "year",
+    "currency": "EUR",
+    "eligibleNationalities": [
+      "ANY"
+    ],
+    "excludedNationalities": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "IS",
+      "LI",
+      "NO"
+    ],
+    "studyCities": [
+      "Amsterdam"
+    ],
+    "checkedOn": "2026-11-10",
+    "roundClosed": false,
+    "id": "uva-amsterdam-merit-gsss-masters-nl",
+    "name": "Amsterdam Merit Scholarship (Graduate School of Social Sciences)",
+    "provider": "University of Amsterdam, Graduate School of Social Sciences",
+    "summary": "A scholarship equal to the tuition fee for non-EU/EEA students admitted to selective English-taught master's programmes at the Graduate School of Social Sciences. Very few are awarded (two in 2025).",
+    "amount": null,
+    "fullFunding": false,
+    "covers": [
+      "tuition (reimbursed in monthly instalments)"
+    ],
+    "levels": [
+      "masters"
+    ],
+    "fields": [
+      "Social sciences"
+    ],
+    "studyCountries": [
+      "NL"
+    ],
+    "eligibilityNotes": "Requires a non-EU/EEA passport, no entitlement to Dutch study grants/loans or the low tuition fee, and full admission to an eligible English-taught selective GSSS master's. Amount equals the tuition fee, which is not published as a single number. Exclusion list is EU/EEA/EFTA codes.",
+    "deadline": "2027-02-15",
+    "deadlineNote": "No later than 15 February 2027, 23:59 CET; late applications are not accepted.",
+    "officialUrl": "https://www.uva.nl/en/about-the-uva/organisation/faculties/faculty-of-social-and-behavioural-sciences/education/social-sciences/scholarships.html",
+    "sourceUrl": "https://www.uva.nl/en/about-the-uva/organisation/faculties/faculty-of-social-and-behavioural-sciences/education/social-sciences/scholarships.html"
+  }
+]
